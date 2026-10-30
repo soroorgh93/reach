@@ -1,0 +1,721 @@
+{
+  "_about": "Therapeutic sound protocols. Hand-curated; every number has a source line. A protocol is a timeline template: segments with an entrainment pulse (Hz), a tempo (bpm), a musical texture and a breathing cue. The carrier (what the music sounds like) is never fixed here: it comes from the person's cultural taste through Qloo at composition time. Evidence grades: A = meta-analysis or several RCTs, B = at least one adequately powered RCT, C = pilot / small / inconsistent, D = mechanism only.",
+  "bands": {
+    "delta": [
+      0.5,
+      4
+    ],
+    "theta": [
+      4,
+      8
+    ],
+    "alpha": [
+      8,
+      12
+    ],
+    "beta": [
+      12,
+      30
+    ],
+    "gamma": [
+      30,
+      50
+    ]
+  },
+  "safety": {
+    "max_output_dbfs": -14,
+    "child_max_output_dbfs": -20,
+    "pulse_depth_max": 0.6,
+    "pulse_depth_autism_max": 0.25,
+    "no_driving": true,
+    "who_safe_listening": "WHO-ITU safe listening: below 80 dB for 40 h/week (adults), 75 dB for children. Not while driving.",
+    "entrainment_note": "Audio pulses are not photic flicker (photosensitive epilepsy is triggered by light at 10-30 Hz; there is no audio equivalent). Stop if discomfort, headache or tinnitus. Labelled experimental: entrainment mechanism is unproven."
+  },
+  "protocols": [
+    {
+      "id": "focus_beta",
+      "name": "Focus ramp",
+      "goal": "focus",
+      "summary": "Starts where you are (alpha, 10 Hz) and climbs into low beta (14-18 Hz) over six minutes, with a small random drift so the brain does not habituate, then eases back down before the end. Carrier: instrumental music you already lean toward, with steady rhythm and no vocals.",
+      "duration_min": 25,
+      "segments": [
+        {
+          "name": "settle",
+          "minutes": 2,
+          "hz_from": 10,
+          "hz_to": 10,
+          "bpm": 96,
+          "texture": "soft",
+          "brightness": 0.4
+        },
+        {
+          "name": "climb",
+          "minutes": 4,
+          "hz_from": 10,
+          "hz_to": 16,
+          "bpm": 108,
+          "texture": "pulse",
+          "brightness": 0.6
+        },
+        {
+          "name": "work",
+          "minutes": 15,
+          "hz_from": 16,
+          "hz_to": 16,
+          "jitter": 0.5,
+          "bpm": 112,
+          "texture": "pulse",
+          "brightness": 0.7
+        },
+        {
+          "name": "ease",
+          "minutes": 4,
+          "hz_from": 16,
+          "hz_to": 10,
+          "bpm": 100,
+          "texture": "soft",
+          "brightness": 0.5
+        }
+      ],
+      "mode": "isochronic",
+      "pulse_depth": 0.45,
+      "carrier": {
+        "tags_prefer": [
+          "instrumental",
+          "electronic",
+          "ambient",
+          "lo_fi",
+          "post_rock",
+          "classical",
+          "jazz"
+        ],
+        "tags_avoid": [
+          "metal",
+          "hardcore"
+        ],
+        "vocals": false
+      },
+      "breathing": null,
+      "evidence": [
+        {
+          "claim": "Lyric-free, familiar background music and task performance",
+          "grade": "B",
+          "note": "Meta-analysis: preferred, familiar, lyric-free music helps or is neutral; lyrics hurt reading tasks.",
+          "source": "Kämpfe, Sedlmeier & Renkewitz (2011) Psychology of Music",
+          "url": "https://journals.sagepub.com/doi/10.1177/0305735610376261"
+        },
+        {
+          "claim": "Amplitude-modulated focus music improves sustained attention",
+          "grade": "C",
+          "note": "n=83 adults with ADHD symptoms; effect only when heard first; authors affiliated with Brain.fm.",
+          "source": "Woods et al. (2024) Communications Biology",
+          "url": "https://doaj.org/article/cb3004de45b74c76948f0a15a79e29e1"
+        },
+        {
+          "claim": "Beta-range auditory entrainment (isochronic / binaural)",
+          "grade": "D",
+          "note": "Binaural beats pooled g=0.45 behaviourally (22 studies) but EEG entrainment is contradictory in 8 of 14 studies; isochronic evidence thinner still. Labelled experimental.",
+          "source": "Garcia-Argibay et al. (2019) Psychological Research; Ingendoh et al. (2023) PLoS ONE",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30073406/"
+        }
+      ],
+      "not_when": [
+        "bedtime"
+      ],
+      "contra": []
+    },
+    {
+      "id": "sleep_descent",
+      "name": "Sleep descent",
+      "goal": "sleep",
+      "summary": "A slow staircase from alpha (10 Hz) through theta (6 Hz) to delta (2 Hz) over twenty minutes while the music darkens, slows to the resting heart rate and fades to silence. Carrier: the warm, slow end of what you love.",
+      "duration_min": 30,
+      "segments": [
+        {
+          "name": "arrive",
+          "minutes": 4,
+          "hz_from": 10,
+          "hz_to": 8,
+          "bpm": 64,
+          "texture": "warm",
+          "brightness": 0.35
+        },
+        {
+          "name": "drift",
+          "minutes": 8,
+          "hz_from": 8,
+          "hz_to": 5,
+          "bpm": 58,
+          "texture": "warm",
+          "brightness": 0.25
+        },
+        {
+          "name": "deep",
+          "minutes": 12,
+          "hz_from": 5,
+          "hz_to": 2,
+          "bpm": 52,
+          "texture": "dark",
+          "brightness": 0.15
+        },
+        {
+          "name": "fade",
+          "minutes": 6,
+          "hz_from": 2,
+          "hz_to": 2,
+          "bpm": 50,
+          "texture": "dark",
+          "brightness": 0.08,
+          "fade_out": true
+        }
+      ],
+      "mode": "binaural",
+      "pulse_depth": 0.3,
+      "carrier": {
+        "tags_prefer": [
+          "ambient",
+          "acoustic",
+          "folk",
+          "classical",
+          "piano",
+          "lullaby",
+          "new_age",
+          "relaxing"
+        ],
+        "tags_avoid": [
+          "metal",
+          "edm",
+          "hip_hop",
+          "punk"
+        ],
+        "vocals": false
+      },
+      "breathing": {
+        "rate_per_min": 6,
+        "minutes": 6
+      },
+      "evidence": [
+        {
+          "claim": "Music listening improves subjective sleep quality in insomnia",
+          "grade": "A",
+          "note": "Cochrane 2022: 13 RCTs, n=1007; PSQI −2.79 (95% CI −3.86 to −1.72), moderate certainty; no serious adverse effects. Objective measures: low certainty.",
+          "source": "Jespersen et al. (2022) Cochrane CD010459",
+          "url": "https://www.cochrane.org/CD010459/SLEEP_music-for-insomnia-adults"
+        },
+        {
+          "claim": "Paced breathing at ~6/min lowers arousal",
+          "grade": "A",
+          "note": "HRV biofeedback meta-analysis: 24 studies, n=484, g=0.81 for stress and anxiety.",
+          "source": "Goessl, Curtiss & Hofmann (2017) Psychological Medicine",
+          "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/effect-of-heart-rate-variability-biofeedback-training-on-stress-and-anxiety-a-metaanalysis/A839E9C968E54774DF5C8FB186764EF0"
+        },
+        {
+          "claim": "Theta/delta entrainment deepens sleep",
+          "grade": "D",
+          "note": "Mechanism unproven for beats; closed-loop clicks during slow waves are the better-studied cousin.",
+          "source": "Ngo et al. (2013) Neuron",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0896627313002304"
+        }
+      ],
+      "not_when": [],
+      "contra": []
+    },
+    {
+      "id": "calm_iso",
+      "name": "Calm (ISO descent)",
+      "goal": "calm",
+      "summary": "The ISO principle from music therapy: meet you at your current arousal, then step the tempo down toward 60 bpm with alpha (10 Hz) underneath and a six-breaths-a-minute cue. Carrier: the gentle side of your own taste.",
+      "duration_min": 15,
+      "segments": [
+        {
+          "name": "meet",
+          "minutes": 3,
+          "hz_from": 12,
+          "hz_to": 11,
+          "bpm": "match",
+          "texture": "soft",
+          "brightness": 0.5
+        },
+        {
+          "name": "step down",
+          "minutes": 6,
+          "hz_from": 11,
+          "hz_to": 10,
+          "bpm": "descend",
+          "texture": "warm",
+          "brightness": 0.4
+        },
+        {
+          "name": "rest",
+          "minutes": 6,
+          "hz_from": 10,
+          "hz_to": 9,
+          "bpm": 60,
+          "texture": "warm",
+          "brightness": 0.3
+        }
+      ],
+      "mode": "isochronic",
+      "pulse_depth": 0.3,
+      "carrier": {
+        "tags_prefer": [
+          "acoustic",
+          "ambient",
+          "folk",
+          "soul",
+          "classical",
+          "piano",
+          "relaxing",
+          "chill"
+        ],
+        "tags_avoid": [
+          "metal",
+          "hardcore",
+          "drill"
+        ],
+        "vocals": true
+      },
+      "breathing": {
+        "rate_per_min": 6,
+        "minutes": 9
+      },
+      "evidence": [
+        {
+          "claim": "Music interventions reduce stress and state anxiety",
+          "grade": "A",
+          "note": "104 RCTs, 9,617 participants: d=0.38 physiological, d=0.55 psychological; heart rate d=0.46, stress hormones d=0.35.",
+          "source": "de Witte et al. (2020) Health Psychology Review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31167611/"
+        },
+        {
+          "claim": "Paced breathing at ~6/min lowers arousal",
+          "grade": "A",
+          "note": "HRV biofeedback meta-analysis: 24 studies, n=484, g=0.81.",
+          "source": "Goessl et al. (2017) Psychological Medicine",
+          "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/effect-of-heart-rate-variability-biofeedback-training-on-stress-and-anxiety-a-metaanalysis/A839E9C968E54774DF5C8FB186764EF0"
+        },
+        {
+          "claim": "ISO principle (meet the mood, then shift)",
+          "grade": "C",
+          "note": "n=107: sad-to-happy order gave the highest positive affect, not significantly above happy-happy.",
+          "source": "Starcke et al. (2021) IJERPH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8656869"
+        }
+      ],
+      "not_when": [],
+      "contra": []
+    },
+    {
+      "id": "sensory_safe",
+      "name": "Sensory-safe (autism)",
+      "goal": "autism_calm",
+      "summary": "Built for an autistic child in or near overload: the child's own favourite music as the core, a steady predictable pulse, no sudden changes, shallow modulation, capped volume, long repeats. Nothing new is introduced until the child is settled.",
+      "duration_min": 12,
+      "segments": [
+        {
+          "name": "familiar",
+          "minutes": 4,
+          "hz_from": 8,
+          "hz_to": 8,
+          "bpm": 80,
+          "texture": "soft",
+          "brightness": 0.35,
+          "repeat": true
+        },
+        {
+          "name": "steady",
+          "minutes": 5,
+          "hz_from": 8,
+          "hz_to": 8,
+          "bpm": 76,
+          "texture": "soft",
+          "brightness": 0.3,
+          "repeat": true
+        },
+        {
+          "name": "settle",
+          "minutes": 3,
+          "hz_from": 8,
+          "hz_to": 7,
+          "bpm": 70,
+          "texture": "warm",
+          "brightness": 0.25,
+          "repeat": true
+        }
+      ],
+      "mode": "isochronic",
+      "pulse_depth": 0.2,
+      "carrier": {
+        "tags_prefer": [
+          "children",
+          "soundtrack",
+          "acoustic",
+          "folk",
+          "lullaby",
+          "piano"
+        ],
+        "tags_avoid": [
+          "metal",
+          "horror",
+          "experimental",
+          "noise"
+        ],
+        "vocals": true,
+        "favourites_first": true
+      },
+      "breathing": null,
+      "evidence": [
+        {
+          "claim": "Music therapy improves global outcomes for autistic children",
+          "grade": "A",
+          "note": "Cochrane 2022: 26 studies, n=1165; global improvement RR 1.22, symptom severity SMD −0.83, quality of life SMD 0.28 (moderate certainty). Therapist-delivered; app listening is not directly tested.",
+          "source": "Geretsegger et al. (2022) Cochrane CD004381",
+          "url": "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004381.pub4/pdf/CDSR/CD004381/CD004381_abstract.pdf"
+        },
+        {
+          "claim": "Hyperacusis is common in autism, so volume and surprise are the risks",
+          "grade": "A",
+          "note": "Bayesian meta-analysis, 67 studies, 13,433 autistic people: current hyperacusis 41%, lifetime 61%.",
+          "source": "Williams, Suzman & Woynaroski (2021) Ear & Hearing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8349927"
+        },
+        {
+          "claim": "Passive preferred-music listening for regulation",
+          "grade": "C",
+          "note": "Practice-based; small studies. Favourites first, predictable, capped.",
+          "source": "Sensory processing in autism reviews",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=autism+auditory+hypersensitivity+music+regulation"
+        }
+      ],
+      "not_when": [],
+      "contra": [
+        "hyperacusis_severe"
+      ]
+    },
+    {
+      "id": "mood_lift",
+      "name": "Mood lift",
+      "goal": "mood",
+      "summary": "For low mood or grief. Meets you in a slow minor texture (ISO principle), then over fifteen minutes brightens the mode and lifts the tempo a little, never cheerfully. Carrier: artists you love, with lyrics allowed.",
+      "duration_min": 20,
+      "segments": [
+        {
+          "name": "meet",
+          "minutes": 5,
+          "hz_from": 9,
+          "hz_to": 10,
+          "bpm": 66,
+          "texture": "warm",
+          "brightness": 0.3,
+          "mode_music": "minor"
+        },
+        {
+          "name": "turn",
+          "minutes": 8,
+          "hz_from": 10,
+          "hz_to": 11,
+          "bpm": 76,
+          "texture": "soft",
+          "brightness": 0.45,
+          "mode_music": "dorian"
+        },
+        {
+          "name": "open",
+          "minutes": 7,
+          "hz_from": 11,
+          "hz_to": 12,
+          "bpm": 84,
+          "texture": "bright",
+          "brightness": 0.6,
+          "mode_music": "major"
+        }
+      ],
+      "mode": "isochronic",
+      "pulse_depth": 0.25,
+      "carrier": {
+        "tags_prefer": [
+          "soul",
+          "folk",
+          "singer_songwriter",
+          "indie",
+          "pop",
+          "latin",
+          "gospel"
+        ],
+        "tags_avoid": [
+          "metal",
+          "horror"
+        ],
+        "vocals": true
+      },
+      "breathing": null,
+      "evidence": [
+        {
+          "claim": "Music therapy reduces depressive symptoms",
+          "grade": "A",
+          "note": "Cochrane and 2024 meta-analyses of RCTs: moderate effect added to usual care.",
+          "source": "Aalbers et al. (2017) Cochrane CD004517; BJPsych Open (2024)",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004517.pub3/full"
+        },
+        {
+          "claim": "Self-selected music engages reward circuitry",
+          "grade": "C",
+          "note": "n=8 PET: striatal dopamine release during peaks of self-chosen music; preference moderates analgesia across 14 RCTs.",
+          "source": "Salimpoor et al. (2011) Nature Neuroscience; Garza-Villarreal et al. (2017)",
+          "url": "https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf"
+        },
+        {
+          "claim": "ISO principle (meet the mood, then shift)",
+          "grade": "C",
+          "note": "n=107 online study; small effect.",
+          "source": "Starcke et al. (2021) IJERPH",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8656869"
+        }
+      ],
+      "not_when": [],
+      "contra": []
+    },
+    {
+      "id": "gamma_support",
+      "name": "40 Hz support",
+      "goal": "memory",
+      "summary": "A steady 40 Hz pulse under familiar music, the audio half of the gamma sensory stimulation being trialled in Alzheimer's disease. Offered as support, never as treatment.",
+      "duration_min": 30,
+      "segments": [
+        {
+          "name": "settle",
+          "minutes": 3,
+          "hz_from": 10,
+          "hz_to": 40,
+          "bpm": 72,
+          "texture": "soft",
+          "brightness": 0.4
+        },
+        {
+          "name": "gamma",
+          "minutes": 24,
+          "hz_from": 40,
+          "hz_to": 40,
+          "bpm": 72,
+          "texture": "soft",
+          "brightness": 0.4
+        },
+        {
+          "name": "ease",
+          "minutes": 3,
+          "hz_from": 40,
+          "hz_to": 10,
+          "bpm": 66,
+          "texture": "warm",
+          "brightness": 0.3
+        }
+      ],
+      "mode": "isochronic",
+      "pulse_depth": 0.35,
+      "carrier": {
+        "tags_prefer": [
+          "classical",
+          "jazz",
+          "folk",
+          "oldies",
+          "soul"
+        ],
+        "tags_avoid": [
+          "metal",
+          "noise"
+        ],
+        "vocals": true,
+        "favourites_first": true
+      },
+      "breathing": null,
+      "evidence": [
+        {
+          "claim": "40 Hz sensory stimulation in Alzheimer's disease",
+          "grade": "C",
+          "note": "OVERTURE feasibility n=76 (post-hoc 'time saved'); pivotal HOPE trial (n≈530) ongoing, no readout. Audio-only evidence thinner. Zero evidence for focus, sleep or stress in healthy people.",
+          "source": "Cognito Therapeutics OVERTURE / HOPE (NCT05637801); MIT GENUS",
+          "url": "https://bcs.mit.edu/news/study-suggests-40hz-sensory-stimulation-may-benefit-some-alzheimers-patients-years"
+        },
+        {
+          "claim": "Familiar music and autobiographical memory in dementia",
+          "grade": "B",
+          "note": "Personalised music reduces agitation and supports recall in RCTs and reviews.",
+          "source": "Music therapy in dementia reviews",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=personalized+music+dementia+randomized"
+        }
+      ],
+      "not_when": [],
+      "contra": []
+    },
+    {
+      "id": "energize",
+      "name": "Energise",
+      "goal": "energy",
+      "summary": "For when you are tired and want to move: starts near your current pace, climbs into high alpha and low beta (12-18 Hz) with the tempo rising to 120-128 bpm, bright and rhythmic. Carrier: the dance, techno, pop and rhythmic side of what you love.",
+      "duration_min": 20,
+      "segments": [
+        {
+          "name": "wake",
+          "minutes": 3,
+          "hz_from": 10,
+          "hz_to": 12,
+          "bpm": "match",
+          "texture": "bright",
+          "brightness": 0.6,
+          "mode_music": "major"
+        },
+        {
+          "name": "rise",
+          "minutes": 5,
+          "hz_from": 12,
+          "hz_to": 16,
+          "bpm": 118,
+          "texture": "pulse",
+          "brightness": 0.75,
+          "mode_music": "mixolydian"
+        },
+        {
+          "name": "drive",
+          "minutes": 9,
+          "hz_from": 16,
+          "hz_to": 18,
+          "jitter": 0.5,
+          "bpm": 126,
+          "texture": "pulse",
+          "brightness": 0.85,
+          "mode_music": "major"
+        },
+        {
+          "name": "land",
+          "minutes": 3,
+          "hz_from": 18,
+          "hz_to": 12,
+          "bpm": 112,
+          "texture": "bright",
+          "brightness": 0.65,
+          "mode_music": "major"
+        }
+      ],
+      "mode": "isochronic",
+      "pulse_depth": 0.35,
+      "carrier": {
+        "tags_prefer": [
+          "techno",
+          "house",
+          "edm",
+          "dance",
+          "pop",
+          "electronic",
+          "hip_hop",
+          "reggaeton",
+          "afrobeats",
+          "latin",
+          "rock"
+        ],
+        "tags_avoid": [
+          "ambient",
+          "new_age",
+          "lullaby"
+        ],
+        "vocals": true
+      },
+      "breathing": null,
+      "evidence": [
+        {
+          "claim": "Music raises arousal and performance in exercise and effort",
+          "grade": "B",
+          "note": "Meta-analysis of 139 studies: music improves affective valence, physical performance and perceived exertion (g = 0.48 for enjoyment, 0.31 performance).",
+          "source": "Terry et al. (2020) Psychological Bulletin",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31804098/"
+        },
+        {
+          "claim": "Fast tempo raises heart rate, breathing and arousal",
+          "grade": "C",
+          "note": "Crossover study: tempo, not style, drives cardiovascular arousal.",
+          "source": "Bernardi et al. (2006) Heart",
+          "url": "https://heart.bmj.com/content/92/4/433"
+        },
+        {
+          "claim": "Beta-range auditory entrainment",
+          "grade": "D",
+          "note": "Experimental; mechanism unproven.",
+          "source": "Garcia-Argibay 2019; Ingendoh 2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30073406/"
+        }
+      ],
+      "not_when": [
+        "bedtime"
+      ],
+      "contra": [
+        "cardiac_unstable"
+      ]
+    },
+    {
+      "id": "visual_breath",
+      "name": "Visual and haptic session",
+      "goal": "visual",
+      "summary": "For people who do not hear, or who prefer not to listen: a breathing light at six breaths a minute, vibration at a resting tempo on phones, and films and shows from the person's own taste through Qloo. No audio is required.",
+      "duration_min": 12,
+      "segments": [
+        {
+          "name": "settle",
+          "minutes": 4,
+          "hz_from": 0.1,
+          "hz_to": 0.1,
+          "bpm": 66,
+          "texture": "soft",
+          "brightness": 0.4
+        },
+        {
+          "name": "breathe",
+          "minutes": 6,
+          "hz_from": 0.1,
+          "hz_to": 0.1,
+          "bpm": 60,
+          "texture": "soft",
+          "brightness": 0.3
+        },
+        {
+          "name": "rest",
+          "minutes": 2,
+          "hz_from": 0.1,
+          "hz_to": 0.1,
+          "bpm": 58,
+          "texture": "soft",
+          "brightness": 0.25
+        }
+      ],
+      "mode": "visual",
+      "pulse_depth": 0.0,
+      "carrier": {
+        "tags_prefer": [],
+        "tags_avoid": [],
+        "vocals": false,
+        "visual": true
+      },
+      "breathing": {
+        "rate_per_min": 6,
+        "minutes": 10
+      },
+      "evidence": [
+        {
+          "claim": "Paced breathing at ~6/min lowers arousal",
+          "grade": "A",
+          "note": "HRV biofeedback meta-analysis: 24 studies, n=484, g=0.81; the cue can be visual.",
+          "source": "Goessl et al. (2017) Psychological Medicine",
+          "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/effect-of-heart-rate-variability-biofeedback-training-on-stress-and-anxiety-a-metaanalysis/A839E9C968E54774DF5C8FB186764EF0"
+        },
+        {
+          "claim": "Vibrotactile rhythm and emotion in deaf and hard-of-hearing people",
+          "grade": "C",
+          "note": "Feasibility studies report enjoyment and emotional response to music felt through the body.",
+          "source": "Frontiers in Computer Science (2023)",
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1162758/pdf"
+        }
+      ],
+      "not_when": [],
+      "contra": []
+    }
+  ],
+  "gene_note": "Supported: one listening session can transiently shift peripheral-blood gene activity in small samples (Kanduri 2015: 45-97 genes, musically experienced listeners; Bhasin 2013: relaxation response). Not supported: any 'DNA modification', durable change, or clinical outcome."
+}

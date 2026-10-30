@@ -1,0 +1,9 @@
+.env
+env
+.git
+*.zip
+__pycache__
+dist
+docs
+scripts/selfcheck_report.json
+data/bench_detail.local.json

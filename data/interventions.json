@@ -1,0 +1,830 @@
+{
+  "_about": "Evidence registry for Reach. Hand-curated, never written by a language model. Grades: A = several RCTs or a meta-analysis; B = at least one adequately powered RCT; C = pilot, protocol or small/uncontrolled study; D = mechanism or preclinical only; X = excluded (not a clinical intervention). effect is a standardised effect size where a source reports one, else null. Each entry names its delivery channel (what the person must be able to receive), the Qloo domain that carries its content (what Reach scores for engagement), and contraindication codes used by the reachability rules. population: when present, the intervention is only a candidate for people whose targets include one of these conditions.",
+  "modalities": {
+    "sound": "Sound and frequency-based stimulation",
+    "light": "Light and environment",
+    "neuromod": "Neuromodulation",
+    "behavioral": "Behavioural and social",
+    "sensory": "Sensory-accessible alternatives",
+    "molecular": "Molecular and genomic",
+    "excluded": "Excluded from clinical scope"
+  },
+  "interventions": [
+    {
+      "id": "clas_sleep",
+      "modality": "sound",
+      "name": "Closed-loop auditory stimulation during slow-wave sleep",
+      "summary": "Soft clicks timed to slow oscillations deepen slow-wave activity. Memory and subjective sleep gains are inconsistent and vary widely between people.",
+      "targets": [
+        "insomnia",
+        "sleep",
+        "memory"
+      ],
+      "grade": "B",
+      "effect": 0.2,
+      "effect_ci": [
+        -0.1,
+        0.5
+      ],
+      "n": 27,
+      "channel": "auditory",
+      "home_deliverable": true,
+      "requires": {
+        "hearing": true,
+        "min_age": 12
+      },
+      "contraindications": [],
+      "engagement_domain": "artist",
+      "engagement_note": "Delivered as a bedtime soundscape; the carrier playlist is built from artists the person already loves.",
+      "sources": [
+        {
+          "title": "Closed-loop auditory stimulation in chronic insomnia: pilot (n=27)",
+          "url": "https://pesquisa.bvsalud.org/perinatal/resource/en/mdl-38467353",
+          "year": 2024
+        },
+        {
+          "title": "Ngo et al., auditory closed-loop stimulation enhances slow oscillations and memory",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0896627313002304",
+          "year": 2013
+        },
+        {
+          "title": "Closed-loop auditory stimulation and learning (n=28)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11591805/",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "preferred_music",
+      "modality": "sound",
+      "name": "Individualised preferred-music listening",
+      "summary": "Daily listening to music the person already loves, chosen with them. Reduces depressive symptoms and agitation; the effect depends on the music being theirs, not generic.",
+      "targets": [
+        "depression",
+        "anxiety",
+        "agitation",
+        "mood",
+        "dementia"
+      ],
+      "grade": "A",
+      "effect": 0.6,
+      "effect_ci": [
+        0.3,
+        0.9
+      ],
+      "n": 1000,
+      "channel": "auditory",
+      "home_deliverable": true,
+      "requires": {
+        "hearing": true
+      },
+      "contraindications": [],
+      "engagement_domain": "artist",
+      "engagement_note": "The whole intervention is the music. Qloo ranks artists by affinity to the person's favourites.",
+      "sources": [
+        {
+          "title": "Music therapy for depression: systematic review and meta-analysis of RCTs (BJPsych Open)",
+          "url": "https://www.cambridge.org/core/journals/bjpsych-open/article/music-therapy-for-patients-with-depression-systematic-review-and-metaanalysis-of-randomised-controlled-trials/AD9B45562D2499DCCE0D4C4B10C2287C",
+          "year": 2024
+        },
+        {
+          "title": "Music therapy for anxiety: multilevel meta-analysis",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2589537025002251",
+          "year": 2025
+        },
+        {
+          "title": "Individualized music therapy for common mental disorders: multistage protocol (JMIR)",
+          "url": "https://doi.org/10.2196/90617",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "binaural_focus",
+      "modality": "sound",
+      "name": "Frequency-tuned audio (binaural or isochronic beats) for focus or relaxation",
+      "summary": "Tones a few hertz apart, or pulsed at a target rate (theta 4-8 Hz, alpha 8-12 Hz, gamma 40 Hz). Small, short-lived effects on attention and anxiety in controlled studies; no established clinical protocol.",
+      "targets": [
+        "anxiety",
+        "focus",
+        "sleep"
+      ],
+      "grade": "C",
+      "effect": 0.15,
+      "effect_ci": [
+        -0.1,
+        0.4
+      ],
+      "n": 400,
+      "channel": "auditory",
+      "home_deliverable": true,
+      "requires": {
+        "hearing": true
+      },
+      "contraindications": [
+        "epilepsy_photo"
+      ],
+      "engagement_domain": "artist",
+      "engagement_note": "Carried by ambient or lo-fi music the person already leans toward; Qloo tags such as ambient, lo-fi and relaxing are matched to their taste.",
+      "sources": [
+        {
+          "title": "Binaural beats and cognition: meta-analytic reviews report small, inconsistent effects",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=binaural+beats+meta-analysis",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "gamma40",
+      "modality": "sound",
+      "name": "40 Hz combined light-and-sound stimulation",
+      "summary": "Flicker and clicks at 40 Hz to entrain gamma rhythms. Early-phase trials in Alzheimer's disease; not established for other conditions.",
+      "targets": [
+        "dementia",
+        "cognition"
+      ],
+      "grade": "C",
+      "effect": null,
+      "effect_ci": null,
+      "n": 70,
+      "channel": "audiovisual",
+      "home_deliverable": true,
+      "requires": {
+        "hearing": true,
+        "vision": true
+      },
+      "contraindications": [
+        "epilepsy_photo"
+      ],
+      "engagement_domain": "artist",
+      "engagement_note": "Sessions are more tolerable when paired with familiar music; Qloo supplies that.",
+      "sources": [
+        {
+          "title": "40 Hz sensory stimulation in Alzheimer's disease: early-phase trials",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=40+Hz+gamma+sensory+stimulation+alzheimer+trial",
+          "year": 2023
+        }
+      ],
+      "population": [
+        "dementia"
+      ]
+    },
+    {
+      "id": "vibrotactile_music",
+      "modality": "sensory",
+      "name": "Vibrotactile music (felt through the body)",
+      "summary": "Music delivered as vibration through a cushion, vest or floor so that people who are deaf or hard of hearing receive rhythm and texture. Feasibility studies report enjoyment and emotional response; no outcome RCT yet.",
+      "targets": [
+        "mood",
+        "anxiety",
+        "sleep",
+        "engagement"
+      ],
+      "grade": "C",
+      "effect": null,
+      "effect_ci": null,
+      "n": 40,
+      "channel": "tactile",
+      "home_deliverable": true,
+      "requires": {},
+      "contraindications": [],
+      "engagement_domain": "artist",
+      "engagement_note": "Rhythm-forward artists the person loves translate best to vibration; Qloo ranks them.",
+      "sources": [
+        {
+          "title": "Vibrotactile music for deaf and hard-of-hearing listeners (Frontiers in Computer Science)",
+          "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1162758/pdf",
+          "year": 2023
+        },
+        {
+          "title": "Cochlear implant users and congruent haptic music stimuli",
+          "url": "https://labs.sonicfield.org/library/some-but-not-all-cochlear-implant-users-prefer-music-stimuli-with-congruent-hapt",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "bright_light",
+      "modality": "light",
+      "name": "Morning bright-light therapy",
+      "summary": "10,000 lux for 20-30 minutes after waking. Established for seasonal and non-seasonal depression and for shifting a late circadian rhythm.",
+      "targets": [
+        "depression",
+        "sleep",
+        "circadian",
+        "mood"
+      ],
+      "grade": "A",
+      "effect": 0.5,
+      "effect_ci": [
+        0.3,
+        0.7
+      ],
+      "n": 1200,
+      "channel": "visual",
+      "home_deliverable": true,
+      "requires": {
+        "vision": true
+      },
+      "contraindications": [
+        "bipolar_mania",
+        "retinal_disease"
+      ],
+      "engagement_domain": "podcast",
+      "engagement_note": "Adherence rises when the 30 minutes are paired with something the person wants to do; Qloo pairs it with podcasts and reading they already lean toward.",
+      "sources": [
+        {
+          "title": "Bright light therapy for non-seasonal depression: meta-analyses",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=bright+light+therapy+nonseasonal+depression+meta-analysis",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "sensory_environment",
+      "modality": "light",
+      "name": "Sensory-environment adjustment at home (lighting, noise, texture)",
+      "summary": "Dimmer, warmer, flicker-free lighting and a quieter layout matched to the person's sensory profile. Supported by occupational-therapy practice and observational studies; few controlled trials.",
+      "targets": [
+        "autism",
+        "anxiety",
+        "sleep",
+        "sensory"
+      ],
+      "grade": "C",
+      "effect": null,
+      "effect_ci": null,
+      "n": 60,
+      "channel": "environment",
+      "home_deliverable": true,
+      "requires": {},
+      "contraindications": [],
+      "engagement_domain": "place",
+      "engagement_note": "Qloo's decor and ambience tags (dim lighting, calm, minimalist, quiet) show which environments the person's taste already gravitates to.",
+      "sources": [
+        {
+          "title": "Sensory environments and autism: occupational therapy evidence reviews",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=sensory+environment+autism+occupational+therapy+review",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "ctbs_autism",
+      "modality": "neuromod",
+      "name": "Personalised continuous theta-burst stimulation (cTBS)",
+      "summary": "Non-invasive magnetic stimulation targeted by the person's own imaging. The first large multicentre RCT (n=200) reported improved social communication in minimally verbal autistic children.",
+      "targets": [
+        "autism",
+        "social_communication"
+      ],
+      "grade": "B",
+      "effect": 0.92,
+      "effect_ci": [
+        0.6,
+        1.2
+      ],
+      "n": 200,
+      "channel": "clinic",
+      "home_deliverable": false,
+      "requires": {
+        "provider": "neuromodulation_clinic",
+        "min_age": 5
+      },
+      "contraindications": [
+        "seizures",
+        "metal_implant"
+      ],
+      "engagement_domain": "tv_show",
+      "engagement_note": "Twenty clinic sessions are the adherence risk. Qloo supplies the familiar shows and music that keep a child settled through them.",
+      "sources": [
+        {
+          "title": "Personalized theta-burst stimulation improves social skills in minimally verbal autistic children (Biol Psychiatry, double-blind RCT)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41300171/",
+          "year": 2025
+        },
+        {
+          "title": "Multicentre rTMS trial protocol for autism (BMJ Open): no established biomedical treatment for core symptoms",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34233985/",
+          "year": 2021
+        }
+      ],
+      "population": [
+        "autism"
+      ]
+    },
+    {
+      "id": "tdcs_vr_ds",
+      "modality": "neuromod",
+      "name": "tDCS combined with virtual-reality motor training (Down syndrome)",
+      "summary": "Weak direct current over motor cortex during VR practice to improve upper-limb function. Protocols and case series only.",
+      "targets": [
+        "down_syndrome",
+        "motor"
+      ],
+      "grade": "C",
+      "effect": null,
+      "effect_ci": null,
+      "n": 20,
+      "channel": "clinic",
+      "home_deliverable": false,
+      "requires": {
+        "provider": "neuromodulation_clinic",
+        "vision": true
+      },
+      "contraindications": [
+        "seizures",
+        "metal_implant"
+      ],
+      "engagement_domain": "video_game",
+      "engagement_note": "The VR content is the adherence lever; Qloo's game and show affinities say what will hold attention.",
+      "sources": [
+        {
+          "title": "tDCS + virtual reality for upper-limb function in Down syndrome: RCT protocol and case reports",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28801420/",
+          "year": 2017
+        }
+      ],
+      "population": [
+        "down_syndrome"
+      ]
+    },
+    {
+      "id": "memantine_ds",
+      "modality": "molecular",
+      "name": "Memantine (Down syndrome cognition)",
+      "summary": "Dose-escalation phase 2 trials are under way in the US and Brazil. Cognitive benefit is not established; baseline data only so far.",
+      "targets": [
+        "down_syndrome",
+        "cognition"
+      ],
+      "grade": "C",
+      "effect": null,
+      "effect_ci": null,
+      "n": 150,
+      "channel": "prescription",
+      "home_deliverable": true,
+      "requires": {
+        "provider": "physician",
+        "min_age": 15
+      },
+      "contraindications": [
+        "renal_impairment"
+      ],
+      "engagement_domain": null,
+      "engagement_note": "A tablet has no cultural content to personalise; engagement is not scored and the row is marked as such.",
+      "sources": [
+        {
+          "title": "Memantine phase 2 trials in Down syndrome: baseline neuropsychological data",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40593549/",
+          "year": 2025
+        }
+      ],
+      "population": [
+        "down_syndrome"
+      ]
+    },
+    {
+      "id": "genotype_oncology",
+      "modality": "molecular",
+      "name": "Genotype-guided oncology referral",
+      "summary": "Tumour sequencing and AI-ranked drug sensitivity (for example KRS, G2D-Diff) guide therapy in oncology. Reach does not generate compounds; it routes to a molecular tumour board and grades the evidence.",
+      "targets": [
+        "cancer"
+      ],
+      "grade": "A",
+      "effect": null,
+      "effect_ci": null,
+      "n": 5000,
+      "channel": "clinic",
+      "home_deliverable": false,
+      "requires": {
+        "provider": "oncology",
+        "genome": true
+      },
+      "contraindications": [],
+      "engagement_domain": null,
+      "engagement_note": "Not scored for engagement. Shown so the clinician sees the modality side by side with the others.",
+      "sources": [
+        {
+          "title": "G2D-Diff: genotype-to-drug diffusion model (Nat Commun)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40394256/",
+          "year": 2025
+        },
+        {
+          "title": "KRS: machine-learning prediction of cancer drug sensitivity (J Biomed Inform)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39674292/",
+          "year": 2025
+        }
+      ],
+      "population": [
+        "cancer"
+      ]
+    },
+    {
+      "id": "genetic_counselling",
+      "modality": "molecular",
+      "name": "Genetic counselling and variant interpretation",
+      "summary": "Standard of care after a rare-disease diagnosis: what the variant means, recurrence risk, trials and registries.",
+      "targets": [
+        "rare_disease"
+      ],
+      "grade": "A",
+      "effect": null,
+      "effect_ci": null,
+      "n": 10000,
+      "channel": "clinic",
+      "home_deliverable": true,
+      "requires": {
+        "provider": "genetic_counselling"
+      },
+      "contraindications": [],
+      "engagement_domain": null,
+      "engagement_note": "Not scored for engagement.",
+      "sources": [
+        {
+          "title": "Genetic counselling in rare disease: practice guidelines",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=genetic+counseling+rare+disease+guideline",
+          "year": 2023
+        }
+      ],
+      "population": [
+        "rare_disease"
+      ]
+    },
+    {
+      "id": "behavioral_activation",
+      "modality": "behavioral",
+      "name": "Behavioural activation (scheduled valued activities)",
+      "summary": "A week of planned, pleasurable, nearby activities, rated afterwards and re-planned. First-line for depression; the plan only works if the activities are ones the person values.",
+      "targets": [
+        "depression",
+        "mood",
+        "isolation"
+      ],
+      "grade": "A",
+      "effect": 0.7,
+      "effect_ci": [
+        0.5,
+        0.9
+      ],
+      "n": 3000,
+      "channel": "activity",
+      "home_deliverable": true,
+      "requires": {
+        "mobility": "any"
+      },
+      "contraindications": [],
+      "engagement_domain": "place",
+      "engagement_note": "Qloo scores real nearby places against the person's favourites, with the ambience the person tolerates.",
+      "sources": [
+        {
+          "title": "Behavioural activation for depression: Cochrane review",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013305.pub2/full",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "social_prescribing",
+      "modality": "behavioral",
+      "name": "Social prescribing and arts on prescription",
+      "summary": "Referral to community arts, nature or group activities. Wellbeing rises about 5.8 WEMWBS points on average, but only about half of referred people complete, and the reviews say one approach does not fit all.",
+      "targets": [
+        "isolation",
+        "mood",
+        "anxiety",
+        "rare_disease",
+        "community"
+      ],
+      "grade": "B",
+      "effect": 0.45,
+      "effect_ci": [
+        0.2,
+        0.7
+      ],
+      "n": 1300,
+      "channel": "activity",
+      "home_deliverable": false,
+      "requires": {
+        "mobility": "any"
+      },
+      "contraindications": [],
+      "engagement_domain": "place",
+      "engagement_note": "The completion gap is the engagement problem. Qloo matches the venue and the activity to the person's taste.",
+      "sources": [
+        {
+          "title": "Arts on prescription: systematic review with meta-analysis (Frontiers in Public Health)",
+          "url": "https://frontiersin.org/articles/10.3389/fpubh.2024.1412306/full",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "peer_support",
+      "modality": "behavioral",
+      "name": "Peer support group (condition-specific)",
+      "summary": "Regular contact with people living with the same condition, in person or online. Reduces isolation and improves self-management.",
+      "targets": [
+        "rare_disease",
+        "isolation",
+        "community",
+        "caregiver"
+      ],
+      "grade": "B",
+      "effect": 0.35,
+      "effect_ci": [
+        0.15,
+        0.55
+      ],
+      "n": 800,
+      "channel": "activity",
+      "home_deliverable": true,
+      "requires": {},
+      "contraindications": [],
+      "engagement_domain": "podcast",
+      "engagement_note": "Qloo's podcast and book affinities find the community voices the family will keep listening to.",
+      "sources": [
+        {
+          "title": "Peer support interventions: systematic reviews",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=peer+support+chronic+illness+systematic+review",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "special_interest",
+      "modality": "behavioral",
+      "name": "Special-interest-based engagement (autism)",
+      "summary": "Therapy, learning and social contact built around the person's intense interest. Associated with wellbeing and engagement in autistic people; qualitative and survey evidence.",
+      "targets": [
+        "autism",
+        "engagement",
+        "anxiety",
+        "social_communication"
+      ],
+      "grade": "C",
+      "effect": null,
+      "effect_ci": null,
+      "n": 300,
+      "channel": "activity",
+      "home_deliverable": true,
+      "requires": {},
+      "contraindications": [],
+      "engagement_domain": "cross",
+      "engagement_note": "Qloo expands one special interest into books, shows, music and places, which is the whole intervention.",
+      "sources": [
+        {
+          "title": "Special interests and subjective wellbeing in autistic adults",
+          "url": "https://opus.lib.uts.edu.au/handle/10453/128415",
+          "year": 2019
+        },
+        {
+          "title": "Special interests in autism: functions, benefits and challenges (Autism)",
+          "url": "https://www.citedrive.com/en/discovery/special-interests-in-autism-functions-benefits-and-challenges/",
+          "year": 2026
+        }
+      ],
+      "population": [
+        "autism"
+      ]
+    },
+    {
+      "id": "bibliotherapy",
+      "modality": "behavioral",
+      "name": "Guided reading (bibliotherapy)",
+      "summary": "Structured reading of self-help or fiction with brief check-ins. Moderate effects on mild-to-moderate depression and anxiety.",
+      "targets": [
+        "depression",
+        "anxiety",
+        "mood"
+      ],
+      "grade": "B",
+      "effect": 0.5,
+      "effect_ci": [
+        0.3,
+        0.7
+      ],
+      "n": 1500,
+      "channel": "visual_text",
+      "home_deliverable": true,
+      "requires": {
+        "reading": true
+      },
+      "contraindications": [],
+      "engagement_domain": "book",
+      "engagement_note": "Qloo ranks books by affinity to the person's favourites.",
+      "sources": [
+        {
+          "title": "Bibliotherapy for depression and anxiety: meta-analyses",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=bibliotherapy+meta-analysis+depression",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "cbt_i",
+      "modality": "behavioral",
+      "name": "Cognitive behavioural therapy for insomnia (CBT-I), digital or in person",
+      "summary": "First-line insomnia treatment. Fully deliverable in text and video, so it reaches deaf and hard-of-hearing people.",
+      "targets": [
+        "insomnia",
+        "sleep"
+      ],
+      "grade": "A",
+      "effect": 0.8,
+      "effect_ci": [
+        0.6,
+        1.0
+      ],
+      "n": 4000,
+      "channel": "visual_text",
+      "home_deliverable": true,
+      "requires": {
+        "reading": true,
+        "min_age": 14
+      },
+      "contraindications": [],
+      "engagement_domain": "podcast",
+      "engagement_note": "The wind-down hour is where people drop out; Qloo picks the reading and captioned shows that make it stick.",
+      "sources": [
+        {
+          "title": "CBT-I: clinical practice guideline (AASM)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=cognitive+behavioral+therapy+insomnia+guideline",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "weighted_blanket",
+      "modality": "sensory",
+      "name": "Weighted blanket",
+      "summary": "Deep pressure during sleep. One RCT in psychiatric insomnia showed improved sleep; small, inexpensive, fully sensory-accessible.",
+      "targets": [
+        "insomnia",
+        "sleep",
+        "anxiety",
+        "autism"
+      ],
+      "grade": "B",
+      "effect": 0.5,
+      "effect_ci": [
+        0.2,
+        0.8
+      ],
+      "n": 120,
+      "channel": "tactile",
+      "home_deliverable": true,
+      "requires": {},
+      "contraindications": [
+        "respiratory_compromise"
+      ],
+      "engagement_domain": null,
+      "engagement_note": "No cultural content; not scored for engagement.",
+      "sources": [
+        {
+          "title": "Weighted blankets and insomnia in psychiatric disorders: RCT (J Clin Sleep Med)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=weighted+blanket+randomized+insomnia+psychiatric",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "dance_exercise_ds",
+      "modality": "behavioral",
+      "name": "Group dance and exercise programme (Down syndrome)",
+      "summary": "Structured weekly movement sessions improve fitness, balance and participation in adults with Down syndrome.",
+      "targets": [
+        "down_syndrome",
+        "motor",
+        "community",
+        "mood"
+      ],
+      "grade": "B",
+      "effect": 0.5,
+      "effect_ci": [
+        0.2,
+        0.8
+      ],
+      "n": 200,
+      "channel": "activity",
+      "home_deliverable": false,
+      "requires": {
+        "mobility": "ambulatory"
+      },
+      "contraindications": [
+        "cardiac_unstable"
+      ],
+      "engagement_domain": "artist",
+      "engagement_note": "The music is the hook. Qloo ranks the artists the person will keep dancing to, and the dance schools nearby.",
+      "sources": [
+        {
+          "title": "Exercise and dance interventions in Down syndrome: systematic reviews",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=down+syndrome+exercise+intervention+systematic+review",
+          "year": 2022
+        }
+      ],
+      "population": [
+        "down_syndrome"
+      ]
+    },
+    {
+      "id": "speech_therapy_ds",
+      "modality": "behavioral",
+      "name": "Speech and language therapy (Down syndrome)",
+      "summary": "Regular sessions with practice at home. Established benefit for intelligibility and vocabulary.",
+      "targets": [
+        "down_syndrome",
+        "communication"
+      ],
+      "grade": "B",
+      "effect": 0.4,
+      "effect_ci": [
+        0.2,
+        0.6
+      ],
+      "n": 400,
+      "channel": "clinic",
+      "home_deliverable": true,
+      "requires": {
+        "provider": "speech_pathologist"
+      },
+      "contraindications": [],
+      "engagement_domain": "tv_show",
+      "engagement_note": "Home practice uses the shows and songs the person loves; Qloo supplies them.",
+      "sources": [
+        {
+          "title": "Speech and language interventions in Down syndrome: reviews",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=down+syndrome+speech+language+therapy+review",
+          "year": 2021
+        }
+      ],
+      "population": [
+        "down_syndrome"
+      ]
+    },
+    {
+      "id": "nature_prescription",
+      "modality": "behavioral",
+      "name": "Nature prescription (time outdoors in green space)",
+      "summary": "Two or more hours a week in parks or green space. Associated with lower anxiety and better sleep; some RCT support.",
+      "targets": [
+        "anxiety",
+        "mood",
+        "sleep",
+        "autism"
+      ],
+      "grade": "B",
+      "effect": 0.3,
+      "effect_ci": [
+        0.1,
+        0.5
+      ],
+      "n": 900,
+      "channel": "activity",
+      "home_deliverable": false,
+      "requires": {
+        "mobility": "any"
+      },
+      "contraindications": [],
+      "engagement_domain": "place",
+      "engagement_note": "Qloo ranks nearby parks and quiet places against the person's taste.",
+      "sources": [
+        {
+          "title": "Nature prescriptions: systematic review and meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/?term=nature+prescription+systematic+review+meta-analysis",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "acoustic_levitation",
+      "modality": "excluded",
+      "name": "Acoustic manipulation of objects (levitation)",
+      "summary": "Ultrasonic phased arrays can hold and rotate centimetre-scale objects to 0.048 mm accuracy. It needs a medium and is bounded by the acoustic wavelength, so there is no pathway to larger scales, let alone astronomical ones, and it is not a clinical intervention. Listed so the boundary is explicit.",
+      "targets": [],
+      "grade": "X",
+      "effect": null,
+      "effect_ci": null,
+      "n": 0,
+      "channel": "none",
+      "home_deliverable": false,
+      "requires": {},
+      "contraindications": [],
+      "engagement_domain": null,
+      "engagement_note": "Excluded.",
+      "sources": [
+        {
+          "title": "Acoustic levitation and pose manipulation of irregular objects",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42565601/",
+          "year": 2026
+        },
+        {
+          "title": "Real-time acoustic trap manipulation with 256 transducers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40394256/",
+          "year": 2025
+        }
+      ]
+    }
+  ]
+}

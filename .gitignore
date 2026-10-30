@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+dist/
+.env
+env
+.qloo_key
+*.zip
+scripts/selfcheck_report.json
+data/bench_detail.local.json

@@ -1,0 +1,246 @@
+{
+ "run_at": "2026-10-28 23:53 UTC",
+ "llm": "ollama:llama3.1:8b",
+ "people": 10,
+ "systems": {
+  "reach": {
+   "culture": 0.924,
+   "exists": 1.0,
+   "calm_safe": 0.96,
+   "taste": 0.756,
+   "personal": 0.8,
+   "people": 10
+  },
+  "llm": {
+   "culture": 0.887,
+   "exists": 0.6,
+   "calm_safe": 0.701,
+   "taste": 0.365,
+   "personal": 0.911,
+   "people": 10
+  },
+  "generic": {
+   "culture": 0.36,
+   "exists": 1.0,
+   "calm_safe": 1.0,
+   "taste": 0.0,
+   "personal": 0.0,
+   "people": 10
+  }
+ },
+ "per_person": [
+  {
+   "label": "Persian classics, needs sleep",
+   "goal": "sleep",
+   "reach": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "taste": 0.981,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 0.0,
+    "calm_safe": 1.0,
+    "taste": 0.491
+   },
+   "generic": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Mandopop, needs calm",
+   "goal": "calm",
+   "reach": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "calm_safe": 0.8,
+    "taste": 0.94,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 0.0,
+    "taste": 0.0
+   },
+   "generic": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Shakira + Aznavour, mood lift",
+   "goal": "mood",
+   "reach": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.766,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "taste": 0.0
+   },
+   "generic": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Britney + Guetta + John Summit, needs sleep",
+   "goal": "sleep",
+   "reach": {
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "calm_note": "lively favourites: plays calm instrumentals instead of songs",
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "calm_safe": 0.625,
+    "taste": 0.0
+   },
+   "generic": {
+    "culture": 0.8,
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Afrobeats, energy",
+   "goal": "energy",
+   "reach": {
+    "culture": 0.8,
+    "exists": 1.0,
+    "taste": 0.972,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.962
+   },
+   "generic": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "K-pop, focus",
+   "goal": "focus",
+   "reach": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.977,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.0
+   },
+   "generic": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Turkish pop, memory",
+   "goal": "memory",
+   "reach": {
+    "culture": 1.0,
+    "exists": 1.0,
+    "taste": 0.656,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 0.25,
+    "taste": 0.49
+   },
+   "generic": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Bollywood, calm",
+   "goal": "calm",
+   "reach": {
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "calm_note": "lively favourites: plays calm instrumentals instead of songs",
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 0.375,
+    "calm_safe": 0.75,
+    "taste": 0.977
+   },
+   "generic": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Mexican, memory",
+   "goal": "memory",
+   "reach": {
+    "culture": 0.667,
+    "exists": 1.0,
+    "taste": 0.0,
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 0.875,
+    "exists": 0.5,
+    "taste": 0.728
+   },
+   "generic": {
+    "culture": 0.0,
+    "exists": 1.0,
+    "taste": 0.0
+   }
+  },
+  {
+   "label": "Techno, needs sleep",
+   "goal": "sleep",
+   "reach": {
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "calm_note": "lively favourites: plays calm instrumentals instead of songs",
+    "not_playable_skipped": 0
+   },
+   "llm": {
+    "culture": 1.0,
+    "exists": 0.875,
+    "calm_safe": 0.429,
+    "taste": 0.0
+   },
+   "generic": {
+    "culture": 0.8,
+    "exists": 1.0,
+    "calm_safe": 1.0,
+    "taste": 0.0
+   }
+  }
+ ],
+ "method": "scripts/bench.py docstring",
+ "note": "aggregate numbers only; no Qloo response data"
+}

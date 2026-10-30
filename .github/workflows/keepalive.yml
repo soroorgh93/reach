@@ -1,0 +1,16 @@
+# Keeps the free Render server awake so a judge never waits for a cold start.
+# Set the repository variable REACH_URL (Settings > Secrets and variables > Actions > Variables),
+# for example https://reach.onrender.com
+name: keep the demo awake
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+permissions: {}
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    if: ${{ vars.REACH_URL != '' }}
+    steps:
+      - name: Ping
+        run: curl -fsS --max-time 60 --retry 3 --retry-delay 10 "${{ vars.REACH_URL }}/manifest.webmanifest" -o /dev/null && echo "awake"

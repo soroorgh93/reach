@@ -1,0 +1,8695 @@
+{
+"tommaso paradiso": "IT",
+"fedez": "IT",
+"levante": "IT",
+"carl brave": "IT",
+"coez": "IT",
+"derek webb": "US",
+"lou doillon": "FR",
+"christine and the queens": "FR",
+"juliette armanet": "FR",
+"naomi campbell": "GB",
+"tarkan": "TR",
+"sıla": "TR",
+"kerimcan durmaz": "TR",
+"nil karaibrahimgil": "TR",
+"sirvan khosravi": "IR",
+"homayoun shajarian": "IR",
+"emiway bantai": "IN",
+"prateek kuhad": "IN",
+"nucleya": "IN",
+"lucky ali": "IN",
+"raja kumari": "US",
+"nathaniel bassey": "NG",
+"timi dakolo": "GH",
+"waje": "NG",
+"wande coal": "NG",
+"thiago martins": "BR",
+"zeca pagodinho": "BR",
+"fábio porchat": "BR",
+"dynamic duo": "KR",
+"山田孝之": "JP",
+"rinka": "JP",
+"natalia lafourcade": "MX",
+"ximena sariñana": "MX",
+"ximena": "CO",
+"عمرو دياب": "EG",
+"تامر حسني": "EG",
+"wegz": "EG",
+"bvg": "AX",
+"wolfgang tillmans": "DE",
+"björk": "IS",
+"cimafunk": "CU",
+"j balvin": "CO",
+"gente de zona": "CU",
+"amaia": "ES",
+"關智斌": "HK",
+"hayedeh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "da616429-d71b-4869-8b4e-cd279d94301c",
+"langs": {
+"fas": 0.93,
+"eng": 0.07
+},
+"aliases": [
+"Hayedeh",
+"Ma'soumeh Dadehbala",
+"Masume Dadebālā",
+"Masoumeh Dadehbala",
+"معصومه دده بالا",
+"هایده"
+]
+},
+"dariush": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "2c6da157-1285-4b03-af4e-f76dbc0333e6",
+"langs": {
+"fas": 0.47,
+"hau": 0.26,
+"som": 0.06
+},
+"aliases": [
+"Dariush Eghbali",
+"Dariush",
+"داریوش اقبالی",
+"Dāryūš Eqbālī"
+]
+},
+"marzieh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "7e2d5988-5864-4298-b26b-88264d3d1b20",
+"langs": {
+"fas": 0.6,
+"eng": 0.4
+},
+"aliases": [
+"Marzieh",
+"مرضیه"
+]
+},
+"jay chou": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "New Taipei City",
+"mbid": "a223958d-5c56-4b2c-a30a-87e357bc121b",
+"langs": {
+"zho": 0.79,
+"cmn": 0.07,
+"eng": 0.07
+},
+"aliases": [
+"周杰倫",
+"周杰伦",
+"ジェイ・チョウ",
+"주걸륜",
+"Jay",
+"Jie-Luen Jou",
+"Jie-Lun Jhou",
+"Chieh-Lun Chou",
+"Zhōu Jié Lún",
+"Zhou Jie Lun"
+]
+},
+"gloria gaynor": {
+"cc": "US",
+"country": "United States",
+"city": "Newark",
+"mbid": "d5c51c36-ac67-4727-91ed-ee9f0df81a2d",
+"langs": {
+"eng": 0.98,
+"deu": 0.02
+},
+"aliases": [
+"Gloria Gaynor",
+"Gloria Fowles",
+"Gloria Gayner",
+"Gloria Gynor",
+"Glorai Gaynor",
+"Gloria Ganor",
+"Глория Гейнор"
+]
+},
+"googoosh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "0d9b88f3-054a-4f53-b447-2f3f503c8290",
+"langs": {
+"fas": 0.85,
+"eng": 0.15
+},
+"aliases": [
+"Googoosh",
+"فائقه آتشین",
+"گوگوش",
+"Gougoush",
+"Ququş",
+"Faiqə Atəşin"
+]
+},
+"kalben": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "İskenderun",
+"mbid": "f28f190a-7a87-49e8-8822-8a5dfaa031ca",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Kalben"
+]
+},
+"shadmehr aghili": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "694a5a6a-e3ed-4837-9a9d-895aaafdc023",
+"langs": {
+"fas": 0.55,
+"eng": 0.27,
+"ind": 0.09
+},
+"aliases": [
+"Shadmehr Aghili"
+]
+},
+"behnam safavi": {
+"cc": "IR",
+"country": "Iran",
+"city": "Shiraz",
+"mbid": "65322e5e-251e-43c2-8065-837570b5c068",
+"langs": {
+"hau": 1.0
+},
+"aliases": [
+"Behnam Safavi"
+]
+},
+"mohsen chavoshi": {
+"cc": "IR",
+"country": "Iran",
+"city": "Khorramshahr",
+"mbid": "35303f5b-4d40-42d3-801d-3e1c41a1452e",
+"langs": {
+"fas": 0.96,
+"eng": 0.04
+},
+"aliases": [
+"Mohsen Chavoshi"
+]
+},
+"siavash ghomayshi": {
+"cc": "US",
+"country": "United States",
+"city": "Dezful",
+"mbid": "554b4286-0e16-4a84-b884-3e0dffe9dd77",
+"langs": {
+"fas": 0.93,
+"eng": 0.07
+},
+"aliases": [
+"Siavash Ghomayshi",
+"Siyāvash Qumayshī",
+"سیاوش قمیشی",
+"Siavash",
+"Siavash Ghomeishi",
+"سياوش قميشي"
+]
+},
+"sasy": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "fa2de97b-50fc-4822-a7cd-b352403479a8",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Sasy"
+]
+},
+"mazyar fallahi": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "5ea5b83b-d14c-4e61-a03d-34082b85f373",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Mazyar Fallahi"
+]
+},
+"tm bax": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "e018cbc9-e33d-425f-a227-cdcb7f6a0205",
+"langs": {
+"fas": 0.83,
+"eng": 0.17
+},
+"aliases": [
+"TM Bax"
+]
+},
+"area:9d5dd675-3cf4-4296-9e39-67865ebee758": {
+"cc": "GB",
+"country": "United Kingdom"
+},
+"area:29a709d8-0320-493e-8d0c-f2c386662b7f": {
+"cc": "US",
+"country": "United States"
+},
+"dariush rafiee": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "5f7a64ac-ecb6-405b-aec3-4aa72cb3cc1f",
+"langs": {},
+"aliases": [
+"Dariush Rafiee"
+]
+},
+"harry styles": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Redditch",
+"mbid": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Harry Styles",
+"Harry Edward Styles"
+]
+},
+"moein": {
+"cc": "US",
+"country": "United States",
+"city": "Najafabad",
+"mbid": "8db023aa-23b6-4c05-bfd7-6494aafdebde",
+"langs": {
+"fas": 0.96,
+"hau": 0.04
+},
+"aliases": [
+"Moein"
+]
+},
+"fereydoun": {
+"cc": "IR",
+"country": "Iran",
+"city": "Asara",
+"mbid": "c7b1f5fa-8293-4698-8413-dc87f2014c6e",
+"langs": {
+"eng": 0.67,
+"fas": 0.33
+},
+"aliases": [
+"Fereydoun Asraei"
+]
+},
+"john summit": {
+"cc": "US",
+"country": "United States",
+"city": "Chicago",
+"mbid": "2547c5e3-314c-4332-981d-f18c902a4086",
+"langs": {
+"eng": 0.95,
+"spa": 0.04,
+"cat": 0.02
+},
+"aliases": [
+"John Summit",
+"John Schuster",
+"John Walter Schuster"
+]
+},
+"mehrnoosh": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "7d04e08a-7785-46d9-bb2b-af353b7a907c",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Mehrnoosh",
+"مهرنوش سهیلی",
+"مهرنوش",
+"Mehrnoosh Soheili"
+]
+},
+"kouros": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "4d5f747b-058f-4bd3-a48d-1b95f5e92e5e",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Kouros Shahmiri",
+"کوروس",
+"Kouros"
+]
+},
+"billie eilish": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Billie Eilish",
+"Billie Eilish Pirate Baird O’Connell",
+"Bili Ailiš Pirat Beird O’Konel",
+"Bili Ailiš",
+"Billija Ailiša",
+"빌리 아일리시",
+"ប៊ីលលី អៃលីស",
+"Билли Айлиш",
+"ბილი აილიში",
+"Բիլլի Այլիշ"
+]
+},
+"leila forouhar": {
+"cc": "US",
+"country": "United States",
+"city": "Eşfahān",
+"mbid": "a310c17f-1445-4a9e-8e72-1ad8f62c4579",
+"langs": {
+"fas": 0.76,
+"ara": 0.12,
+"eng": 0.06
+},
+"aliases": [
+"Leila Forouhar",
+"Leylâ Foruhar",
+"لیل فروهر‎,"
+]
+},
+"faramarz aslani": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "3ef9da0a-b7cb-461f-91a1-598e29d10f4f",
+"langs": {
+"fas": 0.88,
+"eng": 0.12
+},
+"aliases": [
+"فرامرز اصلانی",
+"Faramarz Aslani"
+]
+},
+"olivia rodrigo": {
+"cc": "US",
+"country": "United States",
+"city": "Murrieta",
+"mbid": "6925db17-f35e-42f3-a4eb-84ee6bf5d4b0",
+"langs": {
+"eng": 0.95,
+"fra": 0.05
+},
+"aliases": [
+"Olivia Rodrigo",
+"奥利维亚·罗德里戈",
+"奧莉維亞·羅德里戈",
+"اولیویا روڈریگو",
+"Олівія Родріґо",
+"โอลิเวีย โรดริโก",
+"Оливија Родриго",
+"Оливия Родриго",
+"ਓਲੀਵੀਆ ਰੌਡਰੀਗੋ",
+"ओलिभिया रोड्रिगो"
+]
+},
+"javad maroufi": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "ce42ac19-56be-4c00-8ea2-0514dc27c1d6",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Javad Maroufi",
+"جواد معروفی"
+]
+},
+"shayea": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "f4912504-0e40-4585-8701-3057be0a35af",
+"langs": {},
+"aliases": [
+"Shayea",
+"Mohammad Reza Shayea",
+"Mohamad Reza Shayea",
+"Mohammadreza Shayea"
+]
+},
+"salem ilese": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "c0583ff5-73cd-444b-9870-fe781c9eef17",
+"langs": {
+"eng": 0.98,
+"spa": 0.02
+},
+"aliases": [
+"salem ilese",
+"Salem Ilese Davern"
+]
+},
+"baran": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "bb340bee-12f3-45fe-9bfe-15fe6e367acb",
+"langs": {},
+"aliases": [
+"CJ Baran",
+"Christopher John Baran"
+]
+},
+"farzad farzin": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "6d5bc502-a1b0-4ed5-845b-bbfe6e2f61c9",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Farzad Farzin"
+]
+},
+"sara kays": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "5d07540d-b17a-4b17-a160-1ea22730a392",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sara Kays"
+]
+},
+"daal band": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "af0c42c6-d2f0-4c6c-b82d-43eaea050a9c",
+"langs": {
+"eng": 0.5,
+"fas": 0.5
+},
+"aliases": [
+"Daal Band"
+]
+},
+"dua lipa": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "London",
+"mbid": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Dua Lipa",
+"두아리파",
+"두아 리파",
+"デュア・リパ",
+"Dula Peep"
+]
+},
+"mansour": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "43e8060e-a8a4-40bb-8414-bc98d70090ef",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Mansour"
+]
+},
+"miracle tones": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "3135b57f-f4c1-44fe-9b94-92579a6d358a",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Miracle Tones"
+]
+},
+"amir tataloo": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "69617e20-4ed0-4652-9841-e56e0b6e3741",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Amir Tataloo",
+"Amirhossein Maghsoudloo",
+"امیرحسین مقصودلو",
+"Amir Hossein Maghsoudloo",
+"Amir Maghsoudloo",
+"امیر تتلو",
+"Əmirhüseyn Maqsudlu",
+"Amirhossein mosavi"
+]
+},
+"hengameh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "9ccb2e04-c6e0-4bda-987b-5f52b728d68a",
+"langs": {},
+"aliases": [
+"Hengameh Golestan",
+"هنگامه گلستان"
+]
+},
+"benee": {
+"cc": "NZ",
+"country": "New Zealand",
+"city": "Auckland",
+"mbid": "b8cc2c1b-f62e-4a60-a9a6-5ebae2ec040b",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"BENEE",
+"Stella Rose Bennett",
+"Bene"
+]
+},
+"mohammad alizadeh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Karaj",
+"mbid": "fa88fe3f-cfa1-47f5-89a6-2dd7b1f977fc",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Mohammad Alizadeh"
+]
+},
+"babak bayat": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "c70697d5-a831-4523-9f51-f777c13b2131",
+"langs": {},
+"aliases": [
+"Babak Bayat"
+]
+},
+"tohi": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "c896088d-0201-408f-8009-f47fb21b1ead",
+"langs": {
+"fas": 0.83,
+"spa": 0.17
+},
+"aliases": [
+"Tohi",
+"Seyed Hossein Mousavi",
+"Hossein Tohi"
+]
+},
+"babak jahanbakhsh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Bochum",
+"mbid": "3d40dcd6-9bb2-48a9-8f1b-c053e93e2fa4",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Babak Jahanbakhsh",
+"وبلاگ رسمی بابک جهانبخش",
+"Babak Jahanbaksh"
+]
+},
+"tate mcrae": {
+"cc": "CA",
+"country": "Canada",
+"city": "Calgary",
+"mbid": "f9133869-f87c-459c-9aa7-2f176cda7e06",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tate McRae",
+"t8",
+"Tate Rosner McRae"
+]
+},
+"dodie": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "70c5a8f1-5c53-4e1c-a90a-461e11e799c1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"dodie",
+"doddleoddle",
+"Dorothy Miranda Clark",
+"Dodie Clark"
+]
+},
+"mohsen yeganeh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Gonbad-e Qabus",
+"mbid": "dee15588-5269-406e-9a57-552e18866ee1",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Mohsen Yeganeh"
+]
+},
+"shahab tiam": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "342d24f9-b212-4eca-af17-488335d27deb",
+"langs": null,
+"aliases": [
+"Shahab Tiam"
+]
+},
+"dove cameron": {
+"cc": "US",
+"country": "United States",
+"city": "Bainbridge Island",
+"mbid": "831dcf03-b745-436b-922f-6a2baaf45e57",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Dove Cameron",
+"Dove Olivia Cameron",
+"Chloe Celeste Hosterman"
+]
+},
+"christian cambas": {
+"cc": "GR",
+"country": "Greece",
+"city": null,
+"mbid": "72817a9a-cab4-4e53-9ac8-f0f5a7fb821b",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Christian Cambas"
+]
+},
+"saygrace": {
+"cc": "AU",
+"country": "Australia",
+"city": "Brisbane",
+"mbid": "1ec7db1c-2205-4080-8141-440a4dcaaee1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"SAYGRACE",
+"Grace",
+"Grace Sewell"
+]
+},
+"alec benjamin": {
+"cc": "US",
+"country": "United States",
+"city": "Phoenix",
+"mbid": "21a14ee3-cede-420a-9d6d-a33517d2f952",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Alec Benjamin",
+"Alec Shane Benjamin"
+]
+},
+"shervin hajipour": {
+"cc": "IR",
+"country": "Iran",
+"city": "Babolsar",
+"mbid": "70c25466-bd8c-46f2-9b10-cca7c9da101f",
+"langs": {
+"fas": 0.7,
+"eng": 0.3
+},
+"aliases": [
+"Shervin Hajipour",
+"شروین",
+"Shervin",
+"شروین حاجی‌ آقاپور",
+"شروین حاجی‌ پور",
+"Shervin Haji Aghapour"
+]
+},
+"surf mesa": {
+"cc": "US",
+"country": "United States",
+"city": "Seattle",
+"mbid": "5ed8f4ac-3ae8-4a83-9ff9-565510c7f6e5",
+"langs": null,
+"aliases": [
+"Surf Mesa",
+"Powell Aguirre"
+]
+},
+"halsey": {
+"cc": "US",
+"country": "United States",
+"city": "Washington",
+"mbid": "3377f3bb-60fc-4403-aea9-7e800612e060",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Halsey",
+"Ashley Nicolette Frangipane"
+]
+},
+"bella poarch": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "6e29613f-68dd-4a24-add2-9a9962de2523",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bella Poarch"
+]
+},
+"behnam bani": {
+"cc": "IR",
+"country": "Iran",
+"city": "Damghan",
+"mbid": "96df778a-3e8b-4e5b-af45-adaf814c997f",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Behnam Bani"
+]
+},
+"area:b2bc1294-77be-4c7b-af93-9868b83b1f34": {
+"cc": "NZ",
+"country": "New Zealand"
+},
+"kelsy karter": {
+"cc": "NZ",
+"country": "New Zealand",
+"city": "Auckland",
+"mbid": "ce2e2d79-ccda-4849-a4a1-f8da0b877d56",
+"langs": {},
+"aliases": [
+"Kelsy Karter"
+]
+},
+"area:74e50e58-5deb-4b99-93a2-decbb365c07f": {
+"cc": "US",
+"country": "United States"
+},
+"regard": {
+"cc": "US",
+"country": "United States",
+"city": "New York",
+"mbid": "85f11607-6ed7-4a36-af69-dcadd32ad277",
+"langs": {
+"eng": 0.94,
+"sqi": 0.03,
+"ita": 0.03
+},
+"aliases": [
+"Regard",
+"DJ Regard"
+]
+},
+"area:aaa5899f-f0b7-4bc1-bae4-aba7f6770402": {
+"cc": "IR",
+"country": "Iran"
+},
+"ehaam": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "22b1c43f-1f28-44d7-a296-b8c3aaeb375e",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Ehaam"
+]
+},
+"bebe rexha": {
+"cc": "US",
+"country": "United States",
+"city": "New York",
+"mbid": "db8fad3a-e131-47a1-8782-c2ee93708cdd",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bebe Rexha",
+"비비 렉사",
+"Bleta Rexha"
+]
+},
+"chord overstreet": {
+"cc": "US",
+"country": "United States",
+"city": "Nashville",
+"mbid": "e1d30dc5-9096-4706-95dc-486b2ab52a89",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Chord Overstreet",
+"Chord Paul Overstreet"
+]
+},
+"mason ramsey": {
+"cc": "US",
+"country": "United States",
+"city": "Golconda",
+"mbid": "5cf7f4fa-b9d7-42ae-b08c-6c1588877733",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Mason Ramsey",
+"Mason Blake",
+"Walmart Yodeling Kid"
+]
+},
+"we three": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "f4f5b580-0b86-43d9-9562-3ef558e9d442",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"We3",
+"We Three"
+]
+},
+"sila gencoglu": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "86005371-201b-4b68-a1cd-459e8214fadb",
+"langs": null,
+"aliases": [
+"Sıla",
+"Sıla Gençoğlu"
+]
+},
+"lennon stella": {
+"cc": "CA",
+"country": "Canada",
+"city": "Oshawa",
+"mbid": "b7179522-d90d-4b02-8082-af4e3589f337",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Lennon Stella"
+]
+},
+"sogand": {
+"cc": "IR",
+"country": "Iran",
+"city": "Eşfahān",
+"mbid": "4d71ccaa-cc1f-41a1-a42f-36265a5595bc",
+"langs": null,
+"aliases": [
+"Sogand",
+"سوگند سهیلی‌زاده",
+"Sogand Soheili"
+]
+},
+"hom": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "9e075511-8032-42bd-948f-914ee3d23c9c",
+"langs": null,
+"aliases": [
+"HOM",
+"HOM (Goliath)"
+]
+},
+"catie turner": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "b25a2d42-0fec-40b2-add3-1e054f8998cc",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Catie Turner",
+"카티 터너"
+]
+},
+"mandy harvey": {
+"cc": "US",
+"country": "United States",
+"city": "Cincinnati",
+"mbid": "520491f4-300c-4547-8684-da16db3ad4af",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Mandy Harvey"
+]
+},
+"seyi shay": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Tottenham",
+"mbid": "23a67359-d57c-4704-b722-c3032dd7f5de",
+"langs": null,
+"aliases": [
+"Seyi Shay",
+"Oluwaseyi Odedere",
+"Deborah Oluwaseyi Joshua"
+]
+},
+"lia marie johnson": {
+"cc": "US",
+"country": "United States",
+"city": "Wahiawa",
+"mbid": "f7cc7749-956e-4908-9a60-af1390c12a1e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Lia Marie Johnson"
+]
+},
+"caetano veloso": {
+"cc": "BR",
+"country": "Brazil",
+"city": "Santo Amaro",
+"mbid": "f07dbc2f-317b-470f-bad4-5f1b0eb6faf1",
+"langs": null,
+"aliases": [
+"Caetano Veloso",
+"Caetano Velloso",
+"Caetano",
+"Caetaqno Veloso",
+"Caetano Velosos",
+"Caetano Velosa",
+"Caetano Emanuel Viana Telles Veloso",
+"Caetano Valeso",
+"C. Veloso"
+]
+},
+"superfruit": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "c96b10d6-1f35-49c1-b044-017c76d31a4e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Superfruit",
+"SUP3RFRUIT"
+]
+},
+"jack antonoff": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "1155a7a9-a7b4-46ba-ba27-6b6c98be487e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Jack Antonoff",
+"Jack Michael Antonoff"
+]
+},
+"area:71ce186a-285d-4c01-b863-6e46bf10e249": {
+"cc": "PL",
+"country": "Poland"
+},
+"iza": {
+"cc": "PL",
+"country": "Poland",
+"city": "Łódź",
+"mbid": "9b69a8e9-618b-4cb2-8ee3-6c54e1031a17",
+"langs": null,
+"aliases": [
+"IZA",
+"Izabele Lach",
+"Iza",
+"Iza Lach"
+]
+},
+"harry hudson": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "c74d3af2-e854-4dbb-9da2-e55316914438",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Harry Hudson",
+"Harrison Rhodes"
+]
+},
+"장윤주": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Songpa District",
+"mbid": "53b3b263-95f5-4c16-91ab-0b9a6a7ffe7d",
+"langs": null,
+"aliases": [
+"장윤주"
+]
+},
+"suzy": {
+"cc": "US",
+"country": "United States",
+"city": "Rolla",
+"mbid": "740da239-0c56-4a39-839d-7f1a0d0cd26c",
+"langs": null,
+"aliases": [
+"Suzy Jackson",
+"Suzy Myers Jackson",
+"Suzy Myers",
+"Suzie Jackson",
+"Mary Suzanne Myers",
+"Suzy Myers-Jackson"
+]
+},
+"g-dragon": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "b4f66d7f-3282-404e-a682-97374d63b5ab",
+"langs": null,
+"aliases": [
+"G‐DRAGON",
+"G-DRAGON",
+"권지용",
+"G-드래곤",
+"지드래곤",
+"GD"
+]
+},
+"area:aa03e165-4c73-4959-91c0-a99f9fa8ecab": {
+"cc": "KR",
+"country": "South Korea"
+},
+"beenzino": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "ff2f225e-a49e-47ee-866a-d4606c4e3fea",
+"langs": null,
+"aliases": [
+"Beenzino",
+"Sungbeen Lim",
+"빈지노",
+"임성빈"
+]
+},
+"utada": {
+"cc": "JP",
+"country": "Japan",
+"city": "Manhattan",
+"mbid": "b539e453-c4fe-47e3-8a07-8517eac74429",
+"langs": null,
+"aliases": [
+"宇多田ヒカル",
+"Utada",
+"Hikki",
+"Cubic U",
+"Cubic U (Utada Hikaru)",
+"우타다히카루",
+"宇多田光",
+"Hikaru Utada",
+"Utada Hikaru",
+"ヒッキー"
+]
+},
+"宇多田ヒカル": {
+"cc": "JP",
+"country": "Japan",
+"city": "Manhattan",
+"mbid": "b539e453-c4fe-47e3-8a07-8517eac74429",
+"langs": null,
+"aliases": [
+"宇多田ヒカル",
+"Utada",
+"Hikki",
+"Cubic U",
+"Cubic U (Utada Hikaru)",
+"우타다히카루",
+"宇多田光",
+"Hikaru Utada",
+"Utada Hikaru",
+"ヒッキー"
+]
+},
+"belinda": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "2925aac9-5474-4030-b8a3-4151107010b2",
+"langs": null,
+"aliases": [
+"Belinda Carlisle",
+"Belinda Carslisle",
+"Belinda Carisle",
+"Berlinda Carlisle",
+"Belinda Carlise",
+"Carlisle, Belinda",
+"Belinda Jo Kerzcheski"
+]
+},
+"maria león": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Guadalajara",
+"mbid": "e5a1c763-f091-489d-b06b-88c8db20bdfd",
+"langs": null,
+"aliases": [
+"María León",
+"María Elizabeth León Herrera"
+]
+},
+"zap tharwat": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "c0bc580a-30ce-42ba-a229-b8785839c8d2",
+"langs": null,
+"aliases": [
+"Zap Tharwat"
+]
+},
+"tamer hosny": {
+"cc": "EG",
+"country": "Egypt",
+"city": "Cairo",
+"mbid": "e5e59f75-9ff7-4ddc-9245-f9c0082c0ade",
+"langs": null,
+"aliases": [
+"تامر حسني",
+"Tamer Hosny",
+"Тэмер Хосни",
+"ターメル・ホスニー"
+]
+},
+"area:c9ac1239-e832-41bc-9930-e252a1fd1105": {
+"cc": "DE",
+"country": "Germany"
+},
+"peggy gou": {
+"cc": "DE",
+"country": "Germany",
+"city": "Berlin",
+"mbid": "4c41d78d-9dd5-430d-81ea-286052158293",
+"langs": null,
+"aliases": [
+"Peggy Gou",
+"김민지",
+"페기 구"
+]
+},
+"charlotte roche": {
+"cc": "DE",
+"country": "Germany",
+"city": "High Wycombe",
+"mbid": "3c81c081-5ae6-411b-83f2-cea06c44a683",
+"langs": null,
+"aliases": [
+"Charlotte Roche",
+"Charlotte Elisabeth Grace Roche"
+]
+},
+"area:e7cd5e49-0108-4f0b-b94e-7266a0a773f5": {
+"cc": "CU",
+"country": "Cuba"
+},
+"leoni torres": {
+"cc": "CU",
+"country": "Cuba",
+"city": "La Habana",
+"mbid": "3dfd36e8-15bc-4394-ac75-59ccdd90451c",
+"langs": null,
+"aliases": [
+"Leoni Torres",
+"Leonardo Torres Álvarez"
+]
+},
+"diana fuentes": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "01f4add8-d213-4362-b947-5b77bfa1830a",
+"langs": null,
+"aliases": [
+"Diana Fuentes"
+]
+},
+"rosalía": {
+"cc": "ES",
+"country": "Spain",
+"city": "Sant Cugat del Vallès",
+"mbid": "25f3abd9-63b5-471a-bd25-feb9672dfa11",
+"langs": {
+"spa": 0.78,
+"eng": 0.16,
+"rom": 0.04
+},
+"aliases": [
+"ROSALÍA",
+"LA ROSALÍA",
+"Rosalía Vila Tobella"
+]
+},
+"kenny kwan": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "1baa6712-1c20-4a3a-90d0-1706b97419e2",
+"langs": null,
+"aliases": [
+"關智斌",
+"Kenny Kwan",
+"关智斌"
+]
+},
+"小嶋陽菜": {
+"cc": "JP",
+"country": "Japan",
+"city": "Saitama",
+"mbid": "d47420aa-8e85-4cee-adb3-188978cd2ad3",
+"langs": null,
+"aliases": [
+"小嶋陽菜"
+]
+},
+"eminem": {
+"cc": "US",
+"country": "United States",
+"city": "St. Joseph",
+"mbid": "b95ce3ff-3d05-4e87-9e01-c97b66af13d4",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Eminem",
+"Marshall Mathers",
+"Marshall Bruce Mathers III",
+"Marshall Bruce Mathers",
+"M. Mathers",
+"Marshall Mathers III",
+"Slim Shady",
+"에미넴",
+"EminemMusic",
+"M&M"
+]
+},
+"britney spears": {
+"cc": "US",
+"country": "United States",
+"city": "McComb",
+"mbid": "45a663b5-b1cb-4a91-bff6-2bef7bbfdd76",
+"langs": {
+"eng": 0.98,
+"rus": 0.02
+},
+"aliases": [
+"Britney Spears",
+"브리트니 스피어스",
+"ブリトニー・スピアーズ",
+"Bretney Spears",
+"B. Spears",
+"Brittany Spears",
+"Briteny Spears",
+"Brittney Spears",
+"Britney Jean Spears"
+]
+},
+"50 cent": {
+"cc": "US",
+"country": "United States",
+"city": "South Jamaica",
+"mbid": "8e68819d-71be-4e7d-b41d-f1df81b01d3f",
+"langs": {
+"eng": 0.98,
+"fin": 0.02
+},
+"aliases": [
+"50 Cent",
+".50 Cents",
+"Fifty Cent",
+"Curtis/James/Jackson",
+"Jackson",
+"C.Jackson",
+"Curtis James Jackson",
+"Curtis Jackson III",
+"C. Jackson",
+"Curtis James Jackson III"
+]
+},
+"bad meets evil": {
+"cc": "US",
+"country": "United States",
+"city": "Detroit",
+"mbid": "87f27b14-cbd0-44ea-93a3-6fead5cb45e7",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bad Meets Evil",
+"Eminem & Royce 5’9",
+"Bad Meets Evil (Eminem and Royce 5-9)",
+"Eminem & Royce DA 5-9",
+"Bad Meets Evil (Eminem & Royce Da 5'9'')",
+"Eminem & Royce DA 59",
+"Royce da 5'9\" & Eminem"
+]
+},
+"black eyed peas": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "d5be5333-4171-427e-8e12-732087c6b78e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Black Eyed Peas",
+"ブラック・アイド・ピーズ",
+"The Black Eyed Peas",
+"BEP",
+"Black-Eyed Peas",
+"Black Eyes Peas",
+"The Black-Eyed Peas"
+]
+},
+"rihanna": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+"langs": {
+"eng": 0.98,
+"jpn": 0.02
+},
+"aliases": [
+"Rihanna",
+"리아나",
+"リアーナ",
+"蕾哈娜",
+"Rhianna",
+"Riannah",
+"RiRi",
+"Robyn Rihanna Fenty",
+"Robyn R. Fenty"
+]
+},
+"2pac": {
+"cc": "US",
+"country": "United States",
+"city": "East Harlem",
+"mbid": "382f1005-e9ab-4684-afd4-0bdae4ee37f2",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"2Pac",
+"Makaveli",
+"2Pacalypse",
+"2パック",
+"MC New York",
+"Tupac",
+"Tupac Shakur",
+"2 Pacalypse",
+"2Pac (Makaveli the Don)",
+"2 Pac"
+]
+},
+"charles aznavour": {
+"cc": "FR",
+"country": "France",
+"city": "Paris",
+"mbid": "5f264b87-d5f6-487d-aa3e-ae4c5f0c6fc9",
+"langs": {
+"fra": 1.0
+},
+"aliases": [
+"Charles Aznavour",
+"Шарль Азнавур",
+"Շահնուր Վաղինակ Ազնավուրյան",
+"Shahnour Vaghinag Aznavourian",
+"Շառլ Ազնավուր",
+"Charles Aznaourian",
+"Chahnourh Varinag Aznavourian"
+]
+},
+"fergie": {
+"cc": "US",
+"country": "United States",
+"city": "Hacienda Heights",
+"mbid": "1c46e82f-4764-4d82-a33b-5d5aee5e2881",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Fergie",
+"Stacy Ann Ferguson",
+"Fergie Duhamel",
+"Stacy Ferguson"
+]
+},
+"snoop dogg": {
+"cc": "US",
+"country": "United States",
+"city": "Long Beach",
+"mbid": "f90e8b26-9e52-4669-a5c9-e28529c47894",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Snoop Dogg",
+"Da Bigg Boss Dogg",
+"Snoop",
+"Snoop Doggy Dog",
+"スヌープ・ドッグ",
+"スヌープ・ドギー・ドッグ",
+"Bigg Snoop Dogg",
+"Snoop Doggy",
+"Big Snoop Dogg",
+"Snoop Doggy Dogg"
+]
+},
+"shakira": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Barranquilla",
+"mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+"langs": {
+"spa": 0.71,
+"eng": 0.27,
+"por": 0.02
+},
+"aliases": [
+"Shakira",
+"夏奇拉",
+"Shaki",
+"Shakira Isabel Mebarak Ripoll"
+]
+},
+"timbaland": {
+"cc": "US",
+"country": "United States",
+"city": "Norfolk",
+"mbid": "daa09819-5da5-4c7a-8bef-eb372bb27ff1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Timbaland",
+"Tim Mosley",
+"Timothy Zachery Mosley",
+"Timothy Mosley",
+"T. Mosley",
+"Timothy Z. Mosley",
+"Timberland"
+]
+},
+"jay-z": {
+"cc": "US",
+"country": "United States",
+"city": "Brooklyn",
+"mbid": "f82bcf78-5b69-4622-a5ef-73800768d9ac",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"JAŸ-Z",
+"JAŸ‐Z",
+"JAY‐Z",
+"jay z",
+"Jay‐Z",
+"Jaÿ‐Z",
+"JAY:Z",
+"JAY Z",
+"Shawn C Carter",
+"Shawn Carter"
+]
+},
+"post malone": {
+"cc": "US",
+"country": "United States",
+"city": "Syracuse",
+"mbid": "b1e26560-60e5-4236-bbdb-9aa5a8d5ee19",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Post Malone",
+"포스트 말론",
+"Austin Post",
+"Austin Richard Post"
+]
+},
+"céline dion": {
+"cc": "CA",
+"country": "Canada",
+"city": "Charlemagne",
+"mbid": "847e8a0c-cc20-4213-9e16-975515c2a926",
+"langs": {
+"eng": 0.5,
+"fra": 0.48,
+"jpn": 0.02
+},
+"aliases": [
+"Céline Dion",
+"Celine Dion",
+"セリーヌ・ディオン",
+"Celline Dion",
+"Dion, Celin",
+"Dion, Celine",
+"Dion Celine",
+"Céline Marie Claudette Dion"
+]
+},
+"akon": {
+"cc": "SN",
+"country": "Senegal",
+"city": "St. Louis",
+"mbid": "1138a764-2212-4d0a-b02d-0dc14df91e08",
+"langs": {
+"eng": 0.98,
+"deu": 0.02
+},
+"aliases": [
+"Akon",
+"Aliaune “Akon” Thiam",
+"Aliaume Damala Badara Akon Thiam",
+"Aliaune Thiam"
+]
+},
+"cardi b": {
+"cc": "US",
+"country": "United States",
+"city": "The Bronx",
+"mbid": "2f3c4d70-0462-40da-bba3-0aec5772c556",
+"langs": {
+"eng": 0.9,
+"spa": 0.08,
+"fin": 0.02
+},
+"aliases": [
+"Cardi B",
+"カーディ・B",
+"Belcalis Almanzar",
+"Belcalis Marlenis Almánzar"
+]
+},
+"madonna": {
+"cc": "US",
+"country": "United States",
+"city": "Bay City",
+"mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Madonna",
+"麥當娜",
+"Madonna Louise Veronica Ciccone",
+"マドンナ",
+"Madonna Ciccone-Ritchie",
+"Madonna Louise Ciccone",
+"M. Ciccone"
+]
+},
+"dmx": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "a3494b6a-32b5-416c-8dea-dce62c8e9244",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"DMX Krew",
+"DMX Crew"
+]
+},
+"the pussycat dolls": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "1fda852b-92e9-4562-82fa-c52820a77b23",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"The Pussycat Dolls",
+"PCD",
+"Pussy Cat Dolls",
+"THE PUSSYCAT DOLLS",
+"The Pussy Cat Dolls",
+"The Pussicat Dolls"
+]
+},
+"taylor swift": {
+"cc": "US",
+"country": "United States",
+"city": "West Reading",
+"mbid": "20244d07-534f-4eff-b4d4-930878889970",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Taylor Swift",
+"泰勒丝",
+"泰勒·斯威夫特",
+"טעילאר סוויפט",
+"ٹیلر سوئفٹ",
+"Тейлор Свіфт",
+"Teýlor Swift",
+"เทย์เลอร์ สวิฟต์",
+"టేలర్ స్విఫ్ట్",
+"டேலர் ஸ்விஃப்ட்"
+]
+},
+"megan thee stallion": {
+"cc": "US",
+"country": "United States",
+"city": "San Antonio",
+"mbid": "ee27b2d8-648c-4a9d-a68c-e55066959975",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Megan Thee Stallion",
+"Меган Ті Сталліон",
+"メーガン・ザ・スタリオン",
+"Tina Snow",
+"Megan Pete",
+"Megan Jovon Ruth Pete",
+"Hot Girl Meg",
+"H-town Hottie",
+"Thee Stallion"
+]
+},
+"lady gaga": {
+"cc": "US",
+"country": "United States",
+"city": "Upper East Side",
+"mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Lady Gaga",
+"嘎嘎小姐",
+"Леді Гага",
+"Lēdija Gāga",
+"史蒂芬妮·乔安妮·安吉丽娜·杰尔马诺塔",
+"女神卡卡",
+"ליידי גאגא",
+"لیڈی گاگا",
+"Сте́фані Джоа́н Анджеліна Джермано́тта",
+"لېيدى گاگا"
+]
+},
+"doja cat": {
+"cc": "US",
+"country": "United States",
+"city": "Tarzana",
+"mbid": "5df62a88-cac9-490a-b62c-c7c88f4020f4",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Doja Cat",
+"도자",
+"도자 캣",
+"ドージャ・キャット",
+"Amalaratna Zandile Dlamini",
+"Amala Ratna Zandile Dlamini"
+]
+},
+"wiz khalifa": {
+"cc": "US",
+"country": "United States",
+"city": "Minot",
+"mbid": "f5dfa020-ad69-41cd-b3d4-fd7af0414e94",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Wiz Khalifa",
+"Cameron Jibril Thomaz"
+]
+},
+"chris brown": {
+"cc": "US",
+"country": "United States",
+"city": "Tappahannock",
+"mbid": "c234fa42-e6a6-443e-937e-2f4b073538a3",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Chris Brown",
+"CB",
+"C Breezy",
+"Breezy",
+"Christopher Maurice Brown"
+]
+},
+"the weeknd": {
+"cc": "CA",
+"country": "Canada",
+"city": "Scarborough",
+"mbid": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"The Weeknd",
+"The Weeknd feat. Playboi Carti",
+"Abel Makkonen Tesfaye",
+"አቤል መኮንን ተስፋዬ",
+"Abel Tesfaye",
+"ザ・ウィークエンド",
+"The Weekend"
+]
+},
+"flo rida": {
+"cc": "US",
+"country": "United States",
+"city": "Carol City",
+"mbid": "4593d49a-7f67-46ba-9ec0-126bd676286f",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Flo Rida",
+"フロー・ライダー",
+"Tramar Lacel Dillard",
+"Tramar Dillard",
+"Florida",
+"flo rida (digi remix)",
+"Flo-Rida"
+]
+},
+"gwen stefani": {
+"cc": "US",
+"country": "United States",
+"city": "Fullerton",
+"mbid": "2e41ae9c-afd2-4f20-8f1e-17281ce9b472",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Gwen Stefani",
+"Gwen Stephani",
+"Gwen Renée Stefani"
+]
+},
+"maia mitchell": {
+"cc": "AU",
+"country": "Australia",
+"city": "Lismore",
+"mbid": "5525e19f-855f-4fda-9e8b-4eb5af713fbe",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Maia Mitchell"
+]
+},
+"jonas brothers": {
+"cc": "US",
+"country": "United States",
+"city": "Wyckoff",
+"mbid": "6e019bc6-5c23-4935-94f0-4a896631d846",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Jonas Brothers"
+]
+},
+"t.i.": {
+"cc": "US",
+"country": "United States",
+"city": "Atlanta",
+"mbid": "f7ba7fbe-c6bd-4ac0-bee9-c25c558d7d62",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"T.I.",
+"ティー・アイ",
+"T.I.P.",
+"Clifford Joseph Harris, Jr.",
+"TIP",
+"TI",
+"T.I",
+"C. Harris, Jr.",
+"Clifford Joseph Harris",
+"Clifford Harris"
+]
+},
+"beyoncé": {
+"cc": "US",
+"country": "United States",
+"city": "Houston",
+"mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Beyoncé",
+"碧昂絲",
+"Beyoncé Knowles-Carter",
+"ビヨンセ",
+"Beyonce",
+"Beyonce'",
+"B1C",
+"Beyoncé Giselle Knowles-Carter",
+"Beyoncé Giselle Knowles",
+"Beyoncé Knowles"
+]
+},
+"machine gun kelly": {
+"cc": "XW",
+"country": null,
+"city": null,
+"mbid": "125ec42a-7229-4250-afc5-e057484327fe",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"[unknown]",
+"Unidentified man",
+"not specified",
+"Sense",
+"Ireland's Finest",
+"Aka",
+"未知",
+"Melan-ryu, Kimpu-ryu, Tozan-ryu, Ikuta-ryu and Kikusue-ryu",
+"Popular Collection",
+"Aut. nezināms"
+]
+},
+"dr. dre": {
+"cc": "US",
+"country": "United States",
+"city": "Compton",
+"mbid": "5f6ab597-f57a-40da-be9e-adad48708203",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Dr. Dre",
+"Andre Young",
+"A. Young",
+"Andre R. Young",
+"Dr.Dre",
+"Andre Romell Young",
+"Dr Dre",
+"Dre..",
+"Dr .Dre",
+"Doctor Dre"
+]
+},
+"julia michaels": {
+"cc": "US",
+"country": "United States",
+"city": "Davenport",
+"mbid": "4757df70-6c3e-46b8-99c0-a68644595c9a",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Julia Michaels",
+"Julia Carin Cavazos",
+"Julian Micheals"
+]
+},
+"tech n9ne": {
+"cc": "US",
+"country": "United States",
+"city": "Kansas City",
+"mbid": "dde3d9b1-0e44-48bc-b0c9-d739b3570000",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tech N9ne",
+"Tek N9NE",
+"Aaron D. Yates",
+"Aaron Dontez Yates",
+"Tec 9",
+"Tech Nine",
+"Tech9ne",
+"Tech 9"
+]
+},
+"area:26e0e534-19ea-4645-bfb3-1aa4e83a4046": {
+"cc": "US",
+"country": "United States"
+},
+"ciara": {
+"cc": "US",
+"country": "United States",
+"city": "Atlanta",
+"mbid": "03172286-f7ed-4864-a4db-459cd5ca9790",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Ciara",
+"シアラ",
+"Ciara Princess Wilson",
+"Ciarra",
+"Ciara Princess Harris",
+"Ciara Harris"
+]
+},
+"fariman": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "55dd3dfa-037c-4270-82df-b9658807e1e9",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Fariman",
+"فریمان جبارزاده خویی",
+"Fariman Jabbarzadeh Khoei",
+"فریمان"
+]
+},
+"kanye west": {
+"cc": "US",
+"country": "United States",
+"city": "Atlanta",
+"mbid": "164f0d73-1234-4e2c-8743-d77bf2191051",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Ye",
+"KanYeWest",
+"Donda",
+"Kanye",
+"K. West",
+"Kayne West",
+"Kanye West",
+"Yeezy",
+"Kanye Omari West",
+"カニエ・ウェスト"
+]
+},
+"bob the drag queen": {
+"cc": "US",
+"country": "United States",
+"city": "Columbus",
+"mbid": "873ba449-d8a0-4c58-850e-d794fe9098a1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bob the Drag Queen",
+"Christopher D. Caldwell",
+"Caldwell Tidicue"
+]
+},
+"ebi": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "a499bc6f-4add-4aba-aa02-51a55574df76",
+"langs": {
+"fas": 0.94,
+"eng": 0.06
+},
+"aliases": [
+"Ebi",
+"Ebrahim Hamedi",
+"Ebi Hamedi",
+"ابی",
+"ابراهیم حامدی"
+]
+},
+"shahrum kashani": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "302ba76b-d2e3-4a09-808f-2c7e9ec6ca48",
+"langs": {
+"fas": 0.96,
+"eng": 0.02,
+"pro": 0.02
+},
+"aliases": [
+"Shahrum Kashani",
+"Shahrum K",
+"شهرام کاشانی",
+"شهرام کی",
+"Shahram Kashani",
+"Shahram K",
+"Sharum Kashani",
+"Shahram Kashahni",
+"Shahrum Kashahni",
+"SK"
+]
+},
+"ice cube": {
+"cc": "US",
+"country": "United States",
+"city": "Crenshaw",
+"mbid": "1d11e2a1-4531-4d61-a8c7-7b5c6a608fd2",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Ice Cube",
+"O’Shea Jackson, Sr.",
+"O. Jackson",
+"O’Shea Jackson"
+]
+},
+"christina aguilera": {
+"cc": "US",
+"country": "United States",
+"city": "Staten Island",
+"mbid": "b202beb7-99bd-47e7-8b72-195c8d72ebdd",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Christina Aguilera",
+"クリスティーナ・アギレラ",
+"Xtina",
+"X-Tina",
+"Christina Aquilera",
+"Christina María Aguilera",
+"Chistina Aguilera",
+"Christiana Aguilera",
+"Christina Aguillera",
+"Christina Aguliera"
+]
+},
+"siavash": {
+"cc": "IR",
+"country": "Iran",
+"city": "Ahvaz",
+"mbid": "a410a32b-135d-4391-8ba9-d1baa58e74d9",
+"langs": {
+"fas": 0.89,
+"eng": 0.11
+},
+"aliases": [
+"Siavash Shams",
+"Siavash",
+"Siavash Sahneh",
+"Siavash Sahne",
+"سیاوش شمس"
+]
+},
+"nelly": {
+"cc": "CA",
+"country": "Canada",
+"city": "Victoria",
+"mbid": "13655113-cd16-4b43-9dca-cadbbf26ee05",
+"langs": {
+"eng": 0.98,
+"jpn": 0.02
+},
+"aliases": [
+"Nelly Furtado",
+"ネリー・ファータド",
+"Nelly Furtando",
+"Nelly Kim Furtado",
+"nelly furtado",
+"Nelly Furtardo",
+"Nelly Futardo",
+"Nelly Fortado"
+]
+},
+"soulja boy": {
+"cc": "US",
+"country": "United States",
+"city": "Chicago",
+"mbid": "29eead4d-3793-4625-8727-c03edbb38b8b",
+"langs": {
+"eng": 0.98,
+"fin": 0.02
+},
+"aliases": [
+"Soulja Boy",
+"Souljah Boy Tell 'Em",
+"Soulja Boy Tellem",
+"Soulja Boy Tell'em",
+"Souljah Boy",
+"DeAndre Cortez Way"
+]
+},
+"joni mitchell": {
+"cc": "CA",
+"country": "Canada",
+"city": "Fort Macleod",
+"mbid": "a6de8ef9-b1a1-4756-97aa-481bbb8a4069",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Joni Mitchell",
+"Roberta Joan Anderson",
+"Roberta Joan Mitchell",
+"Joni Mitchel"
+]
+},
+"martik": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "cc5b360c-a0ae-453e-812d-e3b217d014d7",
+"langs": {
+"eng": 0.6,
+"fas": 0.4
+},
+"aliases": [
+"Martik Kanian",
+"مارتیک",
+"مارتیک قره‌خانیان",
+"Martik"
+]
+},
+"hassan shamaizadeh": {
+"cc": "US",
+"country": "United States",
+"city": "Eşfahān",
+"mbid": "0d164efd-ce99-4ce3-a03a-38bcacc9844d",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Hassan Shamaizadeh",
+"Hassan Shamaeezadeh",
+"Hassan Shamaeizadeh"
+]
+},
+"max richter": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Hamelin",
+"mbid": "509f20b2-5df3-4aec-9bbc-002131fb3f99",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Max Richter",
+"Max Richteir",
+"Max Ricter",
+"Max Rikter",
+"Richter"
+]
+},
+"sigur rós": {
+"cc": "IS",
+"country": "Iceland",
+"city": "Reykjavík",
+"mbid": "f6f2326f-6b25-4170-b89d-e235b25508e8",
+"langs": {
+"isl": 0.78,
+"eng": 0.22
+},
+"aliases": [
+"Sigur Rós",
+"Sigur Ros",
+"シガー・ロス",
+"Sìgur Ros",
+"Sìgur Rós"
+]
+},
+"salar aghili": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "7d83f228-de88-4804-b772-257424e38bc9",
+"langs": {
+"fas": 0.8,
+"eng": 0.2
+},
+"aliases": [
+"Salar Aghili"
+]
+},
+"nils frahm": {
+"cc": "DE",
+"country": "Germany",
+"city": "Hamburg",
+"mbid": "d03a54bc-6e07-4c04-a8d4-7fbf2bd07a01",
+"langs": {
+"eng": 0.94,
+"deu": 0.06
+},
+"aliases": [
+"Nils Frahm",
+"닐스 프람",
+"ニルス・フラーム",
+"Nils Oliver Frahm",
+"Nils Fraham",
+"Nils Frahmh",
+"Nils Frohm",
+"Nilz Frahm",
+"Nials Frahm",
+"Niels Frahm"
+]
+},
+"enya": {
+"cc": "IE",
+"country": "Ireland",
+"city": "Gweedore",
+"mbid": "4967c0a1-b9f3-465e-8440-4598fd9fc33c",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Enya",
+"Enya Patricia Brennan",
+"Eithne Pádraigín Ní Bhraonáin",
+"エンヤ",
+"ENYA (GB 1)",
+"NI BHRAONAIN EITH",
+"Eithne Patricia Brennan",
+"Eithne Patricia Ní Bhraonáin"
+]
+},
+"peyman yazdanian": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "7036dabf-9057-40b6-bd1e-c7f1243df710",
+"langs": {
+"eng": 0.75,
+"fas": 0.25
+},
+"aliases": [
+"Peyman Yazdanian"
+]
+},
+"andrea bauer": {
+"cc": "DE",
+"country": "Germany",
+"city": null,
+"mbid": "08345430-03ba-426a-b11e-b3a6a8d9f435",
+"langs": {},
+"aliases": [
+"Andrea Bauer"
+]
+},
+"ensemble moshtaq": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "5d3d85a8-1e55-47e1-b152-15b9ea3e7d6c",
+"langs": {},
+"aliases": [
+"Ensemble Moshtaq"
+]
+},
+"teresa teng": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Baozhong",
+"mbid": "5c5cb762-d95e-47af-a7bf-35171eeab8e6",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"鄧麗君",
+"てん",
+"Teng Li Chun",
+"テレサ・テン（鄧麗君）",
+"鄧 麗君",
+"Dèng Lì Jūn",
+"テレサテン",
+"Teresa Tang",
+"鄧麗筠",
+"Teng Lee-chun"
+]
+},
+"faye wong": {
+"cc": "HK",
+"country": null,
+"city": "Beijing",
+"mbid": "692e367d-2846-442d-b13d-1177c3681c65",
+"langs": {
+"zho": 0.83,
+"eng": 0.15,
+"jpn": 0.02
+},
+"aliases": [
+"王菲",
+"Faye Wang",
+"Wong Xia Lin",
+"Wong Ching Man",
+"Wong Fei",
+"Wang Fei",
+"フェイ・ウォン",
+"王靖雯",
+"¤ýµá",
+"王 菲"
+]
+},
+"张靓颖": {
+"cc": "CN",
+"country": "China",
+"city": "Chengdu",
+"mbid": "2bc6819d-dd36-47cc-9ed7-945d3ff9ef31",
+"langs": {
+"zho": 0.74,
+"eng": 0.24,
+"cmn": 0.02
+},
+"aliases": [
+"张靓颖",
+"張靚穎",
+"Zhang Liangying",
+"Jane Zhang"
+]
+},
+"陳奕迅": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "86119d30-d930-4e65-a97a-e31e22388166",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"陳奕迅",
+"陈奕迅",
+"Eason Chan",
+"Chen Yixun",
+"Chen Yi Xun",
+"Chan Yik Shun",
+"Chen Luanxun"
+]
+},
+"林憶蓮": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "280697d2-164d-4477-971d-06b91e57c6a5",
+"langs": {
+"zho": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"林憶蓮",
+"林忆莲",
+"Lin Yi Lian",
+"Sandy Lam",
+"Lam Yik Lin",
+"ªL¾Ð½¬"
+]
+},
+"marconi union": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "3f9b5837-ed1c-413e-bfef-ca4f892dcc59",
+"langs": {
+"eng": 0.95,
+"cat": 0.05
+},
+"aliases": [
+"Marconi Union"
+]
+},
+"brian eno": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Woodbridge",
+"mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872",
+"langs": {
+"eng": 0.98,
+"deu": 0.02
+},
+"aliases": [
+"Brian Eno",
+"ブライアン・イーノ",
+"Eno",
+"Brian Peter George St. John le Baptiste de la Salle Eno",
+"Brian Peter George Eno",
+"B. Eno",
+"Brian Echo"
+]
+},
+"郭富城": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "2ebcf418-2a16-44ca-b7d4-5705f6acf299",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"郭富城",
+"Aaron Kwok",
+"³¢´I«°"
+]
+},
+"ludovico einaudi": {
+"cc": "IT",
+"country": "Italy",
+"city": "Torino",
+"mbid": "fa34b363-79df-434f-a5b8-be4e6898543f",
+"langs": {
+"ita": 0.71,
+"eng": 0.27,
+"fra": 0.02
+},
+"aliases": [
+"Ludovico Einaudi",
+"Ludovico Enaudi",
+"Einaudi, Ludovico",
+"Einaudi"
+]
+},
+"陶喆": {
+"cc": "TW",
+"country": "Taiwan",
+"city": null,
+"mbid": "38fe7fb3-2bde-4672-8016-2ba6f7d1808f",
+"langs": {
+"zho": 0.76,
+"eng": 0.17,
+"cmn": 0.07
+},
+"aliases": [
+"陶喆",
+"陶吉吉",
+"³³¦N¦N",
+"David Tao",
+"David Zee Tao",
+"陶緒忠",
+"Ji Tao",
+"Zhe Tao",
+"Xu-Zhong Tao",
+"陶绪忠"
+]
+},
+"莫文蔚": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "07234fa3-3edd-4658-9556-03cc1ee6eac5",
+"langs": {
+"zho": 0.86,
+"eng": 0.1,
+"jpn": 0.02
+},
+"aliases": [
+"莫文蔚",
+"막문위",
+"カレン・モク",
+"Mo Wen Wei",
+"Mò Wén Wèi",
+"Mok Man Wai",
+"Mo Wenwei",
+"²ö¤å½«",
+"ÄªÎÄÎµ",
+"Karen Mok"
+]
+},
+"蕭亞軒": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Pingzhen",
+"mbid": "753e60ac-cfec-47e7-b1a6-d116cfd31050",
+"langs": {
+"zho": 0.74,
+"cmn": 0.18,
+"eng": 0.09
+},
+"aliases": [
+"蕭亞軒",
+"蕭雅之",
+"¿½¨È°a",
+"Elva Hsiao",
+"萧亚轩",
+"Xiao Ya Xuan",
+"Elva Siu",
+"Elva Shiu",
+"Hsiao Ya"
+]
+},
+"梁詠琪": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "266ace12-0f65-4cbd-8747-4aaf3a238755",
+"langs": {
+"zho": 0.96,
+"cmn": 0.02,
+"eng": 0.02
+},
+"aliases": [
+"梁詠琪",
+"±çµúµX",
+"梁咏琪",
+"Gigi Leung",
+"Liang Yong Qi",
+"Gigi Leung Wing Kei",
+"Leung Wing Kei"
+]
+},
+"徐懷鈺": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Taipei",
+"mbid": "6aad221b-5e1a-4712-9dcc-2aedeb2e0b10",
+"langs": {
+"zho": 0.87,
+"eng": 0.13
+},
+"aliases": [
+"徐懷鈺",
+"Hsü2 Huai2-Yü4",
+"Syú Huái-Yù",
+"Xú Huái-Yù",
+"徐怀钰",
+"Yuki Xu",
+"Xu Huaiyu",
+"Yuki Hsu"
+]
+},
+"吳克群": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Kaohsiung",
+"mbid": "592740ba-9391-484d-a39e-ecb7fc865c56",
+"langs": {
+"zho": 0.69,
+"cmn": 0.16,
+"eng": 0.12
+},
+"aliases": [
+"吳克群",
+"吴克群",
+"Kenji Wu"
+]
+},
+"徐若瑄": {
+"cc": "TW",
+"country": "Taiwan",
+"city": null,
+"mbid": "c2ca9154-58a1-49e7-a277-4eb986a0f42f",
+"langs": {
+"zho": 0.75,
+"eng": 0.15,
+"jpn": 0.1
+},
+"aliases": [
+"徐若瑄",
+"Vivian Hsu",
+"Xu Ruo Xuan",
+"Tsui Yeuk Suen",
+"Hsu Ro-Hsuan",
+"Xu Ruoxuan",
+"ビビアン・スー"
+]
+},
+"鄭秀文": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "5f3c4fe0-fc71-4455-99e6-abd0e8c4462e",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"鄭秀文",
+"Sammi Cheng",
+"郑秀文",
+"Cheng, Sammi",
+"Cheng Sau Man",
+"¾G¨q¤å",
+"Zheng Xiu Wen",
+"ľG¨q¤ĺ"
+]
+},
+"彭羚": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "24ae43ff-79cc-4ef8-a5b1-935ac671d31d",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"彭羚",
+"Cass Phang",
+"´^²Ü",
+"Phang Ling",
+"Cassapella Phang",
+"Cass Pang"
+]
+},
+"4 in love": {
+"cc": "TW",
+"country": "Taiwan",
+"city": null,
+"mbid": "e2d03621-d9de-4dc1-8cbe-5b9a7290e00b",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"4 in Love"
+]
+},
+"方大同": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "081f97c3-2ae9-4698-aa43-88ccb58af4d5",
+"langs": {
+"zho": 0.96,
+"eng": 0.04
+},
+"aliases": [
+"方大同",
+"Khalil Fong Tai Tung",
+"Khalil Fong"
+]
+},
+"laura pausini": {
+"cc": "IT",
+"country": "Italy",
+"city": "Faenza",
+"mbid": "472b9953-1f10-4aed-b1ec-d0c23ffb2cf1",
+"langs": {
+"ita": 0.54,
+"eng": 0.25,
+"spa": 0.2
+},
+"aliases": [
+"Laura Pausini"
+]
+},
+"carla bruni": {
+"cc": "FR",
+"country": "France",
+"city": "Torino",
+"mbid": "f90575d1-abcb-42b3-ae32-1849312c26e6",
+"langs": {
+"fra": 0.71,
+"eng": 0.29
+},
+"aliases": [
+"Carla Bruni",
+"Carla Bruni-Sarkozy"
+]
+},
+"enrique iglesias": {
+"cc": "ES",
+"country": "Spain",
+"city": "Madrid",
+"mbid": "35f866dc-c061-48ba-8157-cf2e0eac4857",
+"langs": {
+"spa": 0.48,
+"eng": 0.44,
+"ita": 0.04
+},
+"aliases": [
+"Enrique Iglesias",
+"Enrique Igleslas",
+"Enrique Iglesisas",
+"Enrique Miguel Iglesias Preysler",
+"Enrique Eglesias",
+"Enriqué",
+"Enrique Inglesias",
+"Enrique"
+]
+},
+"pharrell williams": {
+"cc": "US",
+"country": "United States",
+"city": "Virginia Beach",
+"mbid": "149f91ef-1287-46da-9a8e-87fee02f1471",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Pharrell Williams",
+"Sk8brd",
+"Pharell Williams",
+"P. Williams",
+"Pharrell",
+"Pharell",
+"Pharrell Lanscilo Williams"
+]
+},
+"ricky martin": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "70ea63ea-70dc-4b63-951a-2c249d2b3b0a",
+"langs": {
+"spa": 0.9,
+"eng": 0.1
+},
+"aliases": [
+"Ricky Martin",
+"Ricky Marrtin",
+"Rickey Martin",
+"Enrique Martín Morales"
+]
+},
+"julio iglesias": {
+"cc": "ES",
+"country": "Spain",
+"city": "Madrid",
+"mbid": "3be4099e-f180-4038-af84-ae18a09eab02",
+"langs": {
+"spa": 0.54,
+"fra": 0.15,
+"deu": 0.11
+},
+"aliases": [
+"Julio Iglesias",
+"J. Iglesias",
+"Julio José Iglesias de la Cueva",
+"Hulio Iglesiass",
+"Хулио Иглесиас"
+]
+},
+"stevie wonder": {
+"cc": "US",
+"country": "United States",
+"city": "Saginaw",
+"mbid": "1ee18fb3-18a6-4c7f-8ba0-bc41cdd0462e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Stevie Wonder",
+"Steveland Hardaway Judkins",
+"Стиви Уандер",
+"Little Stevie Wonder",
+"Steve Wonder",
+"Strvie Wonder",
+"Steevie Wonder",
+"Wonder",
+"Stevland Hardaway Judkins",
+"Stevland Hardaway Morris"
+]
+},
+"juanes": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Medellín",
+"mbid": "8b0f05ce-354e-4121-9e0b-8b4732ea844f",
+"langs": {
+"spa": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Juanes",
+"Juan Esteban Aristizábal Vásquez",
+"Juames"
+]
+},
+"coldplay": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "London",
+"mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Coldplay",
+"Coolplay",
+"콜드플레이",
+"コールドプレイ",
+"Cold Play",
+"The Coldplay"
+]
+},
+"alejandro sanz": {
+"cc": "ES",
+"country": "Spain",
+"city": "Madrid",
+"mbid": "9bacf78f-9132-43da-8873-8a9eb49da0e9",
+"langs": {
+"spa": 0.83,
+"eng": 0.12,
+"ita": 0.03
+},
+"aliases": [
+"Alejandro Sanz",
+"Alejandro Sánchez Pizarro",
+"Alejandro Magno",
+"Algazul Medina",
+"A. Medina"
+]
+},
+"bob marley": {
+"cc": "JM",
+"country": "Jamaica",
+"city": null,
+"mbid": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+"langs": {
+"eng": 0.96,
+"spa": 0.02,
+"jpn": 0.02
+},
+"aliases": [
+"Bob Marley & The Wailers",
+"Bob Marley and The Wailers",
+"ボブ・マーリー＆ザ・ウェイラーズ",
+"Bob Harley and the Wailers",
+"Bob Marley; The Wailers",
+"Bob Marley & The Wailers & I Threes",
+"Bob Marley and",
+"Bob Marley and the Whalers",
+"ボブ・マーリー"
+]
+},
+"thalía": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Ciudad de México",
+"mbid": "ae33ce8d-f41a-4f6b-b9c6-7859acbd04ef",
+"langs": {
+"spa": 0.86,
+"eng": 0.12,
+"lat": 0.02
+},
+"aliases": [
+"Thalía",
+"Thalía Sodi",
+"Ariadna Thalía Sodi Miranda"
+]
+},
+"nelly furtado": {
+"cc": "CA",
+"country": "Canada",
+"city": "Victoria",
+"mbid": "13655113-cd16-4b43-9dca-cadbbf26ee05",
+"langs": {
+"eng": 0.98,
+"jpn": 0.02
+},
+"aliases": [
+"Nelly Furtado",
+"ネリー・ファータド",
+"Nelly Furtando",
+"Nelly Kim Furtado",
+"nelly furtado",
+"Nelly Furtardo",
+"Nelly Futardo",
+"Nelly Fortado"
+]
+},
+"gloria estefan": {
+"cc": "US",
+"country": "United States",
+"city": "La Habana",
+"mbid": "becd8cc6-a453-4183-af88-dedaaec859a6",
+"langs": {
+"eng": 0.94,
+"spa": 0.06
+},
+"aliases": [
+"Gloria Estefan",
+"グロリア・エステファン",
+"Gloria María Milagrosa Fajardo García",
+"Gloria Estefen",
+"Gloria Estafan",
+"GLORIA ESTEVAN",
+"Gloria Stefan",
+"Gloria M. Estefan",
+"Gloria Estefan et al",
+"Gloria Estaphan"
+]
+},
+"cher": {
+"cc": "US",
+"country": "United States",
+"city": "El Centro",
+"mbid": "bfcc6d75-a6a5-4bc6-8282-47aec8531818",
+"langs": {
+"eng": 0.98,
+"nld": 0.02
+},
+"aliases": [
+"Cher",
+"シェール",
+"Chér",
+"Cherilyn Sarkisian",
+"Cherilyn LaPiere",
+"Cherilyn Sarkisian LaPierre"
+]
+},
+"dalida": {
+"cc": "FR",
+"country": "France",
+"city": "Cairo",
+"mbid": "1598ccda-b164-4bff-9821-f9ff5a8587a8",
+"langs": {
+"fra": 0.88,
+"deu": 0.1,
+"ita": 0.02
+},
+"aliases": [
+"Dalida",
+"Yolanda Cristina Gigliotti",
+"Iolanda Cristina Gigliotti"
+]
+},
+"édith piaf": {
+"cc": "FR",
+"country": "France",
+"city": "Belleville",
+"mbid": "4f8ef4a3-40fa-46b5-8773-97686a8424f4",
+"langs": {
+"fra": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Édith Piaf",
+"Piaf",
+"Édith Giovanna Gassion",
+"Idith Piaf",
+"Edith Piaf",
+"Edit Piaf",
+"La Môme Piaf"
+]
+},
+"hélène ségara": {
+"cc": "FR",
+"country": "France",
+"city": "Six-Fours-les-Plages",
+"mbid": "1ab8df10-1094-4dd2-8102-4eda62c672b8",
+"langs": {
+"fra": 0.96,
+"ita": 0.02,
+"spa": 0.02
+},
+"aliases": [
+"Hélène Ségara",
+"Hélène Aurore Alice Rizzo",
+"Hélène Segara",
+"Héléne Ségara"
+]
+},
+"christophe maé": {
+"cc": "FR",
+"country": "France",
+"city": "Carpentras",
+"mbid": "48292311-c32c-41b6-af08-b7f61efd2f68",
+"langs": {
+"fra": 1.0
+},
+"aliases": [
+"Christophe Maé",
+"Christophe Martichon"
+]
+},
+"pascal obispo": {
+"cc": "FR",
+"country": "France",
+"city": "Bergerac",
+"mbid": "2db6e9c3-5aa1-4876-9ec6-8f18c75d5210",
+"langs": {
+"fra": 0.98,
+"eng": 0.02
+},
+"aliases": [
+"Pascal Obispo",
+"Pascal Michel Obispo"
+]
+},
+"area:6fa1c7da-6689-4cec-85f9-680f853e8a08": {
+"cc": "GB",
+"country": "United Kingdom"
+},
+"calvin harris": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Dumfries",
+"mbid": "8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Calvin Harris",
+"Stouffer",
+"Love Regenerator",
+"Adam Wiles",
+"Adam Richard Wiles"
+]
+},
+"david guetta": {
+"cc": "FR",
+"country": "France",
+"city": "Paris",
+"mbid": "302bd7b9-d012-4360-897a-93b00c855680",
+"langs": {
+"eng": 0.96,
+"fra": 0.04
+},
+"aliases": [
+"David Guetta",
+"David Guette",
+"Davie Guetta",
+"デヴィッド・ゲッタ",
+"Pierre David Guetta",
+"David Ghetta"
+]
+},
+"paris hilton": {
+"cc": "US",
+"country": "United States",
+"city": "New York",
+"mbid": "0d9ff9c7-394e-4228-93aa-c4afd4765324",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Paris Hilton",
+"Paris Whitney Hilton"
+]
+},
+"zedd": {
+"cc": "DE",
+"country": "Germany",
+"city": "Saratov",
+"mbid": "56c4b861-0922-4c3a-a9b9-3bfcb00f8274",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Zedd",
+"Антон Игоревич Заславский",
+"Анто́н И́горевич Засла́вский",
+"Anton Igorevich Zaslavski",
+"ゼッド"
+]
+},
+"david gray": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Sale",
+"mbid": "3e8bd859-7d82-49e0-b267-84fc46e2bf68",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"David Gray",
+"David Grey"
+]
+},
+"aref": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "a40ea636-6123-4629-910e-eaefcb93eb6b",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Aref",
+"عارف عارف‌کیا",
+"Aref Arefkia"
+]
+},
+"shahram nazeri": {
+"cc": "IR",
+"country": "Iran",
+"city": "Kermanshah",
+"mbid": "dc8cab1c-207f-4f04-9118-02c753c8a69a",
+"langs": {
+"eng": 0.59,
+"fas": 0.19,
+"ara": 0.16
+},
+"aliases": [
+"Shahram Nazeri",
+"Şehram Nazirî",
+"شهرام ناظری"
+]
+},
+"farhad": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "264365c8-bcee-484d-a7c2-4772a5332abc",
+"langs": {
+"fas": 0.86,
+"eng": 0.14
+},
+"aliases": [
+"Farhad",
+"Farhad Mehrad"
+]
+},
+"bijan mortazavi": {
+"cc": "US",
+"country": "United States",
+"city": "Babol",
+"mbid": "db2985e1-e227-4a3b-8e29-682ec5030763",
+"langs": {
+"eng": 0.5,
+"hau": 0.17,
+"fas": 0.17
+},
+"aliases": [
+"Bijan Mortazavi"
+]
+},
+"sattar": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "7e9e47bf-9d87-4bb5-8673-e239292f4051",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Sattar",
+"ابوالحسن ستارپور",
+"Abdolhassan Sattarpour",
+"ستار",
+"Hassan Sattar"
+]
+},
+"kourosh yaghmaei": {
+"cc": "IR",
+"country": "Iran",
+"city": "Shahrud",
+"mbid": "1c11fabc-c4e2-4228-b37e-92e0a4dff840",
+"langs": {
+"fas": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Kourosh Yaghmaei",
+"Kouroush",
+"Kourosh Yaghmaie",
+"Kurosh Yahgmaei"
+]
+},
+"alireza eftekhari": {
+"cc": "IR",
+"country": "Iran",
+"city": "Eşfahān",
+"mbid": "d8b40ff8-14ef-440e-8b87-e5d84bddfb04",
+"langs": null,
+"aliases": [
+"Alireza Eftekhari",
+"Ali reza Eftekhari",
+"Alīrezā Eftekhārī",
+"علیرضا افتخاری"
+]
+},
+"孫燕姿": {
+"cc": "SG",
+"country": "Singapore",
+"city": null,
+"mbid": "ff0ecbbe-34b0-49c7-a36d-81a47700ac13",
+"langs": {
+"zho": 0.72,
+"cmn": 0.21,
+"eng": 0.07
+},
+"aliases": [
+"孙燕姿",
+"孫燕姿",
+"ËïÑà×Ë",
+"スン・イェンツー",
+"Stefanie Sun",
+"Stef Sun",
+"Stephanie Sun",
+"Yan-Zi",
+"¥¼§¹¦¨",
+"Yanzi"
+]
+},
+"陳綺貞": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Taipei",
+"mbid": "3a71842d-b291-4991-a30d-9d8328a26d3e",
+"langs": {
+"zho": 0.96,
+"eng": 0.04
+},
+"aliases": [
+"陳綺貞",
+"³¯ºö­s",
+"Cheer Chen",
+"陈绮贞",
+"Yizhen Chen",
+"Chen Qi Zhen",
+"Yee Ching Chan"
+]
+},
+"王菲": {
+"cc": "HK",
+"country": null,
+"city": "Beijing",
+"mbid": "692e367d-2846-442d-b13d-1177c3681c65",
+"langs": {
+"zho": 0.83,
+"eng": 0.15,
+"jpn": 0.02
+},
+"aliases": [
+"王菲",
+"Faye Wang",
+"Wong Xia Lin",
+"Wong Ching Man",
+"Wong Fei",
+"Wang Fei",
+"フェイ・ウォン",
+"王靖雯",
+"¤ýµá",
+"王 菲"
+]
+},
+"范曉萱": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Taipei",
+"mbid": "535bde95-bf8b-45ad-add7-2b1c77acad6c",
+"langs": {
+"zho": 0.93,
+"eng": 0.04,
+"cmn": 0.04
+},
+"aliases": [
+"范曉萱",
+"Mavis Fan",
+"范晓萱",
+"­S¾å¸©"
+]
+},
+"馮曦妤": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "481734c8-6586-45ef-a3c8-f8a79ebd49ec",
+"langs": {
+"eng": 0.5,
+"zho": 0.5
+},
+"aliases": [
+"馮曦妤",
+"Fiona Fung",
+"冯曦妤",
+"冯翠桦",
+"馮翠樺",
+"Feng Cuihua",
+"Fung Chui-wa"
+]
+},
+"norah jones": {
+"cc": "US",
+"country": "United States",
+"city": "Bedford–Stuyvesant",
+"mbid": "985c709c-7771-4de3-9024-7bda29ebe3f9",
+"langs": {
+"eng": 0.98,
+"cmn": 0.02
+},
+"aliases": [
+"Norah Jones",
+"Nora Jones",
+"Geetali Norah Jones Shankar"
+]
+},
+"a-mei": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Beinan",
+"mbid": "aeacef89-e4f3-415e-ac9b-0864f438e6a3",
+"langs": {
+"zho": 0.95,
+"cmn": 0.03,
+"eng": 0.02
+},
+"aliases": [
+"張惠妹",
+"Amit",
+"阿密特",
+"A-Mei",
+"Zhang Hui Mei",
+"Huimei Zhang",
+"Hui Mei Zhang",
+"Hui Mei Chang",
+"Cheung Wai-Mui",
+"Chang Hwei-mei"
+]
+},
+"s.h.e": {
+"cc": "TW",
+"country": "Taiwan",
+"city": null,
+"mbid": "bbf19cef-0352-48a1-b37c-8627a5a4bd44",
+"langs": {
+"zho": 0.97,
+"eng": 0.02,
+"cmn": 0.02
+},
+"aliases": [
+"S.H.E",
+"女朋友",
+"Selina.Hebe.Ella",
+"S H E",
+"SHE",
+"S.H.E."
+]
+},
+"eason chan": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "86119d30-d930-4e65-a97a-e31e22388166",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"陳奕迅",
+"陈奕迅",
+"Eason Chan",
+"Chen Yixun",
+"Chen Yi Xun",
+"Chan Yik Shun",
+"Chen Luanxun"
+]
+},
+"jolin tsai": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "New Taipei City",
+"mbid": "3033ce2b-2fb2-408e-8c5a-aea48592d7bc",
+"langs": {
+"zho": 0.85,
+"cmn": 0.07,
+"eng": 0.07
+},
+"aliases": [
+"蔡依林",
+"JOLIN",
+"½²¨ÌªL",
+"²ÌÒÀÁÖ",
+"Jolin Tsai",
+"蔡依琳",
+"Cai Yi Ling",
+"Tsai Yi Lin",
+"Jolin Choi"
+]
+},
+"lee hom wang": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Rochester",
+"mbid": "ae0fd83f-8e50-4cb4-935e-ac7c0b7d7d17",
+"langs": {
+"zho": 0.85,
+"jpn": 0.11,
+"eng": 0.04
+},
+"aliases": [
+"王力宏",
+"Wang Li-Hong",
+"Wáng Lì-Hóng",
+"왕리홈",
+"ワン・リーホン",
+"Wang Lee-Hom",
+"Wang Leehom",
+"Alexander Wang",
+"Lee-Hom Wang",
+"Leehom Wang"
+]
+},
+"chang chen-yue": {},
+"wu bai": {
+"cc": "TW",
+"country": "Taiwan",
+"city": null,
+"mbid": "1f240905-1a42-4150-8c81-141eb198885d",
+"langs": {
+"zho": 0.9,
+"eng": 0.1
+},
+"aliases": [
+"伍佰 & China Blue",
+"Wu Bai & China Blue",
+"伍佰&China Blue",
+"Wubai",
+"伍佰 and China Blue",
+"¥î¨Õ+China Blue",
+"WUBAI & CHINA BLUE",
+"Wu Bai and China Blue",
+"Wubai and China Blue"
+]
+},
+"andrea bocelli": {
+"cc": "IT",
+"country": "Italy",
+"city": "Lajatico",
+"mbid": "c5a0a216-c33c-42dc-92b8-4b60236f8dad",
+"langs": {
+"ita": 0.75,
+"eng": 0.25
+},
+"aliases": [
+"Andrea Bocelli",
+"Andrea Bocceli",
+"Andrea Bocelli & Friends",
+"Bocelli, Andrea",
+"Andrea Bochelli"
+]
+},
+"luis fonsi": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "d68fda90-ab8d-4799-be56-317ba4ae700f",
+"langs": {
+"spa": 0.91,
+"eng": 0.09
+},
+"aliases": [
+"Luis Fonsi",
+"Luis Alfonso Rodríguez López-Cepero"
+]
+},
+"adele": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Tottenham",
+"mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Adele",
+"Adèle",
+"아델",
+"Adele Adkins",
+"アデル",
+"Adele Laurie Blue Adkins",
+"阿黛尔"
+]
+},
+"ella fitzgerald": {
+"cc": "US",
+"country": "United States",
+"city": "Newport News",
+"mbid": "54799c0e-eb45-4eea-996d-c4d71a63c499",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Ella Fitzgerald",
+"Fitzgerald",
+"エラ・フィッツジェラルド",
+"Ella Fiztgerald",
+"Ella Fiztgerarld",
+"Ella Fitzgerard",
+"Ella Jane Fitzgerald",
+"First Lady of Song",
+"Queen of Jazz",
+"Lady Ella"
+]
+},
+"diana ross": {
+"cc": "US",
+"country": "United States",
+"city": "Detroit",
+"mbid": "60d41417-feda-4734-bbbf-7dcc30e08a83",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Diana Ross",
+"Diana Ernestine Earle Ross",
+"Dianna Ross",
+"Diane Earle",
+"ダイアナ・ロス"
+]
+},
+"elvis presley": {
+"cc": "US",
+"country": "United States",
+"city": "Tupelo",
+"mbid": "01809552-4f87-45b0-afff-2c6f0730a3be",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Elvis Presley",
+"Элвис Пресли",
+"الویس پرسلی",
+"Елвіс Преслі",
+"إلفيس بريسلي",
+"埃爾維斯·皮禮士利",
+"エルヴィス・プレスリー",
+"The King",
+"Elvis Aaron Presley",
+"Elvis A. Presley"
+]
+},
+"sam cooke": {
+"cc": "US",
+"country": "United States",
+"city": "Clarksdale",
+"mbid": "6c8fd0be-d961-454c-aee0-4366a6dbc993",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sam Cooke",
+"Sam Cook",
+"Samuel Cook"
+]
+},
+"shahyar ghanbari": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "b3b4d7c1-72c7-4679-9696-5b3ef95852cc",
+"langs": {},
+"aliases": [
+"Shahyar Ghanbari",
+"شهریار قنبری",
+"شهیار قنبری",
+"Shahryar Ghanbari"
+]
+},
+"masters of persian music": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "50f6aa06-8af2-47d1-8702-7c3649888602",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Masters of Persian Music"
+]
+},
+"alireza eghbali": {},
+"shahram shabpareh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "d89385cc-0c29-4cd0-ae8c-d193f33ead16",
+"langs": {
+"fas": 0.93,
+"ara": 0.07
+},
+"aliases": [
+"Shahram Shabpareh",
+"شهرام شب‌پره",
+"শাহরাম শাবপারেহ"
+]
+},
+"hamed nikpay": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "817b2584-7a3e-41fb-8f19-10b4382c3b64",
+"langs": null,
+"aliases": [
+"Hamed Nikpay"
+]
+},
+"蔡健雅": {
+"cc": "SG",
+"country": "Singapore",
+"city": null,
+"mbid": "03a265bd-30be-4929-a220-0f583cc5160a",
+"langs": {
+"zho": 0.78,
+"eng": 0.15,
+"cmn": 0.07
+},
+"aliases": [
+"蔡健雅",
+"Chua Chian Ya",
+"Tanya Chua"
+]
+},
+"張宇": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Taipei",
+"mbid": "19f89a7c-008b-4433-91d7-1a1a68d1591d",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"張宇",
+"Phil Chang",
+"张宇",
+"張博翔",
+"Chang Yu",
+"±i¦t",
+"Zhang Yu"
+]
+},
+"elva hsiao": {
+"cc": "TW",
+"country": "Taiwan",
+"city": "Pingzhen",
+"mbid": "753e60ac-cfec-47e7-b1a6-d116cfd31050",
+"langs": {
+"zho": 0.74,
+"cmn": 0.18,
+"eng": 0.09
+},
+"aliases": [
+"蕭亞軒",
+"蕭雅之",
+"¿½¨È°a",
+"Elva Hsiao",
+"萧亚轩",
+"Xiao Ya Xuan",
+"Elva Siu",
+"Elva Shiu",
+"Hsiao Ya"
+]
+},
+"bill withers": {
+"cc": "US",
+"country": "United States",
+"city": "Slab Fork",
+"mbid": "fd1a2d9d-9bb6-44de-83a3-41560658aba9",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bill Withers",
+"B. Withers",
+"ビル・ウィザース",
+"Withers",
+"William Harrison Withers",
+"William Harrison Withers Jr.",
+"Bill Whithers",
+"Bill Whinters",
+"Bill Whiters",
+"ビル・ウィザーズ"
+]
+},
+"diana krall": {
+"cc": "CA",
+"country": "Canada",
+"city": "Nanaimo",
+"mbid": "67d2cb7a-9ddb-4a7f-82bf-5a2d1a038e98",
+"langs": {
+"eng": 0.98,
+"rus": 0.02
+},
+"aliases": [
+"Diana Krall",
+"Jean Coward",
+"ダイアナ・クラール",
+"Diana Jean Krall",
+"KRALL, Diana",
+"Dianna Krall"
+]
+},
+"celine dion": {
+"cc": "CA",
+"country": "Canada",
+"city": "Charlemagne",
+"mbid": "847e8a0c-cc20-4213-9e16-975515c2a926",
+"langs": {
+"eng": 0.5,
+"fra": 0.48,
+"jpn": 0.02
+},
+"aliases": [
+"Céline Dion",
+"Celine Dion",
+"セリーヌ・ディオン",
+"Celline Dion",
+"Dion, Celin",
+"Dion, Celine",
+"Dion Celine",
+"Céline Marie Claudette Dion"
+]
+},
+"michael bublé": {
+"cc": "CA",
+"country": "Canada",
+"city": "Burnaby",
+"mbid": "611700cf-27f0-4dc9-ae80-c513a767853e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Michael Bublé",
+"마이클 부블레",
+"Micheal Buble",
+"Michael Buble'",
+"Michael Buble"
+]
+},
+"kylie minogue": {
+"cc": "AU",
+"country": "Australia",
+"city": "Melbourne",
+"mbid": "2fddb92d-24b2-46a5-bf28-3aed46f4684c",
+"langs": {
+"eng": 0.96,
+"fra": 0.02,
+"spa": 0.02
+},
+"aliases": [
+"Kylie Minogue",
+"Kylie Monogue",
+"Kylie Minouge",
+"Kylie",
+"Kylie Minougue",
+"Kylie Minoogue",
+"K. Minogue",
+"Kylie M",
+"Kylie Ann Minogue"
+]
+},
+"iggy azalea": {
+"cc": "US",
+"country": "United States",
+"city": "Sydney",
+"mbid": "3a052c99-8c18-484a-8beb-9873b4fb3106",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Iggy Azalea",
+"Amethyst Amelia Kelly",
+"イギー・アゼリア"
+]
+},
+"carly rae jepsen": {
+"cc": "CA",
+"country": "Canada",
+"city": "Mission",
+"mbid": "09887aa7-226e-4ecc-9a0c-02d2ae5777e1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Carly Rae Jepsen",
+"CRJ",
+"Carly Rae Jespen",
+"カーリー・レイ・ジェプセン"
+]
+},
+"sofi tukker": {
+"cc": "US",
+"country": "United States",
+"city": "New York",
+"mbid": "4ac723f4-8be8-4a0d-a3ae-d5dda20f0a9a",
+"langs": {
+"eng": 0.9,
+"por": 0.08,
+"spa": 0.02
+},
+"aliases": [
+"Sofi Tukker",
+"Sophie and Tucker"
+]
+},
+"tiësto": {
+"cc": "NL",
+"country": "Netherlands",
+"city": "Breda",
+"mbid": "aabb1d9f-be12-45b3-a84d-a1fc3e8181fd",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tiësto",
+"DJ Tiesta",
+"ティエスト",
+"Ti-Sto",
+"Triësto",
+"Tiësto & Maxi Jazz",
+"Maxi Jazz & Tiësto",
+"DJ Tïesto",
+"DJ Tiësto",
+"Tiesto"
+]
+},
+"röyksopp": {
+"cc": "NO",
+"country": "Norway",
+"city": "Tromsø",
+"mbid": "1c70a3fc-fa3c-4be1-8b55-c3192db8a884",
+"langs": {
+"eng": 0.91,
+"nor": 0.07,
+"jpn": 0.02
+},
+"aliases": [
+"Röyksopp",
+"Royksopp",
+"Emmanuel Splice",
+"Roksopp",
+"Royskopp",
+"RYXP",
+"Röyksoop",
+"Røyksopp",
+"Ryksopp"
+]
+},
+"silk city": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "151cf172-bc15-4f77-b80e-d56fc0f6cfb9",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Silk City"
+]
+},
+"four tet": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Putney",
+"mbid": "3bcff06f-675a-451f-9075-99e8657047e8",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Four Tet",
+"4 Tet",
+"4Tet",
+"Fourtet",
+"Four-Tet"
+]
+},
+"area:f03d09b3-39dc-4083-afd6-159e3f0d462f": {
+"cc": "GB",
+"country": "United Kingdom"
+},
+"m83": {
+"cc": "FR",
+"country": "France",
+"city": "Antibes",
+"mbid": "6d7b7cd4-254b-4c25-83f6-dd20f98ceacd",
+"langs": {
+"eng": 0.97,
+"fra": 0.03
+},
+"aliases": [
+"M83"
+]
+},
+"joel corry": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "London",
+"mbid": "7b545a9d-0be7-4a32-90ff-154489117216",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Joel Corry",
+"Joel Louis Corry"
+]
+},
+"bonobo": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Brighton",
+"mbid": "9a709693-b4f8-4da9-8cc1-038c911a61be",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bonobo"
+]
+},
+"houman humayoun": {},
+"darijush": {},
+"jacky cheung": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "a2cab261-63cc-4ccf-8023-6b6e8588bb62",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"張學友",
+"张学友",
+"Cheung Hok Yau",
+"Jackie Cheung",
+"ÕÅÑ§ÓÑ",
+"jacky cheng",
+"±i¾Ç¤Í",
+"ジャッキー・チュン",
+"Jacky Cheung"
+]
+},
+"andy lau": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "f738bc44-5806-4013-aee4-5469c0c2ec30",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"劉德華",
+"刘德华",
+"Lưu Đức Hoa",
+"Andy Lau",
+"¼B¼wµØ"
+]
+},
+"aaron kwok": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "2ebcf418-2a16-44ca-b7d4-5705f6acf299",
+"langs": {
+"zho": 1.0
+},
+"aliases": [
+"郭富城",
+"Aaron Kwok",
+"³¢´I«°"
+]
+},
+"gigi leung": {
+"cc": "HK",
+"country": null,
+"city": null,
+"mbid": "266ace12-0f65-4cbd-8747-4aaf3a238755",
+"langs": {
+"zho": 0.96,
+"cmn": 0.02,
+"eng": 0.02
+},
+"aliases": [
+"梁詠琪",
+"±çµúµX",
+"梁咏琪",
+"Gigi Leung",
+"Liang Yong Qi",
+"Gigi Leung Wing Kei",
+"Leung Wing Kei"
+]
+},
+"vanessa paradis": {
+"cc": "FR",
+"country": "France",
+"city": "Saint-Maur-des-Fossés",
+"mbid": "46193c80-959a-499d-b42f-f33ba7b9b18e",
+"langs": {
+"fra": 0.7,
+"eng": 0.3
+},
+"aliases": [
+"Vanessa Paradis"
+]
+},
+"ke$ha": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "fab34286-b8e1-4879-bce3-194e1358fbd2",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Kesha",
+"KESHA",
+"Ke$ha",
+"Kesha Rose Sebert"
+]
+},
+"katy perry": {
+"cc": "US",
+"country": "United States",
+"city": "Santa Barbara",
+"mbid": "122d63fc-8671-43e4-9752-34e846d62a9c",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Katy Perry",
+"水果姐",
+"凯蒂·佩里",
+"ケイティ・ペリー",
+"Katy Pery",
+"Katheryn Perry",
+"Katheryn Elizabeth Hudson",
+"Katy Hudson",
+"Katheryn Hudson"
+]
+},
+"jason derülo": {
+"cc": "US",
+"country": "United States",
+"city": "Miami",
+"mbid": "6de0f914-3e60-4418-be3b-42e0feb6eb4d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Jason Derulo",
+"Jason Derülo",
+"Jason Joel Desrouleaux",
+"Jason Desrouleaux"
+]
+},
+"tycho": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "b36f70be-71b1-44d5-9abc-8cd5cc78eb6e",
+"langs": {},
+"aliases": [
+"Tycho",
+"Tycho Andrews"
+]
+},
+"wizkid": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Lagos",
+"mbid": "efc5d365-a448-4e2f-9b5f-4a7c84be725c",
+"langs": {
+"eng": 0.95,
+"fra": 0.02,
+"spa": 0.02
+},
+"aliases": [
+"Wizkid",
+"StarBoy",
+"Ayodeji Ibrahim Balogun",
+"DJ WizKid",
+"Wizzy",
+"Wiz Kid"
+]
+},
+"mr eazi": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Port Harcourt",
+"mbid": "72adb13a-800e-44b5-9aef-5c7d8cb6a2d7",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Mr Eazi",
+"mrEazi",
+"Oluwatosin Oluwole Ajibade"
+]
+},
+"victony": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "7013c772-2236-42f3-8590-2e2292d2ca5e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Victony",
+"Anthony Ebuka Victor"
+]
+},
+"fireboy dml": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "4d09a017-4e09-47a7-b274-a7e0767ac4e0",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Fireboy DML",
+"Adedamola Oyinlola Adefolahan",
+"Adedamola Adefolahan"
+]
+},
+"tems": {
+"cc": "BE",
+"country": "Belgium",
+"city": "Aalst",
+"mbid": "9542cfe4-0a95-4a15-b961-e93c0d79bb34",
+"langs": null,
+"aliases": [
+"Jessy Tems",
+"Jussy Tems"
+]
+},
+"korede bello": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "9ca62f93-9706-4ecf-a887-ddf37c4a5419",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Korede Bello"
+]
+},
+"burna boy": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Port Harcourt",
+"mbid": "78a19169-ac75-4868-b504-7e2e073118e0",
+"langs": null,
+"aliases": [
+"Burna Boy",
+"Damini Ogulu",
+"Damini Ebunoluwa Ogulu"
+]
+},
+"oxlade": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "4f96e4cc-d306-4ac3-89bf-c6d5fb8cc363",
+"langs": {
+"eng": 0.88,
+"est": 0.06,
+"afr": 0.06
+},
+"aliases": [
+"Oxlade",
+"Ikuforiji Olaitan Abdulrahman"
+]
+},
+"asake": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Lagos",
+"mbid": "2b37ba5e-2162-46ca-bbad-f076f6a333bd",
+"langs": {
+"eng": 0.93,
+"ilo": 0.07
+},
+"aliases": [
+"Asake",
+"Ahmed Ololade"
+]
+},
+"rema": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "London",
+"mbid": "c34623b5-8d04-4b5b-87dc-2be531975d10",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Rema‐Rema",
+"Rema Rema"
+]
+},
+"sauti sol": {
+"cc": "KE",
+"country": "Kenya",
+"city": "Nairobi",
+"mbid": "a8457fc0-32f9-4b1a-b908-7e9c0bcc80b9",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sauti Sol"
+]
+},
+"davido": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Atlanta",
+"mbid": "a9ae7d4b-10f0-4da8-8b8c-21722a074a54",
+"langs": null,
+"aliases": [
+"Davido",
+"David Adedeji Adeleke"
+]
+},
+"daft punk": {
+"cc": "FR",
+"country": "France",
+"city": "Paris",
+"mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+"langs": {
+"eng": 0.98,
+"fra": 0.02
+},
+"aliases": [
+"Daft Punk",
+"DaftPunk",
+"daft punk",
+"Duft Punk",
+"ダフト・パンク",
+"Da Funk"
+]
+},
+"brymo": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "6f2bbf2f-1218-47e2-835b-ace1d21bb12f",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Brymo"
+]
+},
+"area:a7771250-45aa-426a-86db-5101f6647b79": {
+"cc": "NG",
+"country": "Nigeria"
+},
+"area:2e1382b1-3949-4f85-8c87-6ac554f44d8f": {
+"cc": "NG",
+"country": "Nigeria"
+},
+"pheelz": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Lagos",
+"mbid": "41e6febf-2ce1-4f8c-b4e6-7b6c9d5fcd32",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Pheelz",
+"Philip Kayode Moses"
+]
+},
+"joeboy": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "719feeff-47ab-482b-8101-859cac49776b",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Joeboy",
+"Joseph Akinwale Akinfenwa-Donus"
+]
+},
+"maleek berry": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "33b74f18-acaf-443f-a09b-64e4daae103e",
+"langs": null,
+"aliases": [
+"Maleek Berry",
+"Maleek Shoyebi"
+]
+},
+"tiwa savage": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Ikeja",
+"mbid": "9d9f7ce8-e1cf-4413-b2c9-b90b69bc17f6",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tiwa Savage",
+"Tiwatope Omolara Savage"
+]
+},
+"teni": {
+"cc": "NG",
+"country": "Nigeria",
+"city": null,
+"mbid": "b738ddfc-6f9d-4c46-8bee-92ba871f421e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Teni",
+"Teniola ‘Teni’ Apata",
+"Teniola Apata"
+]
+},
+"juls": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "06059ff3-720e-4b33-8e34-b98933817fe8",
+"langs": {
+"eng": 0.93,
+"fra": 0.07
+},
+"aliases": [
+"Juls",
+"Julian Nii Ayitey Adjin Nicco-Annan",
+"Julian Nicco-Annan"
+]
+},
+"niniola": {
+"cc": "NG",
+"country": "Nigeria",
+"city": "Lagos",
+"mbid": "c638bf27-a1ac-4c1a-80a3-3d7de8ed606a",
+"langs": null,
+"aliases": [
+"Niniola",
+"Níníọlá Àpáta"
+]
+},
+"iu": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+"langs": {
+"kor": 0.5,
+"eng": 0.46,
+"jpn": 0.04
+},
+"aliases": [
+"IU",
+"Lee Ji-eun",
+"아이유",
+"이지은"
+]
+},
+"bts": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+"langs": {
+"eng": 0.71,
+"jpn": 0.2,
+"kor": 0.1
+},
+"aliases": [
+"BTS",
+"방탄",
+"The Bangtan Boys",
+"Bangtan Sonyeondan",
+"Bōdan Shōnendan",
+"Bulletproof Boy Scouts",
+"Beyond the Scene",
+"방탄소년단",
+"防弾少年団",
+"Bangtan Boys"
+]
+},
+"red velvet": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "4f0cb3b7-6c06-4317-ae35-ddf3106a17ee",
+"langs": {
+"eng": 0.89,
+"kor": 0.11
+},
+"aliases": [
+"Red Velvet",
+"레드벨벳"
+]
+},
+"katie": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Kutaisi",
+"mbid": "39e32995-6515-40b2-a6f0-841524047edc",
+"langs": null,
+"aliases": [
+"Katie Melua",
+"ქეთევან მელუა",
+"Ketevan Melua",
+"ქეთი მელუა",
+"Kate Melua",
+"ケイティ・メルア",
+"Katie Meloua",
+"Katie Mela"
+]
+},
+"sunmi": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Iksan",
+"mbid": "716a8be4-6f58-4e64-a1e6-fb3017f21bf6",
+"langs": {
+"eng": 0.76,
+"kor": 0.24
+},
+"aliases": [
+"SUNMI",
+"선미",
+"Lee Sun-mi",
+"이선미"
+]
+},
+"mamamoo": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "fb588f59-af1a-493a-9508-ed487caa2a11",
+"langs": null,
+"aliases": [
+"MAMAMOO",
+"마마무"
+]
+},
+"colde": {
+"cc": "KR",
+"country": "South Korea",
+"city": null,
+"mbid": "3bb51beb-4396-46fa-b932-c079fba8cc3c",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Colde",
+"콜드"
+]
+},
+"wable": {
+"cc": "KR",
+"country": "South Korea",
+"city": null,
+"mbid": "00aa0779-8bed-42e9-89d4-391ebcef747a",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"WABLE",
+"와블"
+]
+},
+"chung ha": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "08525643-7a01-411e-8188-8bf57261c8b3",
+"langs": {
+"eng": 0.78,
+"kor": 0.17,
+"spa": 0.05
+},
+"aliases": [
+"CHUNG HA",
+"김청하",
+"청하",
+"김찬미",
+"Kim Chan-mi",
+"Chungha"
+]
+},
+"lee hi": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Bucheon",
+"mbid": "60c05c03-e33e-44a7-bef8-6fb245aaea51",
+"langs": {
+"eng": 0.61,
+"kor": 0.39
+},
+"aliases": [
+"LEE HI",
+"LeeHi",
+"이하이"
+]
+},
+"blackpink": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+"langs": {
+"eng": 0.91,
+"kor": 0.09
+},
+"aliases": [
+"BLACKPINK",
+"才貌俱全",
+"Beullaekpingkeu",
+"Блекпинк",
+"བླེཀ་པིངཀ་",
+"بڵاکپینک",
+"בלאקפינק",
+"ဘလက်ပင့်",
+"ပလႅၵ်းၽိင်း",
+"BLΛƆKPIИK"
+]
+},
+"ólafur arnalds": {
+"cc": "IS",
+"country": "Iceland",
+"city": "Mosfellsbær",
+"mbid": "6655955b-1c1e-4bcb-84e4-81bcd9efab30",
+"langs": {
+"eng": 0.84,
+"isl": 0.16
+},
+"aliases": [
+"Ólafur Arnalds",
+"オーラヴル・アルナルズ",
+"Óli",
+"Ólafur Þór Andrésson Arnalds"
+]
+},
+"got7": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "9f6a8346-15f3-4ec4-a632-f5270b0945a3",
+"langs": null,
+"aliases": [
+"GOT7",
+"갓세븐"
+]
+},
+"lorde": {
+"cc": "NZ",
+"country": "New Zealand",
+"city": "Takapuna",
+"mbid": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Lorde",
+"eeeeyyyoooooo",
+"ロード",
+"Ella Maria Lani Yelich‐O’Connor",
+"Ella Yelich O’Connor"
+]
+},
+"nct 127": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "9d17d14a-e81c-410e-a90b-b02b0a9de6f8",
+"langs": null,
+"aliases": [
+"NCT 127",
+"엔시티 127",
+"Neo Culture Technology 127"
+]
+},
+"태연": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Jeonju",
+"mbid": "2b786fb3-a116-4163-9b65-cf56f03c8a7f",
+"langs": {
+"eng": 0.78,
+"kor": 0.22
+},
+"aliases": [
+"TAEYEON",
+"泰耎",
+"Kim Tae-yeon",
+"김태연",
+"Tae-yeon Kim",
+"テヨン",
+"태연",
+"Tae-yeon"
+]
+},
+"shawn mendes": {
+"cc": "CA",
+"country": "Canada",
+"city": "Pickering",
+"mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Shawn Mendes",
+"ショーン・メンデス",
+"Shawn Peter Raul Mendes"
+]
+},
+"수호": {},
+"camila cabello": {
+"cc": "US",
+"country": "United States",
+"city": "Cojímar",
+"mbid": "01b8b5bf-06cb-45da-85fb-61ada72fcd69",
+"langs": {
+"eng": 0.95,
+"spa": 0.05
+},
+"aliases": [
+"Camila Cabello",
+"Karla Camila Cabello Estrabao"
+]
+},
+"somi": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Windsor",
+"mbid": "8d4e6a86-fa1c-4a1b-b8c4-3b58a46dde9f",
+"langs": {
+"eng": 0.98,
+"kor": 0.02
+},
+"aliases": [
+"JEON SOMI",
+"Ennik Somi Douma",
+"전소미"
+]
+},
+"clc": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "3b56979c-8c87-4e4e-997a-38c247a560e1",
+"langs": {
+"eng": 0.71,
+"kor": 0.18,
+"jpn": 0.11
+},
+"aliases": [
+"CLC",
+"씨엘씨",
+"Crystal Clear"
+]
+},
+"heize": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Daegu",
+"mbid": "8cea34d9-e1a5-4a92-87da-de947f741fe6",
+"langs": {
+"kor": 0.6,
+"eng": 0.4
+},
+"aliases": [
+"Heize",
+"헤이즈",
+"장다혜"
+]
+},
+"winner": {
+"cc": "US",
+"country": "United States",
+"city": "Davie",
+"mbid": "c2086311-bbe0-48eb-89cc-851b44b1199e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"The Rocking Horse Winner",
+"Rocking Horse Winner"
+]
+},
+"twice": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"TWICE",
+"トゥワイス",
+"트와이스"
+]
+},
+"baekhyun": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Bucheon",
+"mbid": "7593e0e2-fc1c-4855-a645-731c7504e16b",
+"langs": {
+"eng": 0.91,
+"kor": 0.09
+},
+"aliases": [
+"BAEKHYUN",
+"변백현",
+"בקהיון",
+"백현"
+]
+},
+"sezen aksu": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "635e2a34-a566-47c4-b61d-fa5d203856aa",
+"langs": {
+"tur": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Sezen Aksu",
+"Σεζέν Ακτσού",
+"Fatma Sezen Yıldırım",
+"Minik Serçe"
+]
+},
+"aoa": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Seoul",
+"mbid": "23492596-1fa6-45b1-8de6-eed4a829483b",
+"langs": {
+"eng": 0.6,
+"jpn": 0.26,
+"kor": 0.14
+},
+"aliases": [
+"AOA",
+"Ace of Angels",
+"에이오에이"
+]
+},
+"shaun": {
+"cc": "JO",
+"country": "Jordan",
+"city": null,
+"mbid": "05ba0467-3a94-4f44-97c9-b8d7c0683a40",
+"langs": {
+"eng": 0.95,
+"deu": 0.05
+},
+"aliases": [
+"Shaun Baker",
+"Shaun Backer"
+]
+},
+"sertab erener": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "d138302b-4f57-4d1d-83e3-47f95cb51774",
+"langs": {
+"tur": 0.79,
+"eng": 0.21
+},
+"aliases": [
+"Sertab Erener",
+"Sertab",
+"Sertap Erener",
+"Serteb Erener",
+"Sertab & Voice Male"
+]
+},
+"hyo": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Incheon",
+"mbid": "f2911ba4-9eaf-4ae2-b7a2-0f27b7a955be",
+"langs": {
+"eng": 0.97,
+"kor": 0.03
+},
+"aliases": [
+"HYO",
+"DJ HYO",
+"HYOYEON",
+"김효연",
+"효연"
+]
+},
+"yalın": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "1b8fea68-02f4-46d3-bb97-26735b06c5bb",
+"langs": {
+"tur": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Yalın",
+"Yalýn",
+"Yalin",
+"Hüseyin Yalın"
+]
+},
+"levent yüksel": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "ffa7ebbe-cf85-4f4c-8fd3-4a15602013e1",
+"langs": null,
+"aliases": [
+"Levent Yüksel",
+"Levent Y ksel",
+"Levent Yuksel"
+]
+},
+"oohyo": {
+"cc": "KR",
+"country": "South Korea",
+"city": null,
+"mbid": "e0b86a60-e282-4de9-bab8-a0bd8bbce139",
+"langs": {
+"kor": 0.83,
+"eng": 0.17
+},
+"aliases": [
+"OOHYO",
+"우효은",
+"우효"
+]
+},
+"ajda pekkan": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "838bdef5-4fb9-4465-82c6-e716e6590564",
+"langs": {
+"tur": 0.95,
+"ell": 0.05
+},
+"aliases": [
+"Ajda Pekkan"
+]
+},
+"hitchhiker": {
+"cc": "KR",
+"country": "South Korea",
+"city": null,
+"mbid": "484a1a15-cf67-428b-8b1f-735788e8ef8a",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Hitchhiker",
+"히치하이커"
+]
+},
+"nazan öncel": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "244186bf-0cc8-40d9-a671-c39df90b9efd",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Nazan Öncel",
+"Nazan Oncel",
+"Nazan Oencel"
+]
+},
+"frank sinatra": {
+"cc": "US",
+"country": "United States",
+"city": "Hoboken",
+"mbid": "197450cd-0124-4164-b723-3c22dd16494d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Frank Sinatra",
+"Sinatra",
+"Francis Albert Sinatra",
+"Frankie Satin",
+"フランク・シナトラ",
+"Sinatra Frank",
+"Frank Sinartra"
+]
+},
+"the beatles": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Liverpool",
+"mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"The Beatles",
+"ビートルズ",
+"ザ・ビートルズ",
+"비틀스",
+"披头士乐队",
+"披頭四樂團",
+"Beatles",
+"Beetles",
+"披頭四樂隊",
+"fab four"
+]
+},
+"hande yener": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "ebef6120-fbb3-4537-84bc-27902d5760c1",
+"langs": {
+"tur": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Hande Yener",
+"Hende Yener"
+]
+},
+"nat king cole": {
+"cc": "US",
+"country": "United States",
+"city": "Montgomery",
+"mbid": "fbe054ec-a143-4101-9e9e-64abc5ff5ac9",
+"langs": {
+"eng": 0.98,
+"spa": 0.02
+},
+"aliases": [
+"Nat King Cole",
+"Nat Cole",
+"Nat 'King' Cole",
+"Nathaniel Adams Coles",
+"King Cole",
+"Nat \"King\" Cole",
+"Cole, Nat King",
+"Cole, Nat \"King\"",
+"ナット・キング・コール",
+"Nat Kig Cole"
+]
+},
+"nilüfer": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "379dfde0-a22b-4b45-9bd2-e36285f21ee8",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Nilüfer",
+"Nilüfer Yumlu",
+"Nilufer"
+]
+},
+"abba": {
+"cc": "SE",
+"country": "Sweden",
+"city": "Stockholm",
+"mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+"langs": {
+"eng": 0.97,
+"deu": 0.02,
+"fra": 0.02
+},
+"aliases": [
+"ABBA",
+"아바",
+"Björn Benny & Agnetha Frida",
+"Björn + Benny + Anna + Frieda",
+"АББА",
+"Björn Benny Agnetha & Anni-Frid",
+"Abba",
+"ᗅᗺᗷᗅ",
+"アバ"
+]
+},
+"yüksek sadakat": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "975f2d1c-2b52-4a30-a825-2625d34bf5e1",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Yüksek Sadakat"
+]
+},
+"gökhan özoğuz": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "47b5adfa-dc2a-4b7a-b066-bf97b372e2ec",
+"langs": {},
+"aliases": [
+"Gökhan Özoğuz"
+]
+},
+"funda arar": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Ankara",
+"mbid": "89935f2a-1549-40f3-a4f6-fc50a6c42305",
+"langs": {
+"tur": 0.93,
+"eng": 0.07
+},
+"aliases": [
+"Funda Arar"
+]
+},
+"ebru gündeş": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "4f827ca0-0f46-4b83-8081-db6a177d819e",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Ebru Gündeş",
+"Ebru Gundes"
+]
+},
+"hümeyra": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "5f581290-e1d0-4440-9e52-a4217e25e100",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Hümeyra"
+]
+},
+"sibel can": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "9fc39c14-c7e1-472b-8a70-5d01175e5b14",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Sibel Can"
+]
+},
+"ayten alpman": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "2cbd56d8-afe3-483e-bd9e-348b7880738b",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Ayten Alpman"
+]
+},
+"murat boz": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "82caaf3a-76de-4604-a71d-5072ea20534f",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Murat Boz"
+]
+},
+"ceylan ertem": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "1de28854-cd30-4118-838b-f1fd624bea7b",
+"langs": null,
+"aliases": [
+"Ceylan Ertem"
+]
+},
+"demet akalın": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "65517e5a-841c-419e-9b3b-6d4ea3d20432",
+"langs": {
+"tur": 0.96,
+"eng": 0.04
+},
+"aliases": [
+"Demet Akalın",
+"Demit Akalin"
+]
+},
+"özdemir erdoğan": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "092c62fe-6850-4c53-bf7c-9a48f150f3cf",
+"langs": {
+"tur": 0.9,
+"eng": 0.1
+},
+"aliases": [
+"Özdemir Erdoğan",
+"Ozdemir Erdogan"
+]
+},
+"jehan barbur": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "081d201a-1240-4364-b7d1-21e0e45b81c2",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Jehan Barbur"
+]
+},
+"fatih erkoç": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "96aebfc4-eaf0-4967-9ed6-e18f42a2a4b6",
+"langs": {
+"tur": 0.93,
+"eng": 0.07
+},
+"aliases": [
+"Fatih Erkoç"
+]
+},
+"toygar işıklı": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "718eb085-ddaa-432a-aaf9-59dacc3956be",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Toygar Işıklı"
+]
+},
+"can gox": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "e0ff37de-e036-4f89-bc7e-5fa97d42080b",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Can Gox"
+]
+},
+"arijit singh": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "ed3f4831-e3e0-4dc0-9381-f5649e9df221",
+"langs": {
+"hin": 0.82,
+"eng": 0.06,
+"nep": 0.06
+},
+"aliases": [
+"Arijit Singh",
+"Arjit Singh"
+]
+},
+"lata mangeshkar": {
+"cc": "IN",
+"country": "India",
+"city": "Indore",
+"mbid": "aeb71bd8-447d-4415-8ea1-2b7d664f67e1",
+"langs": {
+"hin": 0.55,
+"mar": 0.28,
+"ben": 0.09
+},
+"aliases": [
+"Lata Mangeshkar",
+"లతా మంగేష్కర్",
+"લતા મંગેશકર",
+"लता मंगेशकर",
+"லதா மங்கேஷ்கர்",
+"Anandghan",
+"Latha Mangeshkar",
+"Lata Mangeskar",
+"Lata Mangeskhar",
+"Lathamangeshkar"
+]
+},
+"sonu nigam": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "93622908-0806-4173-94c1-9e42597af011",
+"langs": {
+"hin": 0.7,
+"eng": 0.12,
+"asm": 0.12
+},
+"aliases": [
+"Sonu Nigam",
+"Sonu Niigaam",
+"सोनु निगम",
+"Sonoo Nigam",
+"Sonu Nigham"
+]
+},
+"shreya ghoshal": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "a8740949-50a8-4e71-8133-17d31b7cf69c",
+"langs": {
+"hin": 0.63,
+"ben": 0.14,
+"urd": 0.08
+},
+"aliases": [
+"Shreya Ghoshal",
+"श्रेया घोषाल",
+"শ্রেয়া ঘোষাল",
+"Schreya Ghosal",
+"Shreya Ghosal"
+]
+},
+"mustafa zahid": {
+"cc": "PK",
+"country": "Pakistan",
+"city": null,
+"mbid": "1fbd2208-f908-47d2-8605-8adc1c10ef14",
+"langs": {
+"urd": 0.71,
+"hin": 0.29
+},
+"aliases": [
+"Mustafa Zahid"
+]
+},
+"javed ali": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "cd4131f3-c7c5-45ca-8f6c-e510a650bdff",
+"langs": {
+"hin": 0.86,
+"eng": 0.14
+},
+"aliases": [
+"Javed Ali",
+"جاويد حسين",
+"جاوید علی",
+"जावेद अली"
+]
+},
+"shruti pathak": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "64361e7c-decd-49bb-ba50-de0d14c9ec33",
+"langs": {
+"hin": 0.75,
+"guj": 0.25
+},
+"aliases": [
+"Shruti Pathak"
+]
+},
+"ankit tiwari": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "8e94cd02-5047-4885-82fa-7f2b8bb2195f",
+"langs": {
+"hin": 0.8,
+"eng": 0.09,
+"urd": 0.09
+},
+"aliases": [
+"Ankit Tiwari"
+]
+},
+"sunidhi chauhan": {
+"cc": "IN",
+"country": "India",
+"city": "New Delhi",
+"mbid": "934cc2a7-822e-4117-8e82-8e663d7d2daf",
+"langs": {
+"hin": 0.37,
+"eng": 0.19,
+"urd": 0.15
+},
+"aliases": [
+"Sunidhi Chauhan",
+"Sunidhi Chuhan",
+"ਸੁਨਿਧੀ ਚੌਹਾਨ"
+]
+},
+"mohit chauhan": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "1dd28f27-4ab3-4a3f-8174-4ccd571a9dce",
+"langs": {
+"hin": 0.67,
+"tam": 0.17,
+"eng": 0.17
+},
+"aliases": [
+"Mohit Chauhan",
+"Mohit Chautan"
+]
+},
+"mika singh": {
+"cc": "IN",
+"country": "India",
+"city": "Durgapur",
+"mbid": "b46ce29c-6c93-4619-8f08-0c23a8bacf0d",
+"langs": {
+"hin": 0.6,
+"pan": 0.4
+},
+"aliases": [
+"Mika Singh",
+"Amrik Singh"
+]
+},
+"kavita krishnamurthy": {
+"cc": "IN",
+"country": "India",
+"city": "New Delhi",
+"mbid": "95e3467a-b303-43e0-b44b-20c90e23c387",
+"langs": {
+"hin": 0.43,
+"asm": 0.43,
+"ben": 0.14
+},
+"aliases": [
+"Kavita Krishnamurthy",
+"Kavita K",
+"Kavita K Subramaniam",
+"Kavita Krishnamurthy Subramaniam",
+"Kavita Subrahmanyam",
+"Kavita Krishnamurti Subramaniam",
+"Kavita Krishnamurty",
+"Kavita Krishnamurti",
+"Sharada Krishnamurthy"
+]
+},
+"himesh reshammiya": {
+"cc": "IN",
+"country": "India",
+"city": "Mumbai",
+"mbid": "643f0b8a-d835-4f45-bb79-84dd5ac96b4a",
+"langs": {
+"hin": 0.98,
+"kon": 0.02
+},
+"aliases": [
+"Himesh Reshammiya",
+"Himesh Reshamiya",
+"Himesh Vipin Reshammiya"
+]
+},
+"amit trivedi": {
+"cc": "IN",
+"country": "India",
+"city": "Mumbai",
+"mbid": "78830f6e-5832-443d-9e93-0e308238406e",
+"langs": {
+"hin": 0.85,
+"eng": 0.08,
+"tam": 0.02
+},
+"aliases": [
+"Amit Trivedi"
+]
+},
+"rahat fateh ali khan": {
+"cc": "PK",
+"country": "Pakistan",
+"city": "Faisalabad",
+"mbid": "014431e3-c5a3-4a57-b86b-fe8f2e3253ff",
+"langs": {
+"eng": 0.47,
+"pan": 0.26,
+"hin": 0.16
+},
+"aliases": [
+"Rahat Fateh Ali Khan",
+"Rahat Feteh Ali Khan",
+"Rahat Nusrat Fateh Ali Khan",
+"راحت فتح علی خان"
+]
+},
+"kailash kher": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "6bd32857-c9fa-484f-9ef7-90c655d08c0a",
+"langs": {
+"hin": 0.73,
+"eng": 0.18,
+"urd": 0.09
+},
+"aliases": [
+"Kailash Kher",
+"Kailesh Kher"
+]
+},
+"shankar-ehsaan-loy": {
+"cc": "IN",
+"country": "India",
+"city": "Mumbai",
+"mbid": "d8d3e7de-793e-49fa-8bb8-6bc732d4c8aa",
+"langs": {
+"hin": 0.86,
+"eng": 0.1,
+"tam": 0.02
+},
+"aliases": [
+"Shankar–Ehsaan–Loy",
+"Shankar-Ehsan-Loy",
+"Shankar Mahadevan, Ehsaan Noorani & Loy Mendonsa",
+"Shankar Ehsaan Loy",
+"Shankar, Ehsaan & Loy"
+]
+},
+"alka yagnik": {
+"cc": "IN",
+"country": "India",
+"city": "Kolkata",
+"mbid": "52cf0679-e1cf-42ca-b9b5-86e018b36d91",
+"langs": {
+"hin": 1.0
+},
+"aliases": [
+"Alka Yagnik",
+"Alkayagnik",
+"Alisha Yaagnik",
+"ਅਲਕਾ ਯਾਗਨਿਕ",
+"Alaka",
+"Alaka Yagnik",
+"Alka Yagnic",
+"Alka Y",
+"Alka Y."
+]
+},
+"shubha mudgal": {
+"cc": "IN",
+"country": "India",
+"city": "Allahabad",
+"mbid": "2c38b459-37ea-4b75-9918-230ccbe37a43",
+"langs": {
+"hin": 0.57,
+"eng": 0.43
+},
+"aliases": [
+"Shubha Mudgal",
+"Subha Mugdal"
+]
+},
+"caralisa monteiro": {
+"cc": "IN",
+"country": "India",
+"city": null,
+"mbid": "6f790f73-cc42-4c6e-93a5-e42f5509fb2d",
+"langs": {
+"hin": 1.0
+},
+"aliases": [
+"Caralisa Monteiro",
+"Carolisa",
+"Cara",
+"Caralisa"
+]
+},
+"vicente fernández": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Guadalajara",
+"mbid": "3b829056-d975-4ae7-be3c-20661ce980e8",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Vicente Fernández",
+"Vicente Fernández Gómez",
+"Vicente Fernandez",
+"Vincente Fernandez",
+"Vicente Fernandez Gomez",
+"Vicente \"Chente\" Fernández Gómez",
+"Vicente \"Chente\" Fernandez Gomez",
+"El Rey de la Música Ranchera",
+"Vicente El Rey de la Música Ranchera Fernández"
+]
+},
+"k. j. yesudas": {
+"cc": "IN",
+"country": "India",
+"city": "Kochi",
+"mbid": "9634022a-8f04-4e44-94fa-33804458787f",
+"langs": {
+"mal": 0.6,
+"hin": 0.2,
+"eng": 0.1
+},
+"aliases": [
+"K. J. Yesudas",
+"Yesudas",
+"കാട്ടാശേരി ജോസഫ് യേശുദാസ്",
+"K.J. Jesudas",
+"காட்டாசேரி ஜோசஃப் யேசுதாஸ்",
+"काट्टाशेरि जोसफ़ येशुदास",
+"K.J. Yesudas",
+"Kattassery Joseph Yesudas"
+]
+},
+"luis miguel": {
+"cc": "MX",
+"country": "Mexico",
+"city": "San Juan",
+"mbid": "90270118-8ed0-4446-bf97-8a09b3f9e8f3",
+"langs": {
+"spa": 0.97,
+"ita": 0.03
+},
+"aliases": [
+"Luis Miguel",
+"Luis Miguel Gallego Basteri"
+]
+},
+"alejandra guzmán": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Ciudad de México",
+"mbid": "618bf47d-48ff-4aec-8d82-435b93dcca76",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Alejandra Guzmán",
+"Alejandra Gabriela Guzmán Pinal"
+]
+},
+"juan gabriel": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Parácuaro",
+"mbid": "bc9b7500-0afc-41ba-a056-b0bc81669702",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Juan Gabriel",
+"Alberto Aguilera Valadez"
+]
+},
+"zoé": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Nottingham",
+"mbid": "5509e5eb-67a4-49e9-992a-07d895500deb",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Zoë Johnston",
+"Zoë Johnson",
+"Zed J",
+"Zoe Johnston",
+"Zoe Johnson"
+]
+},
+"rocío dúrcal": {
+"cc": "ES",
+"country": "Spain",
+"city": "Madrid",
+"mbid": "b8ba2ae6-a233-4b9c-bce3-ea7a7803c946",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Rocío Dúrcal",
+"Rocío Durcal",
+"Rocio Durcal",
+"María de los Ángeles de Las Heras Ortíz"
+]
+},
+"ely guerra": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Monterrey",
+"mbid": "a49ada03-1486-4221-9864-b826b10bc155",
+"langs": null,
+"aliases": [
+"Ely Guerra",
+"Elizabeth Guerra Vázquez",
+"Eli Guerra"
+]
+},
+"julieta venegas": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Long Beach",
+"mbid": "601f8530-9009-4f73-94fb-a355b4497b70",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Julieta Venegas",
+"Julieta Venegas Percevault"
+]
+},
+"ricardo arjona": {
+"cc": "GT",
+"country": "Guatemala",
+"city": null,
+"mbid": "40627299-0979-45ba-8924-2af5fdc36ea8",
+"langs": {
+"spa": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Ricardo Arjona",
+"Edgar Ricardo Arjona Morales"
+]
+},
+"maná": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Guadalajara",
+"mbid": "55441123-89a2-49ab-ae3f-df7a3e86835a",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Maná",
+"Maña",
+"Mana",
+"Manà"
+]
+},
+"café tacvba": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Ciudad Satélite",
+"mbid": "c2b37a39-c66a-44b2-b190-a69485ae5d95",
+"langs": {
+"spa": 0.94,
+"eng": 0.06
+},
+"aliases": [
+"Café Tacvba",
+"Café Tecuba",
+"Café Tacuba",
+"Caf0 Tacuba",
+"Caefe Tacuba",
+"Cafe Tacvba"
+]
+},
+"los ángeles azules": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Ciudad de México",
+"mbid": "dcb5e5c6-5f21-4266-b5b6-556f54a6b6b5",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Los Ángeles Azules",
+"Angeles Azules",
+"Los Angeles Azules"
+]
+},
+"aleks syntek": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Mérida",
+"mbid": "2fae3969-96cb-4dea-91c8-9108848de808",
+"langs": null,
+"aliases": [
+"Aleks Syntek",
+"Raúl Alejandro Escajadillo Peña",
+"Alex Syntek"
+]
+},
+"ednita nazario": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "Ponce",
+"mbid": "0cb38216-4daf-452a-ab93-9a943f807de0",
+"langs": null,
+"aliases": [
+"Ednita Nazario",
+"Edna María Nazario Figueroa"
+]
+},
+"alejandro fernández": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Guadalajara",
+"mbid": "772a8360-e81e-4647-92e2-195c19efddad",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Alejandro Fernández",
+"El Potrillo Fernández",
+"El Potrillo",
+"Alejandro Fernández Abarca",
+"Alejandro Fernandez"
+]
+},
+"los tigres del norte": {
+"cc": "US",
+"country": "United States",
+"city": "Mocorito",
+"mbid": "75cdc7ad-63b6-48b3-8de2-617d08a9ddf8",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Los Tigres del Norte",
+"Tigres del Norte"
+]
+},
+"joan sebastian": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Juliantla",
+"mbid": "87c18952-956e-46bf-a4b9-8c13f5a4e3fa",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Joan Sebastian",
+"José Manuel Figueroa Figueroa",
+"José Manuel Figueroa"
+]
+},
+"sara valenzuela": {
+"cc": "MX",
+"country": "Mexico",
+"city": null,
+"mbid": "016eb522-88ac-445a-be91-b50d0ca98e24",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Sara Valenzuela"
+]
+},
+"area:6f85c2b6-4250-468b-9bd8-300fd8b451ad": {
+"cc": "CO",
+"country": "Colombia"
+},
+"monsieur periné": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Bogotá",
+"mbid": "644c9096-41be-4d89-87b6-deceabf08930",
+"langs": {
+"spa": 0.94,
+"eng": 0.06
+},
+"aliases": [
+"Monsieur Periné"
+]
+},
+"juan pablo vega": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Bogotá",
+"mbid": "03a9eb64-5fde-4a63-b923-bd59449782a8",
+"langs": null,
+"aliases": [
+"Juan Pablo Vega"
+]
+},
+"susana zabaleta": {
+"cc": "MX",
+"country": "Mexico",
+"city": null,
+"mbid": "eb6a7033-6be9-4605-89a9-5e3c1d7dba68",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Susana Zabaleta"
+]
+},
+"adrianna foster": {
+"cc": "MX",
+"country": "Mexico",
+"city": null,
+"mbid": "2fe4e29e-0b02-49ea-ab01-8b4b8fcbc42a",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Adrianna Foster"
+]
+},
+"margarita rosa de francisco": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Cali",
+"mbid": "fb754318-7696-42b3-8b9d-972980703a86",
+"langs": null,
+"aliases": [
+"Margarita Rosa de Francisco",
+"Margarita Rosa de Francisco Baquero"
+]
+},
+"alberto cortez": {
+"cc": "AR",
+"country": "Argentina",
+"city": "Rancul",
+"mbid": "9965a96a-d838-48be-bcad-dd22fb76fc70",
+"langs": {
+"spa": 0.95,
+"eng": 0.05
+},
+"aliases": [
+"Alberto Cortez",
+"José Alberto García Gallo",
+"Alberto Cortes"
+]
+},
+"charlotte de witte": {
+"cc": "BE",
+"country": "Belgium",
+"city": "Ghent",
+"mbid": "1de4e373-e597-4087-bf3d-256ec597749e",
+"langs": {
+"eng": 0.98,
+"ita": 0.02
+},
+"aliases": [
+"Charlotte de Witte"
+]
+},
+"amelie lens": {
+"cc": "BE",
+"country": "Belgium",
+"city": "Vilvoorde",
+"mbid": "67db280d-c3e4-49d9-978e-4050f4e209ef",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Amelie Lens"
+]
+},
+"joyhauser": {
+"cc": "BE",
+"country": "Belgium",
+"city": "Bilzen",
+"mbid": "bd79872c-44d3-422e-be24-5452521c3795",
+"langs": {
+"eng": 0.95,
+"tgl": 0.05
+},
+"aliases": [
+"Joyhauser"
+]
+},
+"area:86fbdd3c-aaac-4aed-916a-b361f7e1a8de": {
+"cc": "IT",
+"country": "Italy"
+},
+"deborah de luca": {
+"cc": "IT",
+"country": "Italy",
+"city": "Napoli",
+"mbid": "6ee8d1b6-3e6b-4d4c-85c6-45d8b1428399",
+"langs": {
+"eng": 0.9,
+"fra": 0.03,
+"eus": 0.03
+},
+"aliases": [
+"Deborah De Luca",
+"Deborah Pernice"
+]
+},
+"enrico sangiuliano": {
+"cc": "IT",
+"country": "Italy",
+"city": null,
+"mbid": "fe69b211-d470-48e7-a7a0-64cecb5bc991",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Enrico Sangiuliano"
+]
+},
+"sam paganini": {
+"cc": "IT",
+"country": "Italy",
+"city": null,
+"mbid": "f081ae3d-f05a-4124-94e7-fd801635837e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sam Paganini",
+"Samuel Scaboro",
+"Samuel Paganini Scaboro",
+"Samuel Paganini"
+]
+},
+"klangkuenstler": {
+"cc": "DE",
+"country": "Germany",
+"city": "Berlin",
+"mbid": "dc60d275-d4d1-4bf2-b32c-4aa2332d7459",
+"langs": {
+"eng": 0.72,
+"deu": 0.28
+},
+"aliases": [
+"Klangkuenstler",
+"Michael Korb",
+"Klangkünstler"
+]
+},
+"reinier zonneveld": {
+"cc": "NL",
+"country": "Netherlands",
+"city": null,
+"mbid": "41653834-5629-4cf3-b3d7-a0f689f99f42",
+"langs": {
+"eng": 0.91,
+"nld": 0.07,
+"ron": 0.02
+},
+"aliases": [
+"Reinier Zonneveld"
+]
+},
+"rex orange county": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Haslemere",
+"mbid": "883cbf1f-dcaa-4d17-b9ed-394e1fdabc87",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Rex Orange County",
+"Alexander James O'Connor",
+"Alexander O'Connor"
+]
+},
+"area:e8e317a1-268c-4e46-9db1-f10af959ffca": {
+"cc": "NL",
+"country": "Netherlands"
+},
+"lilly palmer": {
+"cc": "NL",
+"country": "Netherlands",
+"city": "Amsterdam",
+"mbid": "b6c834af-59ed-499b-b287-22e2ff4dba13",
+"langs": {
+"eng": 0.93,
+"slk": 0.05,
+"fra": 0.02
+},
+"aliases": [
+"Lilly Palmer",
+"Sonja Melanie Rauschenbach"
+]
+},
+"mura masa": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "d2a76e1b-cecc-4500-b445-d55591821cd3",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Mura Masa",
+"Alexander Crossan",
+"Alexander George Edward Crossan",
+"Alex Crossan"
+]
+},
+"kevin de vries": {
+"cc": "DE",
+"country": "Germany",
+"city": null,
+"mbid": "21234737-13ef-4a52-9903-018c2f61a6b1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Kevin de Vries"
+]
+},
+"burial": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "b068d41f-855d-4426-9ff7-f79b094441ff",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"The Burial",
+"Burial"
+]
+},
+"mind against": {
+"cc": "DE",
+"country": "Germany",
+"city": "Berlin",
+"mbid": "7e9826df-af21-4b16-9f5a-0523b2e3f4a0",
+"langs": null,
+"aliases": [
+"Mind Against"
+]
+},
+"fjaak": {
+"cc": "DE",
+"country": "Germany",
+"city": "Berlin",
+"mbid": "56acaa47-eb2f-43d7-a1f1-19466c550e31",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"FJAAK"
+]
+},
+"area:226c4dca-ef2a-4d4b-ba25-4118d116557a": {
+"cc": "GB",
+"country": "United Kingdom"
+},
+"rebekah": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Birmingham",
+"mbid": "10d274f0-a063-4fb6-a924-5631e9d9b633",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Rebekah",
+"DJ Rebekah",
+"Rebekah Teasdale"
+]
+},
+"area:33e0f86c-d709-448d-a484-d55778913af1": {
+"cc": "BR",
+"country": "Brazil"
+},
+"victor ruiz": {
+"cc": "BR",
+"country": "Brazil",
+"city": "São Paulo",
+"mbid": "068df31f-729b-4179-b82c-1d8aef61bd0b",
+"langs": {
+"eng": 0.96,
+"spa": 0.04
+},
+"aliases": [
+"Victor Ruiz"
+]
+},
+"area:88f49821-05a3-3bbc-a24b-bbd6b918c07b": {
+"cc": "XC",
+"country": "Czechoslovakia"
+},
+"regal": {
+"cc": "XC",
+"country": "Czechoslovakia",
+"city": null,
+"mbid": "ec6b3ed0-5f90-43be-9a37-7aec1cfbfb04",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Stan Regal",
+"Stanislav Regal",
+"Regal Stan"
+]
+},
+"layton giordani": {
+"cc": "US",
+"country": "United States",
+"city": "New York",
+"mbid": "81f494b2-bd4b-486c-aae5-8c789165d14c",
+"langs": null,
+"aliases": [
+"Layton Giordani"
+]
+},
+"dom dolla": {
+"cc": "AU",
+"country": "Australia",
+"city": null,
+"mbid": "9b8548a9-5991-42a9-ba96-fe83bd238b7a",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Dom Dolla",
+"Dolla Dolla",
+"Dominic Matheson"
+]
+},
+"aitana": {
+"cc": "ES",
+"country": "Spain",
+"city": "Sant Climent de Llobregat",
+"mbid": "a24f2bd3-0d1b-4c03-8d91-6297ab5a2811",
+"langs": null,
+"aliases": [
+"Aitana",
+"Aitana Ocaña Morales"
+]
+},
+"tinlicker": {
+"cc": "NL",
+"country": "Netherlands",
+"city": "Utrecht",
+"mbid": "2d098124-cb9d-4e80-992f-47e47c405452",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tinlicker"
+]
+},
+"biscits": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "a996a131-7975-4a94-a99f-d4912e0bd427",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Biscits"
+]
+},
+"acraze": {
+"cc": "US",
+"country": "United States",
+"city": "Staten Island",
+"mbid": "e21e0137-b42d-44a5-abd6-c6ac160d0d7d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"ACRAZE",
+"Charles Dunker",
+"Charlie Dunker",
+"Charles Duncker",
+"Charlie Duncker"
+]
+},
+"joe stone": {
+"cc": "NL",
+"country": "Netherlands",
+"city": null,
+"mbid": "070741d9-72c0-4d52-9685-bf1dc4e18714",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Joe Stone",
+"Maurice Oude Booyink"
+]
+},
+"solardo": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "11157cd2-8ab0-4bdc-9468-db1ee371ee63",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Solardo"
+]
+},
+"dombresky": {
+"cc": "FR",
+"country": "France",
+"city": null,
+"mbid": "141472ac-0262-4e57-85ac-2850a7793e35",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Dombresky"
+]
+},
+"area:1f40c6e1-47ba-4e35-996f-fe6ee5840e62": {
+"cc": "US",
+"country": "United States"
+},
+"jay pryor": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "e6244be1-0b70-4b1d-82d4-01e64305cdfa",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Jay Pryor"
+]
+},
+"area:40d758a4-b7c2-40f3-b439-5efbd2a3b038": {
+"cc": "GB",
+"country": "United Kingdom"
+},
+"will clarke": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Bristol",
+"mbid": "8998dddc-55bb-47da-a709-08c7d46ff036",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Will Clarke"
+]
+},
+"cloonee": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "b643c24d-4cd6-4531-88bc-62b39ce43ee1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Cloonee",
+"David Andrew Bissett"
+]
+},
+"eli brown": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Bristol",
+"mbid": "61bb4f68-d1a3-4a04-aa36-536c36135408",
+"langs": {
+"eng": 0.98,
+"swe": 0.02
+},
+"aliases": [
+"Eli Brown"
+]
+},
+"anti up": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "5781ace8-4559-4d30-ab69-caf0cd83fa81",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Anti Up"
+]
+},
+"camelphat": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Liverpool",
+"mbid": "61314ff2-7b52-4296-a0b8-af61dc08bdd1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"CamelPhat",
+"Camel Phat"
+]
+},
+"j. worra": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "32c9d11e-a63f-483f-8bed-b51fee2a81c5",
+"langs": {
+"eng": 0.92,
+"hun": 0.08
+},
+"aliases": [
+"J. Worra"
+]
+},
+"chris lorenzo": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "f491ebd7-5e18-4961-aaaf-e6210f387f1f",
+"langs": {
+"eng": 0.96,
+"spa": 0.04
+},
+"aliases": [
+"Chris Lorenzo"
+]
+},
+"fisher": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "7a5db646-8994-425b-8a27-32d5d8968982",
+"langs": {
+"eng": 0.96,
+"fra": 0.04
+},
+"aliases": [
+"Fisher‐Price",
+"Fisher Price SingAlong",
+"Fisher-Price"
+]
+},
+"malaa": {
+"cc": "FR",
+"country": "France",
+"city": "Paris",
+"mbid": "a0d47559-6ffc-464a-a4d6-30777e5c76f7",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Malaa"
+]
+},
+"wax motif": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "cef964b5-6f27-4a79-ac78-26b9e05c44c8",
+"langs": {
+"eng": 0.95,
+"spa": 0.05
+},
+"aliases": [
+"Wax Motif",
+"Daniel Kin Jun Chien",
+"Danny Chien"
+]
+},
+"noizu": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "d0f31126-6b12-4d5a-a08b-c31af0287c71",
+"langs": {
+"eng": 0.98,
+"spa": 0.02
+},
+"aliases": [
+"Noizu"
+]
+},
+"jauz": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "b32b15d9-775a-4235-8bd1-837285ff32eb",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Marley Jauz",
+"Brokeback"
+]
+},
+"tchami": {
+"cc": "FR",
+"country": "France",
+"city": null,
+"mbid": "374a63ed-2502-495a-8e31-139e3ed7507e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tchami"
+]
+},
+"anabel englund": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "46171624-4eb8-4b2f-8348-cc6b7b00f74c",
+"langs": null,
+"aliases": [
+"Anabel Englund",
+"Anabel"
+]
+},
+"sidepiece": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "9afee8b9-0cb8-4e85-9d20-329dbf7d8cc5",
+"langs": null,
+"aliases": [
+"SIDEPIECE"
+]
+},
+"loud luxury": {
+"cc": "CA",
+"country": "Canada",
+"city": "London",
+"mbid": "4c445344-9df2-407e-9bf3-8a5c0b86777e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Loud Luxury"
+]
+},
+"tracy chapman": {
+"cc": "US",
+"country": "United States",
+"city": "Cleveland",
+"mbid": "1129817c-488a-4096-80c1-77fc1b107c93",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Tracy Chapman",
+"Tracy L. Chapman",
+"Chapman, Tracy",
+"Tracey Chapman"
+]
+},
+"missy higgins": {
+"cc": "AU",
+"country": "Australia",
+"city": "Melbourne",
+"mbid": "3ac2a4a2-52b3-498b-bbc8-31443c68dfe0",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Missy Higgins"
+]
+},
+"josh groban": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "12be5b16-915f-44bc-978a-8ddfab235b79",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Josh Groban",
+"ジョシュ・グローバン",
+"Josh Groben",
+"Joshua Winslow Groban"
+]
+},
+"randy newman": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "da7bb7d8-557d-4635-9ca1-e6e985525bd5",
+"langs": {
+"eng": 0.96,
+"fra": 0.04
+},
+"aliases": [
+"Randy Newman",
+"Randall Stuart Newman",
+"ランディ・ニューマン",
+"Randy Newmann",
+"Randy Newmen",
+"Radny Newman",
+"Randi Newman",
+"Newman",
+"Randall Newman",
+"Stuart Newman"
+]
+},
+"john mayer": {
+"cc": "US",
+"country": "United States",
+"city": "Bridgeport",
+"mbid": "144ef525-85e9-40c3-8335-02c32d0861f3",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"John Mayer",
+"John Clayton Mayer"
+]
+},
+"sarah mclachlan": {
+"cc": "CA",
+"country": "Canada",
+"city": "Halifax",
+"mbid": "ce58d854-7430-4231-aa44-97f0144b3372",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sarah McLachlan",
+"サラ・マクラクラン",
+"Sarah Mc. Laughin",
+"McLachlan, Sarah",
+"Sarah McLaughlan",
+"Sara McLachlan - Vox single",
+"Sarah Mcglaughlin",
+"Sara Mclachlan",
+"Sarah McLauchlan",
+"Sarah Ann McLachlan"
+]
+},
+"john denver": {
+"cc": "US",
+"country": "United States",
+"city": "Roswell",
+"mbid": "34e10b51-b5c6-4bc1-b70e-f05f141eda1e",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"John Denver",
+"H.J. Deutschendorf, Jr.",
+"Henry John Deutschendorf, Jr.",
+"Denver, John",
+"John Dennver"
+]
+},
+"sufjan stevens": {
+"cc": "US",
+"country": "United States",
+"city": "Detroit",
+"mbid": "01d3c51b-9b98-418a-8d8e-37f6fab59d8c",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sufjan Stevens",
+"Stevens"
+]
+},
+"simon & garfunkel": {
+"cc": "US",
+"country": "United States",
+"city": "Kew Gardens Hills",
+"mbid": "5d02f264-e225-41ff-83f7-d9b1f0b1874a",
+"langs": {
+"eng": 0.92,
+"fra": 0.07,
+"spa": 0.02
+},
+"aliases": [
+"Simon & Garfunkel",
+"サイモン&ガーファンクル",
+"Paul Simon and Arthur Garfunkel",
+"Simon & Garfunkle",
+"Simon & Garfunkal",
+"Simon and Garfunkle",
+"Paul Simon and Art Garfunkle",
+"Simon and Garfunkel",
+"Paul Simon and Art Garfunkel"
+]
+},
+"billy joel": {
+"cc": "US",
+"country": "United States",
+"city": "The Bronx",
+"mbid": "64b94289-9474-4d43-8c93-918ccc1920d1",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Billy Joel",
+"Billie Joel",
+"Joel, Billy",
+"William Martin Joel"
+]
+},
+"mohammad reza shajarian": {
+"cc": "IR",
+"country": "Iran",
+"city": "Mashhad",
+"mbid": "1e6c8164-a1a1-457f-9c39-efbef12942c6",
+"langs": {
+"fas": 0.53,
+"eng": 0.47
+},
+"aliases": [
+"محمدرضا شجريان",
+"Mohammad-Reza Shajarian",
+"Mohammad Reza Shadjarian"
+]
+},
+"bad bunny": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19",
+"langs": {
+"spa": 0.91,
+"eng": 0.09
+},
+"aliases": [
+"Bad Bunny",
+"Benito Antonio Martínez Ocasio"
+]
+},
+"alireza ghorbani": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "e9767614-4cbd-4e19-84a9-980276b298cd",
+"langs": {
+"fas": 0.45,
+"eng": 0.27,
+"fra": 0.27
+},
+"aliases": [
+"Alireza Ghorbani",
+"Ali Reza Chorbani",
+"Ali Reza Ghorbani"
+]
+},
+"tainy": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "7e92584c-ca97-48bf-8a12-0327db0f6ac8",
+"langs": {
+"eng": 0.55,
+"spa": 0.45
+},
+"aliases": [
+"Tainy",
+"Marco Masis",
+"Marcos Masis",
+"Marcos Efraín Masís"
+]
+},
+"homeyra": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "7d6e4d65-397e-4931-8491-eb1fdede41cb",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Homeyra",
+"Homayra"
+]
+},
+"rauw alejandro": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "197b70c7-8910-4030-ad03-632d82aa40e3",
+"langs": {
+"spa": 0.98,
+"eng": 0.02
+},
+"aliases": [
+"Rauw Alejandro",
+"El Zorro",
+"Raúl Alejandro Ocasio Ruiz",
+"Ra' Rauw"
+]
+},
+"karol g": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Medellín",
+"mbid": "de22adae-f8ac-414f-b653-b0162611bd60",
+"langs": {
+"spa": 0.74,
+"eng": 0.26
+},
+"aliases": [
+"KAROL G",
+"Carolina Giraldo Navarro"
+]
+},
+"ozuna": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "f2651b63-a44d-4d1d-ba64-d981d971ecd1",
+"langs": {
+"spa": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Ozuna",
+"Juan Carlos Ozuna Rosado"
+]
+},
+"sech": {
+"cc": "PA",
+"country": "Panama",
+"city": null,
+"mbid": "709f5e96-51cd-49b4-a8e4-0ca0bf808de3",
+"langs": {
+"spa": 0.91,
+"eng": 0.09
+},
+"aliases": [
+"Sech",
+"Carlos Isaías Morales Williams"
+]
+},
+"jeff buckley": {
+"cc": "US",
+"country": "United States",
+"city": "Anaheim",
+"mbid": "e6e879c0-3d56-4f12-b3c5-3ce459661a8e",
+"langs": {
+"eng": 0.98,
+"nld": 0.02
+},
+"aliases": [
+"Jeff Buckley",
+"Jeffrey Scott Buckley"
+]
+},
+"nathy peluso": {
+"cc": "ES",
+"country": "Spain",
+"city": "Luján",
+"mbid": "88e70937-92ae-4a15-bfc6-a94940ce916b",
+"langs": {
+"spa": 0.93,
+"cat": 0.05,
+"eng": 0.02
+},
+"aliases": [
+"Nathy Peluso",
+"Nathalia Beatriz Dora Peluso"
+]
+},
+"elton john": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Pinner",
+"mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+"langs": {
+"eng": 0.97,
+"jpn": 0.02,
+"deu": 0.02
+},
+"aliases": [
+"Elton John",
+"Reg Dwight",
+"John, Elton",
+"E. John",
+"Elthon John",
+"Elton Hercules John",
+"Eltonas Džonas",
+"Seras Eltonas Džonas",
+"Reginald Kenneth Dwight",
+"エルトン・ジョン"
+]
+},
+"sara bareilles": {
+"cc": "US",
+"country": "United States",
+"city": "Eureka",
+"mbid": "e54be6b7-5c26-4b47-bb3f-c137429b9b55",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sara Bareilles",
+"Sarah Bareilles",
+"Sara Barielles"
+]
+},
+"nio garcia": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "San Juan",
+"mbid": "db1a36ef-fa59-48a6-a2d6-d6da432fdca4",
+"langs": {
+"spa": 0.95,
+"eng": 0.05
+},
+"aliases": [
+"Nio García",
+"Luis Antonio Quiñones García"
+]
+},
+"fiona apple": {
+"cc": "US",
+"country": "United States",
+"city": "Manhattan",
+"mbid": "a9ee533f-8871-4f62-a6bb-91eb264abc90",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Fiona Apple",
+"Fiona Apple McAfee-Maggart"
+]
+},
+"jhay cortez": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "Las Piedras",
+"mbid": "2b67658e-429f-425a-adf5-345b13112fc1",
+"langs": {
+"spa": 0.96,
+"eng": 0.04
+},
+"aliases": [
+"JHAYCO",
+"Jesús Manuel Nieves Cortés",
+"Jay el Superdotado",
+"Jhay el Superdotado",
+"Jhay Co",
+"Jhayco",
+"Jay Cortez",
+"Jhay Cortez"
+]
+},
+"tokischa": {
+"cc": "DO",
+"country": "Dominican Republic",
+"city": null,
+"mbid": "269b7311-66c8-4a07-bcc2-e6b31c5627ec",
+"langs": {
+"spa": 0.66,
+"eng": 0.34
+},
+"aliases": [
+"Tokischa",
+"Tokischa Altagracia Peralta"
+]
+},
+"anuel aa": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "Carolina",
+"mbid": "87a75fc3-59e7-4598-925c-8e230bce5db9",
+"langs": {
+"spa": 0.87,
+"eng": 0.13
+},
+"aliases": [
+"Anuel AA",
+"Emmanuel Gazmey Santiago"
+]
+},
+"myke towers": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "Río Piedras",
+"mbid": "d2945137-b01d-4195-9f82-64d20f8ba657",
+"langs": {
+"spa": 0.98,
+"eng": 0.02
+},
+"aliases": [
+"Myke Towers",
+"Mike Towers",
+"Michael Anthony Torres Monge"
+]
+},
+"lunay": {
+"cc": "PR",
+"country": "Puerto Rico",
+"city": "Corozal",
+"mbid": "cabbb345-e61c-4e80-a0a8-a3beb2823851",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Lunay",
+"Jefnier Osorio Moreno"
+]
+},
+"paloma mami": {
+"cc": "US",
+"country": "United States",
+"city": "Manhattan",
+"mbid": "90f83751-ee85-48c4-b401-6396ee13fb9b",
+"langs": {
+"spa": 0.62,
+"eng": 0.38
+},
+"aliases": [
+"Paloma Mami"
+]
+},
+"feid": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Medellín",
+"mbid": "eaee97f6-f2e4-414a-966c-f31a1fb4696a",
+"langs": {
+"spa": 0.89,
+"eng": 0.09,
+"ita": 0.02
+},
+"aliases": [
+"Feid",
+"Salomon Villada Hoyos",
+"Salomón Alejandro Villada Hoyos"
+]
+},
+"trio vegabajeño": {
+"cc": "US",
+"country": "United States",
+"city": "Vega Baja",
+"mbid": "f4e45a9a-2e26-4cb2-abfe-9097da54fcf6",
+"langs": {},
+"aliases": [
+"Trio Vegabajeño"
+]
+},
+"la mafia del amor": {
+"cc": "ES",
+"country": "Spain",
+"city": null,
+"mbid": "86c5b0ae-81a7-4c88-8a2f-df24b8beb55a",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"La Mafia del Amor",
+"LMDA"
+]
+},
+"danny ocean": {
+"cc": "US",
+"country": "United States",
+"city": "Caracas",
+"mbid": "ddb0b09f-284f-45dd-b394-05f58b0eeb76",
+"langs": {
+"spa": 0.95,
+"eng": 0.05
+},
+"aliases": [
+"Danny Ocean",
+"Daniel Morales",
+"Daniel Alejandro Morales Reyes"
+]
+},
+"lagos": {
+"cc": "CL",
+"country": "Chile",
+"city": null,
+"mbid": "c0f8dacb-e0b7-4228-91d3-78195eb9ff29",
+"langs": {},
+"aliases": [
+"Hermanos Lagos",
+"Los Hermanos Lagos"
+]
+},
+"kali uchis": {
+"cc": "US",
+"country": "United States",
+"city": "Alexandria",
+"mbid": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+"langs": {
+"eng": 0.67,
+"spa": 0.32,
+"swe": 0.02
+},
+"aliases": [
+"Kali Uchis",
+"DJ Kali Uchis",
+"Karly-Marina Loaiza",
+"Karly Loaiza"
+]
+},
+"ralphie choo": {
+"cc": "ES",
+"country": "Spain",
+"city": null,
+"mbid": "ec80bc0a-c081-40bf-b65c-472651a40783",
+"langs": {
+"spa": 0.88,
+"eng": 0.12
+},
+"aliases": [
+"Ralphie Choo"
+]
+},
+"aron": {
+"cc": "KR",
+"country": "South Korea",
+"city": "Los Angeles",
+"mbid": "b311cae8-f61b-43f0-8b17-c42da4af4a1a",
+"langs": {},
+"aliases": [
+"ARON",
+"Aron Kwak"
+]
+},
+"jesse baez": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Chicago",
+"mbid": "0071d942-61d0-4cb4-a59d-2288f17ba6d5",
+"langs": {
+"spa": 0.89,
+"eng": 0.11
+},
+"aliases": [
+"Jesse Baez"
+]
+},
+"judeline": {
+"cc": "ES",
+"country": "Spain",
+"city": "Jerez de la Frontera",
+"mbid": "b828d419-2928-4286-9509-5d920d524358",
+"langs": {
+"spa": 0.84,
+"eng": 0.11,
+"por": 0.05
+},
+"aliases": [
+"Judeline",
+"Lara Fernández Castrelo"
+]
+},
+"bratty": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Culiacán",
+"mbid": "bff4888b-fd01-4105-af12-927b571c4d0d",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Bratty",
+"Jennifer Abigail Juárez Vázquez",
+"Jenny Juárez"
+]
+},
+"alizzz": {
+"cc": "ES",
+"country": "Spain",
+"city": "Castelldefels",
+"mbid": "a4238edc-daf9-42ed-917b-dd586f91c269",
+"langs": {
+"spa": 0.53,
+"eng": 0.47
+},
+"aliases": [
+"Alizzz",
+"Cristian Quirante Catalán"
+]
+},
+"area:02d22ccc-7cd3-4432-994e-95342d8b5112": {
+"cc": "AR",
+"country": "Argentina"
+},
+"salvapantallas": {
+"cc": "AR",
+"country": "Argentina",
+"city": null,
+"mbid": "d724d068-0a16-4654-a07f-d8396ecb87ba",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Salvapantallas"
+]
+},
+"area:7e037c94-d999-4611-a8fd-56e8770f2e3c": {
+"cc": "US",
+"country": "United States"
+},
+"melii": {
+"cc": "US",
+"country": "United States",
+"city": "Harlem",
+"mbid": "b97a836c-1947-4cb5-b83b-3032c856f8bf",
+"langs": {
+"eng": 0.86,
+"spa": 0.14
+},
+"aliases": [
+"Melii"
+]
+},
+"arca": {
+"cc": "ES",
+"country": "Spain",
+"city": "Caracas",
+"mbid": "f7625f34-1799-42a4-a1c6-22b5377c767b",
+"langs": {
+"eng": 0.93,
+"spa": 0.07
+},
+"aliases": [
+"Arca",
+"アルカ",
+"Alejandra Ghersi Rodríguez",
+"arca1000000",
+"Alejandra Ghersi"
+]
+},
+"area:743523d6-c574-454e-9079-de113e30452a": {
+"cc": "ES",
+"country": "Spain"
+},
+"sza": {
+"cc": "US",
+"country": "United States",
+"city": "St. Louis",
+"mbid": "272989c8-5535-492d-a25c-9f58803e027f",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"SZA",
+"Solana Rowe",
+"Solána Imani Rowe"
+]
+},
+"leo rizzi": {
+"cc": "ES",
+"country": "Spain",
+"city": "Valencia",
+"mbid": "aaaf8079-4782-4624-91b8-da33748f4f5e",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"Leo Rizzi"
+]
+},
+"rusowsky": {
+"cc": "ES",
+"country": "Spain",
+"city": "Valladolid",
+"mbid": "d836bdef-52ef-4142-baba-573e5b529478",
+"langs": {
+"spa": 0.77,
+"eng": 0.23
+},
+"aliases": [
+"rusowsky",
+"Ruslan Mediavilla Solovieva"
+]
+},
+"dekko": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": null,
+"mbid": "b4df6a5f-39ae-4e26-90ac-31170a86c69c",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Dekko"
+]
+},
+"sabrina carpenter": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "1882fe91-cdd9-49c9-9956-8e06a3810bd4",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sabrina Carpenter",
+"サブリナ・カーペンター",
+"Sabrina Annlynn Carpenter"
+]
+},
+"troye sivan": {
+"cc": "AU",
+"country": "Australia",
+"city": "Johannesburg",
+"mbid": "e5712ceb-c37a-4c49-a11c-ccf4e21852d4",
+"langs": {
+"eng": 0.98,
+"nld": 0.02
+},
+"aliases": [
+"Troye Sivan",
+"トロイ・シヴァン",
+"트로이",
+"트로이 시반",
+"Troye Sivan Mellet"
+]
+},
+"morteza": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "849830cd-5f79-4edc-b3cc-59361c7da6d2",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Morteza Hannaneh",
+"Morteza Hananeh"
+]
+},
+"conan gray": {
+"cc": "US",
+"country": "United States",
+"city": "Lemon Grove",
+"mbid": "850a8b03-98a7-4fd3-afbd-5e5520b4ef5f",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Conan Gray",
+"קונאן גריי",
+"كونان جراى",
+"كونان غراي",
+"Քոնան Գրեյ",
+"Конан Ґрей",
+"康納·格雷",
+"Конан Грей",
+"코난 그레이",
+"کنن گری"
+]
+},
+"faramarz assef": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "031f0b2d-6697-4a8c-bc37-79edcf62d682",
+"langs": {
+"eng": 0.5,
+"hau": 0.25,
+"fas": 0.25
+},
+"aliases": [
+"Faramarz Assef"
+]
+},
+"marjan farsad": {
+"cc": "CA",
+"country": "Canada",
+"city": null,
+"mbid": "86dfaace-fdce-4c1b-81de-081d654073fa",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Marjan Farsad"
+]
+},
+"pomme": {
+"cc": "FR",
+"country": "France",
+"city": "Décines-Charpieu",
+"mbid": "c75b226d-d643-41dc-a2b7-00c0ff8c8e7b",
+"langs": {
+"fra": 0.87,
+"eng": 0.1,
+"jpn": 0.02
+},
+"aliases": [
+"Pomme",
+"Claire Isabelle Geo Pommet",
+"Claire Pommet"
+]
+},
+"mahasti": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "e0668079-2dea-4449-8d6c-5158567de8e0",
+"langs": {
+"fas": 0.94,
+"ara": 0.06
+},
+"aliases": [
+"Mahasti",
+"Mahasty",
+"Eftekhar Dadehbala",
+"مهستی",
+"Eftexār Dadebālā"
+]
+},
+"gracie abrams": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "f7441bc7-d7de-4813-a2fc-31a4033d396d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Gracie Abrams",
+"그레이시 에이브럼스"
+]
+},
+"sina hejazi": {
+"cc": "IR",
+"country": "Iran",
+"city": "Shahreza",
+"mbid": "256dc3c3-8f71-4800-8443-d960c58ecc42",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Sina Hejazi"
+]
+},
+"lolo zouaï": {
+"cc": "US",
+"country": "United States",
+"city": "Paris",
+"mbid": "692d7021-5520-4e26-903f-98696bd51772",
+"langs": {
+"eng": 0.96,
+"fra": 0.02,
+"cat": 0.02
+},
+"aliases": [
+"Lolo Zouaï",
+"Laureen Zouaï",
+"Laureen Rebeha Zouaï"
+]
+},
+"ryan beatty": {
+"cc": "US",
+"country": "United States",
+"city": "Clovis",
+"mbid": "81277a03-d1e0-49cd-971b-8582a5653d4e",
+"langs": null,
+"aliases": [
+"Ryan Beatty",
+"Ryan Kevin Beatty"
+]
+},
+"eendo": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "4d01ef7e-0705-4dac-a89c-52e51f3de267",
+"langs": {
+"fas": 0.75,
+"eng": 0.25
+},
+"aliases": [
+"Eendo"
+]
+},
+"king princess": {
+"cc": "US",
+"country": "United States",
+"city": "Brooklyn",
+"mbid": "158778fe-55c1-4dd5-8a3a-9d1b968a5e52",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"King Princess",
+"Mikaela Straus",
+"Mikaela Mullaney Strauss"
+]
+},
+"fereidoon foroughi": {},
+"chappell roan": {
+"cc": "US",
+"country": "United States",
+"city": "Willard",
+"mbid": "56a55378-f155-48de-80a5-d80104221267",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Chappell Roan",
+"Chapell Roan",
+"Kayleigh Rose Amstutz",
+"ChappellRoanVEVO"
+]
+},
+"kolinga": {
+"cc": "FR",
+"country": "France",
+"city": null,
+"mbid": "4b864787-9adf-4f0a-90c0-2fb9ff78e3d3",
+"langs": {
+"eng": 0.67,
+"fra": 0.33
+},
+"aliases": [
+"Kolinga"
+]
+},
+"alexander stewart": {
+"cc": "CA",
+"country": "Canada",
+"city": "Toronto",
+"mbid": "7ac54f94-bca6-4c99-8323-545e257e182b",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Alexander Stewart"
+]
+},
+"the aces": {
+"cc": "JM",
+"country": "Jamaica",
+"city": null,
+"mbid": "ba971bf0-8316-4d0d-820b-57f4882c497f",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Desmond Dekker & the Aces",
+"Desmond Dekker and the Aces",
+"Desmond Dekker & the Four Aces",
+"Desmond Decker & the Ages",
+"Desmond Decker & the Aces",
+"Desmond Dekker; The Aces",
+"Desmond Deckker & Aces",
+"Desmond Decker & Aces",
+"Desmond decker and the Aces"
+]
+},
+"samvel yervinyan": {
+"cc": "AM",
+"country": "Armenia",
+"city": null,
+"mbid": "9374c847-6ddf-40fa-9a4e-1ec167909c96",
+"langs": {},
+"aliases": [
+"Samvel Yervinyan"
+]
+},
+"duncan laurence": {
+"cc": "NL",
+"country": "Netherlands",
+"city": "Spijkenisse",
+"mbid": "20faff08-d3b7-45ca-a8aa-a85f6bb9eb78",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Duncan Laurence",
+"Duncan de Moor"
+]
+},
+"lizzo": {
+"cc": "US",
+"country": "United States",
+"city": "Detroit",
+"mbid": "8fb5370b-9568-4b61-9da5-2aa12c9928db",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Lizzo",
+"리조",
+"Melissa Viviane Jefferson"
+]
+},
+"reneé rapp": {
+"cc": "US",
+"country": "United States",
+"city": null,
+"mbid": "e4378b7a-6138-441a-aa34-50e11a562066",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Reneé Rapp",
+"Reneé Mary Jane Rapp",
+"Reneé Jane Rapp"
+]
+},
+"hayley kiyoko": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "3abc7470-3d67-4272-a24c-439f411b42eb",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Hayley Kiyoko",
+"Hayley Kiyoko Alcroft"
+]
+},
+"fletcher": {
+"cc": "US",
+"country": "United States",
+"city": "Asbury Park",
+"mbid": "a66091aa-e093-46bb-916a-387aba16e15c",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"FLETCHER",
+"פלטשר",
+"플레처",
+"Cari Elise Fletcher"
+]
+},
+"hayley williams": {
+"cc": "US",
+"country": "United States",
+"city": "Meridian",
+"mbid": "b4b5b5a7-feff-47d0-9458-83d0d135a692",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Hayley Williams",
+"Hayley Williams of Paramore",
+"Haley Williams",
+"Hayley Nichole Williams"
+]
+},
+"bea miller": {
+"cc": "US",
+"country": "United States",
+"city": "Maplewood",
+"mbid": "5b0d71ae-eb06-4be1-adbe-89d8fb73a574",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bea Miller",
+"Beatrice Miller",
+"Beatrice Annika Kipnis Miller"
+]
+},
+"noah cyrus": {
+"cc": "US",
+"country": "United States",
+"city": "Nashville",
+"mbid": "5df148ae-78eb-495a-8a0b-d16f3105992d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Noah Cyrus",
+"Noah Lindsey Cyrus"
+]
+},
+"area:dc10c22b-e510-4006-8b7f-fecb4f36436e": {
+"cc": "FR",
+"country": "France"
+},
+"darya dadvar": {
+"cc": "FR",
+"country": "France",
+"city": "Paris",
+"mbid": "2acdf438-d6cf-4555-9217-e0be50d8e927",
+"langs": {
+"fas": 0.67,
+"eng": 0.33
+},
+"aliases": [
+"Darya Dadvar"
+]
+},
+"mohsen namjoo": {
+"cc": "US",
+"country": "United States",
+"city": "Torbat-e Jam",
+"mbid": "2c310708-c4ed-4dec-9d10-ce08ed46be8b",
+"langs": {
+"fas": 0.6,
+"eng": 0.36,
+"ind": 0.04
+},
+"aliases": [
+"Mohsen Namjoo",
+"محسن نامجو",
+"Namjoo"
+]
+},
+"ali zand vakili": {},
+"hafez nazeri": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "c12721b5-56b0-44ba-a1ce-cee06b6ef426",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Hafez Nazeri"
+]
+},
+"mohammad nouri": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "b8854c35-95fc-4f94-b305-78cd77df3acd",
+"langs": {
+"eng": 0.92,
+"fas": 0.08
+},
+"aliases": [
+"Mohammad Nouri",
+"Mohammed Noori"
+]
+},
+"vigen": {
+"cc": "US",
+"country": "United States",
+"city": "Tehran",
+"mbid": "49b46a05-3fc9-4720-9ce8-b9573cdab690",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Jacqueline Vigen",
+"ژاکلین ویگن",
+"Jaklin Vigen",
+"Jaklin",
+"ژاکلین دِردِریان",
+"ژاکلین"
+]
+},
+"sima bina": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "a3708eff-4a47-4fbf-977c-155c79175836",
+"langs": {
+"fas": 0.89,
+"fra": 0.11
+},
+"aliases": [
+"سیما بینا",
+"Sima Bina"
+]
+},
+"griff": {
+"cc": "BE",
+"country": "Belgium",
+"city": null,
+"mbid": "84b8a3bc-7e45-4b1e-a34c-bb1a99b7bf5e",
+"langs": {
+"fra": 0.67,
+"eng": 0.33
+},
+"aliases": [
+"Griff",
+"Griff Trio"
+]
+},
+"yseult": {
+"cc": "FR",
+"country": "France",
+"city": "Tergnier",
+"mbid": "50a948ac-3bf7-4097-ab73-773bc3cb8fed",
+"langs": {
+"fra": 0.54,
+"eng": 0.46
+},
+"aliases": [
+"Yseult",
+"Yseult Onguenet"
+]
+},
+"finneas": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "151cd917-1ee2-4702-859f-90899ad897f8",
+"langs": {
+"eng": 0.95,
+"jpn": 0.04,
+"zho": 0.02
+},
+"aliases": [
+"FINNEAS",
+"Finneas O'Connell",
+"Finneas O’Connell",
+"Finneas Baird O’Connell"
+]
+},
+"hami": {
+"cc": "LY",
+"country": "Libya",
+"city": null,
+"mbid": "42d96f5d-06c6-4e51-9d06-b463d43c30dc",
+"langs": {
+"ara": 1.0
+},
+"aliases": [
+"Mister Hami - مستر هامي",
+"Ibrahim Abd Elrazeq"
+]
+},
+"måneskin": {
+"cc": "IT",
+"country": "Italy",
+"city": "Roma",
+"mbid": "3862342a-43c4-4cdb-8250-bfdbfb5e1419",
+"langs": {
+"eng": 0.62,
+"ita": 0.38
+},
+"aliases": [
+"Måneskin"
+]
+},
+"saeed": {
+"cc": "DE",
+"country": "Germany",
+"city": "Berlin",
+"mbid": "7eebc400-5c87-44c8-8c78-53d33ae5e729",
+"langs": {},
+"aliases": [
+"Saeed Ibrahim",
+"Saeed Ibrahim-Atta"
+]
+},
+"jean ferrat": {
+"cc": "FR",
+"country": "France",
+"city": "Vaucresson",
+"mbid": "3d29f1d0-fcf2-4346-9e67-c4eedc05d203",
+"langs": {
+"fra": 1.0
+},
+"aliases": [
+"Jean Ferrat",
+"Jean Tenenbaum"
+]
+},
+"barbra streisand": {
+"cc": "US",
+"country": "United States",
+"city": "Brooklyn",
+"mbid": "56cd15a1-0d74-438b-8244-c96ffe1cae03",
+"langs": {
+"eng": 0.98,
+"fra": 0.02
+},
+"aliases": [
+"Barbra Streisand",
+"バーブラ・ストライサンド",
+"芭芭拉史翠珊",
+"Barbara Joan Streisand",
+"Streisand Barbra",
+"Barbara Striesand",
+"Barbara Streisand",
+"B. Streizande"
+]
+},
+"iliona": {
+"cc": "BE",
+"country": "Belgium",
+"city": "Brussels",
+"mbid": "d2620c8f-c3a6-4fc3-ba25-bd0731649b60",
+"langs": {
+"fra": 1.0
+},
+"aliases": [
+"Iliona",
+"Iliona Roulin"
+]
+},
+"charo": {
+"cc": "AR",
+"country": "Argentina",
+"city": "Formosa",
+"mbid": "9f676639-956a-434b-8aae-fc4fb8c83b45",
+"langs": {
+"spa": 1.0
+},
+"aliases": [
+"La Charo",
+"Charo Bogarín"
+]
+},
+"kacey musgraves": {
+"cc": "US",
+"country": "United States",
+"city": "Golden",
+"mbid": "d1393ecb-431b-4fde-a6ea-d769f2f040cb",
+"langs": {
+"eng": 0.98,
+"jpn": 0.02
+},
+"aliases": [
+"Kacey Musgraves"
+]
+},
+"roya": {
+"cc": "FR",
+"country": "France",
+"city": null,
+"mbid": "c7b14c1d-83a8-4f15-a571-d5ad2b1fc53d",
+"langs": {},
+"aliases": [
+"Roya Killa",
+"Röya"
+]
+},
+"chloe flower": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "d5ece8fe-92ac-4b6e-bf08-b1f9bf4fea72",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Chloe Flower",
+"Chloe Won"
+]
+},
+"bryce dessner": {
+"cc": "US",
+"country": "United States",
+"city": "Cincinnati",
+"mbid": "20336142-85de-4e11-a1fd-a6c815b4e583",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bryce Dessner",
+"Bryce David Dessner"
+]
+},
+"lena hall": {
+"cc": "US",
+"country": "United States",
+"city": "New York",
+"mbid": "6698e133-bc90-4a0a-a1a6-45fc5e6cd441",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Lena Hall",
+"Celina Carvajal"
+]
+},
+"avi kaplan": {
+"cc": "US",
+"country": "United States",
+"city": "Visalia",
+"mbid": "1dcf98ea-79c5-43e7-819f-1b86082b0812",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Avi Kaplan",
+"Avriel Benjamin Kaplan"
+]
+},
+"hoshi": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "8c1b6c18-38f5-4fe6-a0d0-28c746ff9691",
+"langs": {},
+"aliases": [
+"hoshi",
+"hoshi903",
+"hoshi＠悦楽編"
+]
+},
+"bette midler": {
+"cc": "US",
+"country": "United States",
+"city": "Honolulu",
+"mbid": "ed333e8b-d18a-49fc-b361-4ec9731dfdba",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bette Midler",
+"Bette Middler",
+"Bette Milder",
+"Betty Midler",
+"Bette Mildler",
+"ベット・ミドラー"
+]
+},
+"rita wilson": {
+"cc": "US",
+"country": "United States",
+"city": "Los Angeles",
+"mbid": "beb68abb-51b4-41d1-9645-d0c8306cf588",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Rita Wilson",
+"Margarita Ibrahimoff"
+]
+},
+"taylor louderman": {
+"cc": "US",
+"country": "United States",
+"city": "Madison",
+"mbid": "f69fb3f7-5478-4d18-bafb-9cf710ac3910",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Taylor Louderman",
+"Taylor Elizabeth Louderman"
+]
+},
+"rachel bloom": {
+"cc": "US",
+"country": "United States",
+"city": "Manhattan Beach",
+"mbid": "f4de83d1-eafb-44bc-a828-ada6e3f0df5d",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Rachel Bloom",
+"Rachel Leah Bloom"
+]
+},
+"alireza assar": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "aba9e0c1-3bf5-4b50-96d8-35cc29562a96",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Alireza Assar"
+]
+},
+"kaveh afagh": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "dab9368d-c7ca-4999-88b2-7f3152bb87e5",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Kaveh Afagh",
+"کاوه آفاق",
+"The Ways"
+]
+},
+"shahram shokoohi": {
+"cc": "IR",
+"country": "Iran",
+"city": "Tehran",
+"mbid": "083b9b27-49ec-4a24-a2b6-94302888f946",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Shahram Shokoohi"
+]
+},
+"soheil nafisi": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "2fc0153a-1fcd-4136-bc62-86a1ebc8b500",
+"langs": {
+"eng": 0.67,
+"fas": 0.33
+},
+"aliases": [
+"Soheil Nafisi",
+"Soheil Nafissi",
+"سوهەیل نەفیسی",
+"سهیل نفیسی"
+]
+},
+"naser abdollahi": {
+"cc": "IR",
+"country": "Iran",
+"city": null,
+"mbid": "2f9606a9-ca30-4a51-9550-1918d859df68",
+"langs": {
+"fas": 1.0
+},
+"aliases": [
+"Naser Abdollahi"
+]
+},
+"buray": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "46d1a355-aa4b-410c-8a10-7f98496a6eba",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Buray",
+"Buray Hoşsöz"
+]
+},
+"gökhan türkmen": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "c4ff675c-0846-4b51-821c-e73f6606e9d0",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Gökhan Türkmen"
+]
+},
+"edis": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "London",
+"mbid": "43cb0a56-6127-4e7f-9992-038815e136f6",
+"langs": {
+"tur": 0.9,
+"ota": 0.1
+},
+"aliases": [
+"Edis",
+"Edis Görgülü"
+]
+},
+"manuş baba": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Tarsus",
+"mbid": "0c4d7ad5-8a13-4468-ac7e-38cf8b9eb7e1",
+"langs": null,
+"aliases": [
+"Manuş Baba"
+]
+},
+"evrencan gündüz": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Kadıköy",
+"mbid": "dad73929-34e8-4419-a612-8b0b8f36f1cc",
+"langs": {
+"tur": 0.75,
+"eng": 0.25
+},
+"aliases": [
+"Evrencan Gündüz"
+]
+},
+"cihan mürtezaoğlu": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "71c1d712-cab9-458a-8bae-0a799cdfb2bb",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Cihan Mürtezaoğlu"
+]
+},
+"bengü": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "İzmir",
+"mbid": "d5249547-eb25-46a6-aa93-f96a02bbb6aa",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Bengü",
+"Bengu"
+]
+},
+"tuna kiremitçi": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "3c34de62-9f0b-4a74-a78a-da633d8816c3",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Tuna Kiremitçi"
+]
+},
+"melike şahin": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "5e213447-3cb8-4f18-9a67-ba697cb60d0a",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Melike Şahin",
+"Melike Sahin"
+]
+},
+"halil sezai": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "b1c1736a-fdf0-4d41-84c6-027592e03eed",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Halil Sezai"
+]
+},
+"fettah can": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "b52c898f-ea70-4d96-bffe-148983e592b8",
+"langs": {
+"tur": 0.67,
+"eng": 0.33
+},
+"aliases": [
+"Fettah Can"
+]
+},
+"ebru yaşar": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Ankara",
+"mbid": "a51f8467-e723-4b53-9207-a072e81ccf79",
+"langs": {
+"tur": 0.86,
+"ota": 0.14
+},
+"aliases": [
+"Ebru Yaşar",
+"Ebru Yasar"
+]
+},
+"area:f9a822ff-adce-434c-9292-a8b6a0a37a8e": {
+"cc": "TR",
+"country": "Türkiye"
+},
+"simge": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "9d5ee57f-bec4-46ac-a7c3-8fad1ed2ee3d",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Simge"
+]
+},
+"güliz ayla": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Samsun",
+"mbid": "56663b32-3ec2-4c95-abcf-12b2d8d1476c",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Güliz Ayla"
+]
+},
+"nilipek": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "89647f4b-5f29-42ec-a0bb-cfc8973d1f25",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Nilipek."
+]
+},
+"kaan tangöze": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "e592c0c3-3ceb-48cc-94cd-5ab01a16eb64",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Kaan Tangöze"
+]
+},
+"bora duran": {
+"cc": "TR",
+"country": "Türkiye",
+"city": null,
+"mbid": "5762a795-4e9b-41bd-b995-bcfee7161443",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Bora Duran",
+"Bora Yalçınduran"
+]
+},
+"karsu": {
+"cc": "NL",
+"country": "Netherlands",
+"city": "Amsterdam",
+"mbid": "964c1284-2a3c-4fdf-b79e-0ab2e1e4bbe2",
+"langs": {
+"tur": 0.75,
+"eng": 0.25
+},
+"aliases": [
+"Karsu"
+]
+},
+"sedef sebüktekin": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "872ffbdb-e348-4193-81ac-fcf188b3f477",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Sedef Sebüktekin"
+]
+},
+"sufle": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "f31332d5-a415-42f3-ba51-3d786f9c0bd3",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Sufle"
+]
+},
+"canozan": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Istanbul",
+"mbid": "60756b00-eba1-4b2d-90af-2957ebeff835",
+"langs": {
+"tur": 0.98,
+"eng": 0.02
+},
+"aliases": [
+"Canozan"
+]
+},
+"maluma": {
+"cc": "CO",
+"country": "Colombia",
+"city": "Medellín",
+"mbid": "e8979f75-9110-4df8-ac70-898898d080d1",
+"langs": {
+"spa": 0.98,
+"por": 0.02
+},
+"aliases": [
+"Maluma",
+"Juan Luis Londoño Arias"
+]
+},
+"mon laferte": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Viña del Mar",
+"mbid": "ab966c0f-e526-46ae-b492-82c27b87f81f",
+"langs": {
+"spa": 0.85,
+"eng": 0.11,
+"cat": 0.04
+},
+"aliases": [
+"Mon Laferte",
+"Monserrat Bustamante",
+"Norma Monserrat Bustamante Laferte"
+]
+},
+"camilo": {
+"cc": "ES",
+"country": "Spain",
+"city": "Alcoi",
+"mbid": "138fe36a-0888-40d2-9390-3d9be0d74f07",
+"langs": {
+"spa": 0.97,
+"eng": 0.03
+},
+"aliases": [
+"Camilo Sesto",
+"Camilo Blanes Cortés"
+]
+},
+"cnco": {
+"cc": "US",
+"country": "United States",
+"city": "Miami",
+"mbid": "c2258df3-cfce-4dec-a721-33ca87c1be8f",
+"langs": {
+"spa": 0.79,
+"eng": 0.21
+},
+"aliases": [
+"CNCO"
+]
+},
+"rbd": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Ciudad de México",
+"mbid": "5bae9c05-fabd-420f-b806-c5b8ba88bd7e",
+"langs": {
+"spa": 0.83,
+"por": 0.08,
+"eng": 0.08
+},
+"aliases": [
+"RBD"
+]
+},
+"danna paola": {
+"cc": "MX",
+"country": "Mexico",
+"city": "Zapopan",
+"mbid": "3ad91c4e-ef5a-4d7c-99e7-21a8b0c9379d",
+"langs": null,
+"aliases": [
+"Danna Paola",
+"Danna",
+"DANNA",
+"Danna Paola Rivera Munguía"
+]
+},
+"mabel matiz": {
+"cc": "TR",
+"country": "Türkiye",
+"city": "Mersin",
+"mbid": "42a14dc3-c6e8-4fb6-a2f9-0d24afeaad2d",
+"langs": {
+"tur": 1.0
+},
+"aliases": [
+"Mabel Matiz",
+"Fatih Karaca"
+]
+},
+"one direction": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "Wembley",
+"mbid": "1a425bbd-cca4-4b2c-aeb7-71cb176c828a",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"One Direction",
+"1D|One Direction",
+"1D"
+]
+},
+"selena gomez & the scene": {
+"cc": "US",
+"country": "United States",
+"city": "Hollywood",
+"mbid": "37d0a847-32d3-480f-bd1e-101f50a3d332",
+"langs": {
+"eng": 0.98,
+"rus": 0.02
+},
+"aliases": [
+"Selena Gomez & the Scene",
+"Selena Gomez and the Scene",
+"セレーナ・ゴメス&ザ・シーン"
+]
+},
+"bruno mars": {
+"cc": "US",
+"country": "United States",
+"city": "Honolulu",
+"mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Bruno Mars",
+"브루노 마스",
+"Peter Gene Hernandez",
+"ブルーノ・マーズ"
+]
+},
+"ariana grande": {
+"cc": "US",
+"country": "United States",
+"city": "Boca Raton",
+"mbid": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Ariana Grande",
+"ئاریانا گراندێی-بوتێرا",
+"ئاریانا گراندێی",
+"أريانا غراندي-بوتيرا",
+"آریانا گرانده",
+"آریانا گراندِی-بوترا",
+"أريانا غراندي",
+"아리아나 그란데",
+"אריאנא גראנדע",
+"艾尼安娜格兰德"
+]
+},
+"p!nk": {
+"cc": "US",
+"country": "United States",
+"city": "Doylestown",
+"mbid": "f4d5cc07-3bc9-4836-9b15-88a08359bc63",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"P!nk",
+"Alecia Moore",
+"ピンク",
+"Pink",
+"Alecia Beth Moore",
+"Alecia B. Moore",
+"P.nk"
+]
+},
+"justin bieber": {
+"cc": "CA",
+"country": "Canada",
+"city": "London",
+"mbid": "e0140a67-e4d1-4f13-8a01-364355bee46e",
+"langs": {
+"eng": 0.98,
+"jpn": 0.02
+},
+"aliases": [
+"Justin Bieber",
+"Justin Beiber",
+"ジャスティン・ビーバー",
+"Justin Drew Bieber"
+]
+},
+"lili & luna": {
+"cc": null,
+"country": null,
+"city": null,
+"mbid": "16604ae5-5e19-4e56-aea6-8e7b1cb7c9b8",
+"langs": {
+"fin": 1.0
+},
+"aliases": [
+"Lili & Luna"
+]
+},
+"kelly clarkson": {
+"cc": "US",
+"country": "United States",
+"city": "Fort Worth",
+"mbid": "d339efbb-77b9-4147-ba9e-59f2f24550b2",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Kelly Clarkson",
+"Kelly Clarson",
+"Kelly Brianne Clarkson"
+]
+},
+"demi lovato": {
+"cc": "US",
+"country": "United States",
+"city": "Albuquerque",
+"mbid": "faf4cefb-036c-4c88-b93a-5b03dd0a0e6b",
+"langs": {
+"eng": 0.98,
+"spa": 0.02
+},
+"aliases": [
+"Demi Lovato",
+"Demetria Devonne Lovato",
+"Demitria Lovato"
+]
+},
+"rebecca black": {
+"cc": "US",
+"country": "United States",
+"city": "Irvine",
+"mbid": "312c7cc1-9b5c-4406-963b-9f73f50674c0",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Rebecca Black",
+"Rebecca Renee Black",
+"რებეკა შავი",
+"Ребекка Блек",
+"రెబెకా రెనీ బ్లాక్",
+"레베카 블랙"
+]
+},
+"carrie underwood": {
+"cc": "US",
+"country": "United States",
+"city": "Muskogee",
+"mbid": "70f0e309-5418-49b6-a130-666e2f76eecd",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Carrie Underwood",
+"Carrie Underwood Backing Band",
+"Carrie M. Underwood",
+"Carrie Marie Underwood"
+]
+},
+"christina perri": {
+"cc": "US",
+"country": "United States",
+"city": "Philadelphia",
+"mbid": "38d363c7-fdcb-4308-9474-a0d14ab8d9b7",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Christina Perri"
+]
+},
+"nick jonas": {
+"cc": "US",
+"country": "United States",
+"city": "Dallas",
+"mbid": "943e3724-27e7-4e23-9b1c-cc5d46b5bcc7",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Nick Jonas",
+"Nicholas Jerry Jonas"
+]
+},
+"sam smith": {
+"cc": "GB",
+"country": "United Kingdom",
+"city": "London",
+"mbid": "5a85c140-dcf9-4dd2-b2c8-aff0471549f3",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Sam Smith",
+"샘스미스",
+"샘 스미스",
+"Samuel Frederick Smith",
+"サム・スミス"
+]
+},
+"ashley tisdale": {
+"cc": "US",
+"country": "United States",
+"city": "Ocean Township",
+"mbid": "1fa14a96-c25c-4bb7-b94d-ff453519eab3",
+"langs": {
+"eng": 1.0
+},
+"aliases": [
+"Ashley Tisdale"
+]
+}
+}

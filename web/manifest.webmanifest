@@ -1,0 +1,25 @@
+{
+  "name": "Reach: music that fits you",
+  "short_name": "Reach",
+  "description": "A personal therapeutic sound session from what you love (Qloo), how you feel, and graded evidence.",
+  "id": "/",
+  "start_url": "/?app=1",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#06070d",
+  "theme_color": "#06070d",
+  "categories": ["health", "music", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Help me sleep", "url": "/?app=1&go=sleep", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Watch & breathe", "url": "/?app=1&tab=watch", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "World tour", "url": "/?app=1&go=world", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

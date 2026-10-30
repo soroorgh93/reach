@@ -1,0 +1,37 @@
+name: tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: No secrets in the repository
+        run: python scripts/secret_scan.py
+      - name: Unit tests (recorded Qloo answers, no network, no key)
+        env:
+          REACH_OFFLINE: "1"
+          REACH_LLM: "off"
+        run: python -m unittest discover -s tests -v
+      - name: The server starts and answers
+        env:
+          REACH_OFFLINE: "1"
+          REACH_LLM: "off"
+        run: |
+          python -m uvicorn server.app:app --port 8000 &
+          for i in $(seq 1 30); do curl -fsS localhost:8000/api/health && break; sleep 1; done
+          curl -fsS localhost:8000/judge > /dev/null
+          curl -fsS localhost:8000/api/bench
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Browser code parses
+        run: for f in web/*.js; do node --check "$f"; done

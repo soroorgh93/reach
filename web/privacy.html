@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reach privacy</title>
+<meta name="description" content="What Reach sends, to whom, what it keeps, and how to make it forget you.">
+<meta name="theme-color" content="#eef0f3">
+<link rel="icon" type="image/png" href="./icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --paper: #eef0f3; --card: #ffffff; --ink: #121521; --ink2: #4a5064; --line: rgba(18,21,33,.12); --gold: #9c7622; --teal: #177f76; --rose: #a3364b;
+  --display: "Cormorant Garamond", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: radial-gradient(90% 60% at 80% 0%, #fff, var(--paper) 60%); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: var(--teal); } a:hover { color: var(--ink); }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 clamp(16px, 5vw, 48px) 80px; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-size: 26px; color: var(--ink); text-decoration: none; }
+.brand img { width: 32px; height: 32px; border-radius: 50%; box-shadow: 0 0 0 1px var(--line); }
+.back { font-size: 14px; color: var(--ink); }
+h1, h2 { font-family: var(--display); font-weight: 500; line-height: 1.05; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(42px, 6vw, 72px); margin-top: 28px; max-width: 14ch; }
+.lede { font-size: 19px; color: var(--ink2); max-width: 58ch; margin: 18px 0 0; }
+.promise { margin-top: 34px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.promise div { background: var(--card); border-radius: 18px; padding: 18px 18px 16px; box-shadow: 0 1px 0 var(--line), 0 18px 40px -26px rgba(18,21,33,.35); }
+.promise b { display: block; font-family: var(--display); font-size: 24px; font-weight: 500; line-height: 1.15; margin-bottom: 6px; }
+.promise span { font-size: 14px; color: var(--ink2); }
+section { margin-top: 56px; }
+h2 { font-size: clamp(30px, 3.6vw, 44px); }
+section > p { color: var(--ink2); max-width: 64ch; }
+.flows { margin-top: 20px; border-top: 1px solid var(--line); }
+.flow { display: grid; grid-template-columns: 230px 1fr; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.flow h3 { margin: 0; font-size: 16px; font-weight: 600; }
+.flow h3 small { display: block; font-weight: 400; font-size: 13px; color: var(--ink2); margin-top: 2px; }
+.flow p { margin: 0; color: var(--ink); } .flow p + p { margin-top: 6px; }
+.flow .no { color: var(--rose); font-weight: 500; } .flow .yes { color: var(--teal); font-weight: 500; }
+.note { margin-top: 18px; padding: 16px 18px; border-radius: 14px; background: var(--card); border-inline-start: 3px solid var(--gold); color: var(--ink); max-width: 72ch; }
+.forget { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.forget button { border: 0; border-radius: 14px; padding: 14px 20px; background: var(--ink); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.forget button:hover { background: #262b3d; }
+#forgot { font-size: 14px; color: var(--teal); }
+footer { margin-top: 70px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink2); display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+@media (max-width: 760px) { .promise { grid-template-columns: 1fr; } .flow { grid-template-columns: 1fr; gap: 6px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><a class="brand" href="./"><img src="./icons/favicon.png" alt="">Reach</a><a class="back" href="./">Back to Reach</a></header>
+
+  <h1>What Reach knows about you</h1>
+  <p class="lede">Reach reads your mood and your taste to make a session for you. That is sensitive, so here is exactly where every piece goes, written for people, not lawyers.</p>
+
+  <div class="promise">
+    <div><b>Nothing personal goes to Qloo</b><span>Only Qloo's own ids for what you love, music genre and place-type tags, an age bucket, and a city.</span></div>
+    <div><b>Your face and voice stay on your device</b><span>Mood is measured in your browser, as a few numbers, and only after you switch it on.</span></div>
+    <div><b>No account, no database</b><span>Your profile lives in your own browser. The server keeps nothing about you, not even in its logs.</span></div>
+  </div>
+
+  <section>
+    <h2>Where each thing goes</h2>
+    <div class="flows">
+      <div class="flow"><h3>Qloo<small>the taste graph</small></h3><div>
+        <p><span class="yes">Sent:</span> Qloo ids of the artists, films, shows, books and games you add; genre and place-category tags the session needs; "child" or "adult" so films are rated right; your city.</p>
+        <p>If you tap <b>Use my location</b>, your position rounded to about 1 km (a neighbourhood, never an address) is sent instead of the city, only to find places near you after a session.</p>
+        <p><span class="no">Never sent:</span> your name, your words, your face, your voice, your mood, or what you need the session for.</p>
+        <p>Reach never uses Qloo to guess anything about you: not your health, identity or traits. What you need comes from you. Qloo's affinity describes the taste of many people who love what you love; it is not a prediction about you.</p></div></div>
+      <div class="flow"><h3>The Reach server<small>this website</small></h3><div>
+        <p>Your profile and your message are sent with each request so the agents can compose the session, then forgotten when the answer is sent.</p>
+        <p>There is no database and no account. Request logs are switched off, because a web address can carry your favourites and city.</p>
+        <p>The server keeps only shared caches that are not about anyone: which video is which song, which country an artist is from.</p></div></div>
+      <div class="flow"><h3>Your browser<small>this device</small></h3><div>
+        <p>Your profile, favourites, recent sessions, likes and skips, and settings are saved in this browser so Reach remembers you next time. They never leave it except inside a request above.</p>
+        <p>Delete them all with <b>Forget me</b> below.</p></div></div>
+      <div class="flow"><h3>Camera<small>off until you turn it on</small></h3><div>
+        <p>When you switch on <b>See my face</b> or <b>See my hands</b>, the picture is read in your browser by on-device models (face-api.js, MediaPipe). Only the result is used: a mood estimate, or which gesture you made. <span class="no">No image is uploaded or stored.</span></p>
+        <p>The hand model itself is downloaded from a public code host (jsDelivr or unpkg) the first time you turn hands on.</p></div></div>
+      <div class="flow"><h3>Microphone<small>only while you talk</small></h3><div>
+        <p>Push to talk: Reach listens only while you hold the 🎤 button. The tone of your voice is measured in your browser, as numbers, and only if you allowed it.</p>
+        <p>Turning speech into text uses your browser's own speech service. Some browsers, such as Chrome, do that on their maker's servers. Typing works without it.</p></div></div>
+      <div class="flow"><h3>Conversation model<small>understanding free speech</small></h3><div>
+        <p>By default a local model on the Reach server (Ollama), so your words stay on that machine. If the server's owner sets a hosted model (Anthropic or OpenAI), your message and the session's context go to that provider. Without a model, Reach uses its own rules.</p></div></div>
+      <div class="flow"><h3>Music catalogues<small>Deezer, iTunes, MusicBrainz, Internet Archive</small></h3><div>
+        <p>The Reach server looks up artist names to find songs, previews, where an artist is from, and nature recordings. Previews are streamed through Reach, so these services see the server, not you.</p></div></div>
+      <div class="flow"><h3>YouTube<small>full songs, trailers, calm films</small></h3><div>
+        <p>When a full song, trailer or calm film plays, YouTube's player loads in your browser, and Google sees that visit as with any embedded video.</p></div></div>
+      <div class="flow"><h3>Naming your city<small>only if you tap Use my location</small></h3><div>
+        <p>Your position, rounded to about 1 km, is sent from your browser to BigDataCloud's free service to get the city's name. Your browser asks your permission first.</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>For anyone under 13, Reach caps volume and pulse depth, uses child-rated films and shows, and leaves true-crime podcasts out for anyone under 16. No account or contact details are ever asked for. A parent or carer should set it up and stay nearby.</p>
+  </section>
+
+  <section>
+    <h2>Not a medical device</h2>
+    <p>Reach is a wellbeing tool built on published evidence about music and health. It does not diagnose, treat or replace care. Each session shows the strength of its evidence, and experimental parts (such as brainwave entrainment) are labelled as experimental. Keep the volume moderate, never use it while driving, and talk to a clinician about anything serious.</p>
+    <div class="note">If you are in crisis or thinking about harming yourself, please contact local emergency services or a crisis line now. Music can help with stress; it is not enough on its own when things are this hard.</div>
+  </section>
+
+  <section>
+    <h2>Forget me</h2>
+    <p>This deletes everything Reach saved in this browser: your name, favourites, sessions, likes, skips and settings.</p>
+    <div class="forget"><button id="forget">Forget me</button><span id="forgot" role="status"></span></div>
+  </section>
+
+  <footer><span>Reach · open source, MIT licence · built for the Qloo Agentic Hackathon 2026</span><a href="./judge">For judges</a></footer>
+</div>
+<script>
+document.getElementById("forget").addEventListener("click", () => {
+  let n = 0;
+  try { Object.keys(localStorage).filter(k => k.startsWith("reach.")).forEach(k => { localStorage.removeItem(k); n++; }); } catch {}
+  try { Object.keys(sessionStorage).filter(k => k.startsWith("reach.")).forEach(k => { sessionStorage.removeItem(k); n++; }); } catch {}
+  try { if (window.caches) caches.keys().then(ks => ks.forEach(k => caches.delete(k))); } catch {}
+  document.getElementById("forgot").textContent = n ? `Done. ${n} saved item${n === 1 ? "" : "s"} deleted from this browser.` : "Done. Reach had nothing saved in this browser.";
+});
+</script>
+</body>
+</html>

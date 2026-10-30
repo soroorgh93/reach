@@ -1,0 +1,2869 @@
+{
+ "_about": "Recorded Qloo responses (slimmed) so the demo runs offline. Keyed by call label. Recorded live on the hackathon tier; no raw dumps.",
+ "recorded_at": "2026-10-26T09:20:59.988Z",
+ "calls": {
+  "lena.artist.general": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "lena.sensory_safe.artist.fit": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "lena.calm_iso.artist.fit": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "lena.focus_beta.artist.fit": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "lena.sleep_descent.artist.fit": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "lena.mood_lift.artist.fit": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "lena.gamma_support.artist.fit": {
+   "path": "/v2/insights?filter.type=urn:entity:artist&signal.interests.entities=D727CF74-F6CA-4A80-90E2-CF2F109D2315,9B33A620-68CA-49B3-BFCF-F09CCF8AD595,F6013EAC-8F32-4080-B1ED-2BFABB9C706E&take=8&feature.explainability=true",
+   "data": {
+    "results": {
+     "entities": [
+      {
+       "name": "Joni Mitchell",
+       "entity_id": "1A9BE260-F41E-4592-9EAF-BDD6AE774F69",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.903,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.375
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.332
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.293
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Intellectual"
+        },
+        {
+         "name": "Folk"
+        },
+        {
+         "name": "Singer-Songwriter"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Devoted"
+        },
+        {
+         "name": "Singer Songwriter"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/1A9BE260-F41E-4592-9EAF-BDD6AE774F69-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "David Gray",
+       "entity_id": "CCD87CDE-DF2D-47C2-BE20-746A7B719F95",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.901,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.343
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.321
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Neil Young"
+        },
+        {
+         "name": "Life"
+        },
+        {
+         "name": "Loyal"
+        },
+        {
+         "name": "Vocals"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Introspective"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/CCD87CDE-DF2D-47C2-BE20-746A7B719F95-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Michael Bubl\u00e9",
+       "entity_id": "C8EFDF83-C1D1-413C-97A5-0CE465A177CF",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.897,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.373
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.324
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.304
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Warm"
+        },
+        {
+         "name": "Jazz"
+        },
+        {
+         "name": "Canadian"
+        },
+        {
+         "name": "Polished"
+        },
+        {
+         "name": "2"
+        },
+        {
+         "name": "Romance"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/C8EFDF83-C1D1-413C-97A5-0CE465A177CF-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Tracy Chapman",
+       "entity_id": "52C1F038-54FB-4687-9CA8-F4E7426842C4",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.998,
+       "query": {
+        "affinity": 0.896,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.341
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.34
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.319
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Alto"
+        },
+        {
+         "name": "Soul"
+        },
+        {
+         "name": "Nina Simone"
+        },
+        {
+         "name": "Melodic Storytelling"
+        },
+        {
+         "name": "Bob Dylan"
+        },
+        {
+         "name": "Blues"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/52C1F038-54FB-4687-9CA8-F4E7426842C4-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Missy Higgins",
+       "entity_id": "E9B58571-FAD7-447D-BB3C-F349FBED7EE0",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.994,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.415
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.32
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.265
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Pop"
+        },
+        {
+         "name": "Joni Mitchell"
+        },
+        {
+         "name": "Self Discovery"
+        },
+        {
+         "name": "Soulful"
+        },
+        {
+         "name": "Intimate"
+        },
+        {
+         "name": "Authentic"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E9B58571-FAD7-447D-BB3C-F349FBED7EE0-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Jeff Buckley",
+       "entity_id": "E00E6460-45CD-4E52-B367-A569293AC63A",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.999,
+       "query": {
+        "affinity": 0.895,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.415
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.305
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.279
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Dynamic"
+        },
+        {
+         "name": "Innovative"
+        },
+        {
+         "name": "Jimi Hendrix"
+        },
+        {
+         "name": "Existentialism"
+        },
+        {
+         "name": "Dream Pop"
+        },
+        {
+         "name": "Passionate"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/E00E6460-45CD-4E52-B367-A569293AC63A-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Elton John",
+       "entity_id": "4395AE84-43E1-45BC-9606-344226C6ADEC",
+       "subtype": "urn:entity:artist",
+       "popularity": 1,
+       "query": {
+        "affinity": 0.893,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "9B33A620",
+           "score": 0.385
+          },
+          {
+           "entity_id": "D727CF74",
+           "score": 0.318
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.297
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Expressive"
+        },
+        {
+         "name": "Singer & Songwriter"
+        },
+        {
+         "name": "Rock"
+        },
+        {
+         "name": "Piano Rock"
+        },
+        {
+         "name": "Piano Ballad"
+        },
+        {
+         "name": "Catchy"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/4395AE84-43E1-45BC-9606-344226C6ADEC-420x-auto.jpg"
+        }
+       }
+      },
+      {
+       "name": "Randy Newman",
+       "entity_id": "BE9644BD-E4E5-4303-A24C-3B2A600F9BF2",
+       "subtype": "urn:entity:artist",
+       "popularity": 0.992,
+       "query": {
+        "affinity": 0.892,
+        "explainability": {
+         "signal.interests.entities": [
+          {
+           "entity_id": "D727CF74",
+           "score": 0.38
+          },
+          {
+           "entity_id": "9B33A620",
+           "score": 0.336
+          },
+          {
+           "entity_id": "F6013EAC",
+           "score": 0.285
+          }
+         ]
+        }
+       },
+       "tags": [
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Cinematic Score Composer"
+        },
+        {
+         "name": "Melodic"
+        },
+        {
+         "name": "Piano"
+        },
+        {
+         "name": "Humorous"
+        },
+        {
+         "name": "Rock"
+        }
+       ],
+       "properties": {
+        "image": {
+         "url": "https://images.qloo.com/i/BE9644BD-E4E5-4303-A24C-3B2A600F9BF2-420x-auto.jpg"
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

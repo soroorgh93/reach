@@ -1,0 +1,330 @@
+{
+  "_about": "Demo profiles. Fictional people; favourites are public entities resolved against Qloo /search. Nothing here is a real patient record.",
+  "personas": [
+    {
+      "id": "lena",
+      "name": "Lena",
+      "age": 7,
+      "language": "en",
+      "city": "San Jose",
+      "story": "Autistic, minimally verbal. Sleeps badly, overwhelmed by bright rooms and noise. Her world is trains, Studio Ghibli and Bluey.",
+      "targets": [
+        "autism",
+        "sleep",
+        "anxiety",
+        "social_communication",
+        "sensory"
+      ],
+      "capacities": {
+        "hearing": "full",
+        "vision": "full",
+        "reading": "emerging",
+        "mobility": "ambulatory",
+        "verbal": "minimal"
+      },
+      "sensory": {
+        "noise": "low",
+        "light": "low"
+      },
+      "flags": [],
+      "consent": {
+        "taste": true
+      },
+      "favorites": [
+        {
+          "name": "Thomas & Friends",
+          "type": "tv_show",
+          "entity_id": "D727CF74-F6CA-4A80-90E2-CF2F109D2315"
+        },
+        {
+          "name": "Spirited Away",
+          "type": "movie",
+          "entity_id": "9B33A620-68CA-49B3-BFCF-F09CCF8AD595"
+        },
+        {
+          "name": "Bluey",
+          "type": "tv_show",
+          "entity_id": "F6013EAC-8F32-4080-B1ED-2BFABB9C706E"
+        }
+      ],
+      "default_goal": "autism_calm",
+      "sample_request": "My daughter is melting down after school, the lights and noise got to her. She loves Thomas and Bluey.",
+      "sample_hour": 16,
+      "city_coords": [
+        37.3382,
+        -121.8863
+      ]
+    },
+    {
+      "id": "daniel",
+      "name": "Daniel",
+      "age": 34,
+      "language": "en",
+      "city": "New York City",
+      "city_coords": [
+        40.7128,
+        -74.006
+      ],
+      "story": "Deaf since birth, signs ASL, reads everything. Six months of insomnia after a job change. Reach must refuse him an auditory session and say why.",
+      "targets": [
+        "insomnia",
+        "sleep",
+        "anxiety"
+      ],
+      "capacities": {
+        "hearing": "none",
+        "vision": "full",
+        "reading": "yes",
+        "mobility": "ambulatory",
+        "verbal": "sign"
+      },
+      "sensory": {},
+      "flags": [],
+      "consent": {
+        "taste": true
+      },
+      "favorites": [
+        {
+          "name": "Blade Runner 2049",
+          "type": "movie",
+          "entity_id": "3A02361C-987B-4F7E-9AAD-071C3853AD92"
+        },
+        {
+          "name": "The Matrix",
+          "type": "movie",
+          "entity_id": "C6046119-7760-4733-B84E-374E029B14DC"
+        },
+        {
+          "name": "Dune",
+          "type": "book",
+          "entity_id": "9BA85467-2189-46DC-BB98-4B25EE182A9D"
+        }
+      ],
+      "default_goal": "sleep",
+      "sample_request": "It's 1am again and I can't switch my head off.",
+      "sample_hour": 1
+    },
+    {
+      "id": "yuki",
+      "name": "Yuki",
+      "age": 29,
+      "language": "zh",
+      "city": "San Jose",
+      "city_coords": [
+        37.3382,
+        -121.8863
+      ],
+      "story": "Software engineer, three weeks into a product launch. Sleeps four hours, wired at midnight. Plays piano badly and lovingly.",
+      "targets": [
+        "insomnia",
+        "sleep",
+        "anxiety"
+      ],
+      "default_goal": "sleep",
+      "sample_request": "已经凌晨一点了，脑子停不下来，明天还有发布。",
+      "sample_hour": 1,
+      "capacities": {
+        "hearing": "full",
+        "vision": "full",
+        "reading": "yes",
+        "mobility": "ambulatory",
+        "verbal": "yes"
+      },
+      "sensory": {},
+      "flags": [],
+      "consent": {
+        "taste": true
+      },
+      "favorites": [
+        {
+          "name": "Joe Hisaishi",
+          "type": "artist",
+          "entity_id": null
+        },
+        {
+          "name": "Your Name",
+          "type": "movie",
+          "entity_id": null
+        },
+        {
+          "name": "Ludovico Einaudi",
+          "type": "artist",
+          "entity_id": null
+        },
+        {
+          "name": "The Legend of Zelda: Breath of the Wild",
+          "type": "video_game",
+          "entity_id": null
+        }
+      ]
+    },
+    {
+      "id": "rosa",
+      "name": "Rosa",
+      "age": 72,
+      "language": "es",
+      "city": "Los Angeles",
+      "city_coords": [
+        34.0522,
+        -118.2437
+      ],
+      "story": "Widowed last year, rarely leaves the apartment, low mood and early memory worries. Wears hearing aids. Sings along to everything.",
+      "targets": [
+        "depression",
+        "mood",
+        "isolation",
+        "dementia",
+        "sleep"
+      ],
+      "capacities": {
+        "hearing": "partial",
+        "vision": "full",
+        "reading": "yes",
+        "mobility": "limited",
+        "verbal": "yes"
+      },
+      "sensory": {},
+      "flags": [],
+      "consent": {
+        "taste": true
+      },
+      "favorites": [
+        {
+          "name": "Taylor Swift",
+          "type": "artist",
+          "entity_id": "4BBEF799-A0C4-4110-AB01-39216993C312"
+        },
+        {
+          "name": "Encanto",
+          "type": "movie",
+          "entity_id": "5C6428A2-60CA-4776-8E38-5F554EE2D0D7"
+        },
+        {
+          "name": "Frozen",
+          "type": "movie",
+          "entity_id": "3CE60F10-EA7D-4743-B67A-8B53D84351C5"
+        },
+        {
+          "name": "Dancing with the Stars",
+          "type": "tv_show",
+          "entity_id": "3FE67918-3AA3-4DBA-B0CB-D1AC4F5A5155"
+        }
+      ],
+      "default_goal": "mood",
+      "sample_request": "Hoy extraño mucho a mi esposo. No tengo ganas de nada.",
+      "sample_hour": 19
+    },
+    {
+      "id": "okafor",
+      "name": "Amara Okafor",
+      "age": 41,
+      "language": "en",
+      "city": "Chicago",
+      "city_coords": [
+        41.8781,
+        -87.6298
+      ],
+      "story": "Her son was diagnosed with a rare genetic condition this spring. Exhausted, isolated, reading everything she can. Radiolab on every commute.",
+      "targets": [
+        "rare_disease",
+        "isolation",
+        "community",
+        "caregiver",
+        "anxiety"
+      ],
+      "capacities": {
+        "hearing": "full",
+        "vision": "full",
+        "reading": "yes",
+        "mobility": "ambulatory",
+        "verbal": "yes"
+      },
+      "sensory": {},
+      "flags": [],
+      "consent": {
+        "taste": true
+      },
+      "favorites": [
+        {
+          "name": "Radiolab",
+          "type": "podcast",
+          "entity_id": "B4D6B6FD-7146-4E1C-AE48-B8EBD2BB71DA"
+        },
+        {
+          "name": "Educated",
+          "type": "book",
+          "entity_id": "54230DEF-F685-4DEA-BEAF-69D59D5D361A"
+        },
+        {
+          "name": "Bon Iver",
+          "type": "artist",
+          "entity_id": "E51DB8F2-7A93-4746-A283-E55B5216FDE1"
+        },
+        {
+          "name": "The Good Place",
+          "type": "tv_show",
+          "entity_id": "EF790F3D-3C83-40D0-9859-594A15F0919C"
+        }
+      ],
+      "default_goal": "calm",
+      "sample_request": "Three appointments tomorrow and I feel like I can't breathe. I need to calm down enough to sleep.",
+      "sample_hour": 22
+    },
+    {
+      "id": "mateo",
+      "name": "Mateo",
+      "age": 24,
+      "language": "es",
+      "city": "Chicago",
+      "city_coords": [
+        41.8781,
+        -87.6298
+      ],
+      "story": "Has Down syndrome, lives with his parents, works mornings at a bakery. Wants to be fitter and to be understood more easily on the phone. Dances in the kitchen.",
+      "targets": [
+        "down_syndrome",
+        "motor",
+        "communication",
+        "community",
+        "mood"
+      ],
+      "capacities": {
+        "hearing": "full",
+        "vision": "full",
+        "reading": "supported",
+        "mobility": "ambulatory",
+        "verbal": "yes"
+      },
+      "sensory": {},
+      "flags": [],
+      "consent": {
+        "taste": true
+      },
+      "favorites": [
+        {
+          "name": "Bad Bunny",
+          "type": "artist",
+          "entity_id": null
+        },
+        {
+          "name": "Coco",
+          "type": "movie",
+          "entity_id": null
+        },
+        {
+          "name": "Shakira",
+          "type": "artist",
+          "entity_id": null
+        },
+        {
+          "name": "Brooklyn Nine-Nine",
+          "type": "tv_show",
+          "entity_id": null
+        }
+      ],
+      "default_goal": "focus",
+      "sample_request": "Necesito concentrarme para practicar mis palabras antes de la terapia.",
+      "sample_hour": 10
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reach</title>
+<meta name="description" content="Reach composes a personal therapeutic sound session from your cultural taste (Qloo), your mood, and graded evidence, and plays it in your browser.">
+<meta name="theme-color" content="#06070d">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" href="./icons/favicon.png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Reach">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=Vazirmatn:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+<script src="./vendor/d3-array.min.js" defer></script><script src="./vendor/d3-geo.min.js" defer></script>
+</head>
+<body>
+
+<div class="chapterphoto" id="chapterphoto" aria-hidden="true"><img alt="" decoding="async"><img alt="" decoding="async"></div>
+<canvas id="film" class="film" aria-hidden="true"></canvas>
+<div class="touchfilm" id="touchfilm" aria-hidden="true">
+  <video id="touchvideo" playsinline muted loop preload="none" data-poster="./assets/touch_poster.jpg">
+    <source src="./assets/touch.webm" type="video/webm"><source src="./assets/touch.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="backdrop" id="backdrop" aria-hidden="true"><i></i></div>
+<div class="flash" id="flash" aria-hidden="true"></div>
+<div class="breathlight" id="breathlight" aria-hidden="true"></div>
+<div class="oracle" id="oracle" hidden aria-live="polite">
+  <video id="oraclevideo" muted loop playsinline preload="none" data-poster="./assets/oracle_poster.jpg?v=11"><source src="./assets/oracle.webm?v=11" type="video/webm"><source src="./assets/oracle.mp4?v=11" type="video/mp4"></video>
+  <svg class="oracle-beam" id="oraclebeam"><defs><linearGradient id="beamg" x1="0" x2="1"><stop offset="0" stop-color="#ffe7a8" stop-opacity=".95"/><stop offset="1" stop-color="#c9a24a" stop-opacity=".15"/></linearGradient></defs><line id="beamline" stroke="#f3d68c" stroke-opacity=".85" stroke-width="2.2" stroke-linecap="round"/><circle id="beamtip" r="5" fill="#fff2c9"/></svg>
+  <div class="oracle-card" id="oraclecard">
+    <div class="oracle-mark"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" class="ring"/><circle cx="50" cy="50" r="44" class="arc"/></svg><div class="eq"><i></i><i></i><i></i><i></i><i></i></div></div>
+    <div class="oracle-text"><small id="oraclekicker"></small><b id="oracletitle"></b><span id="oracleline"></span><ul class="oracle-src" id="oraclesrc"></ul></div>
+  </div>
+</div>
+
+<!-- The start page: Reach's whole idea as one 3D picture (web/universe.js). Eight worlds around a person of light;
+     click one to step inside. "Start my session" opens the session drawer; the frequency world is an instrument. -->
+<section class="welcome" id="welcome" hidden aria-labelledby="wl-title">
+  <canvas id="uni" aria-hidden="true"></canvas>
+  <div class="unilabels" id="unilabels"></div>
+  <div class="wl-top">
+    <a class="wl-brand homelink" href="./" aria-label="Reach, the start page"><img src="./icons/favicon.png" alt="" width="34" height="34"><span>Reach</span></a>
+    <div class="wl-topright"><span class="wl-live" id="wl-live"><i></i><span data-i18n="wl_checking">Checking Qloo…</span></span>
+      <label class="wl-langwrap"><span class="sr" data-i18n="wl_language"></span><select class="langsel" id="wl-langsel" aria-label="Language"></select></label>
+      <button class="wl-tour" id="wl-tour" type="button"><span class="wl-tourplay" aria-hidden="true"></span><span data-i18n="guide">Guided tour</span></button>
+      <a class="wl-readme" href="./readme">README</a></div>
+  </div>
+  <div class="wl-hero">
+    <h1 id="wl-title"><span class="wl-h" id="wl-h" data-i18n="wl_title">Your own music, made into medicine.</span></h1>
+    <p class="wl-also" id="wl-also" aria-hidden="true"></p>
+    <p class="wl-lede" data-i18n="wl_lede2">Tell Reach who you love and what you need. Qloo's taste graph picks the music; a clinical protocol decides how it plays. Without Qloo, Reach refuses.</p>
+    <div class="wl-ctas"><button class="wl-cta" id="wl-open-start" type="button" data-i18n="wl_cta_start">Start my session</button><button class="wl-cta2" id="wl-open-freq" type="button"><span aria-hidden="true">◉</span> <span data-i18n="wl_cta_freq">Play a frequency</span></button></div>
+    <div class="wl-tries"><span data-i18n="wl_try">Try in one tap:</span><div id="wl-tries"></div></div>
+    <div class="wl-proof" id="wl-proof" hidden></div>
+    <div class="wl-links"><button class="wl-text" id="wl-film" data-i18n="wl_film">▶ Watch the story (2 min)</button><a class="wl-text" href="./privacy" data-i18n="wl_privacy">Privacy</a><button class="wl-text wl-sound" id="wl-sound" type="button" aria-pressed="false"><span class="wl-eq" aria-hidden="true"><i></i><i></i><i></i></span><span data-i18n="wl_music">Music</span></button></div>
+  </div>
+  <p class="wl-hint" data-i18n="wl_explore">Click any world to step inside it</p>
+  <aside class="uni-info" id="uni-info" hidden aria-live="polite">
+    <small class="ui-k"></small><h2></h2><p></p>
+    <div class="ui-media"></div>
+    <div class="ui-btns"><button class="ui-open" type="button"></button><button class="ui-back" type="button" data-i18n="u_back"></button></div>
+  </aside>
+  <div class="wl-drawer" id="wl-drawer" hidden role="dialog" aria-labelledby="wl-drawer-h">
+    <div class="wl-drawerhead"><h2 id="wl-drawer-h" data-i18n="wl_drawer_h"></h2><button class="wl-close" id="wl-close" type="button" aria-label="close">×</button></div>
+    <form class="wl-card" id="wl-form" autocomplete="off">
+      <div class="wl-step"><label for="wl-favinput" data-i18n="wl_q_love"></label>
+        <div class="favs" id="wl-favs"></div>
+        <div class="favadd"><input id="wl-favinput" type="text" data-i18n-ph="wl_love_ph"><div class="suggest" id="wl-suggest" hidden></div></div>
+        <div class="wl-examples" id="wl-examples"></div></div>
+      <div class="wl-step"><span class="wl-label" data-i18n="wl_q_need"></span><span class="wl-sub" data-i18n="wl_need_multi"></span>
+        <div class="wl-chips" id="wl-goals" role="group"><button type="button" data-goal="sleep" data-i18n="g_sleep"></button><button type="button" data-goal="calm" data-i18n="g_calm"></button><button type="button" data-goal="focus" data-i18n="g_focus"></button><button type="button" data-goal="mood" data-i18n="g_mood"></button><button type="button" data-goal="memory" data-i18n="g_memory"></button><button type="button" data-goal="energy" data-i18n="g_energy"></button></div>
+        <p class="wl-journey" id="wl-journey" hidden></p></div>
+      <div class="wl-step"><span class="wl-label" data-i18n="wl_q_who"></span>
+        <div class="wl-seg" role="group"><button type="button" data-who="me" aria-pressed="true" data-i18n="wl_me"></button><button type="button" data-who="group" aria-pressed="false" data-i18n="wl_group"></button></div>
+        <div class="wl-people" id="wl-people" hidden></div>
+        <button type="button" class="wl-addperson" id="wl-addperson" hidden data-i18n="wl_add_person"></button>
+        <input id="wl-group" type="hidden"></div>
+      <div class="wl-step"><label for="wl-city" data-i18n="wl_q_where"></label>
+        <div class="wl-where"><input id="wl-city" type="text" maxlength="40" data-i18n-ph="wl_city_ph"><button type="button" class="wl-locate" id="wl-locate"><span aria-hidden="true">📍</span> <span data-i18n="wl_locate"></span></button></div>
+        <p class="wl-note" id="wl-locnote" data-i18n="wl_loc_note"></p></div>
+      <div class="wl-go"><button type="submit" class="wl-start" id="wl-start" data-i18n="wl_start"></button><button type="button" class="wl-example" id="wl-demo" data-i18n="wl_demo"></button></div>
+      <p class="wl-note wl-sentnote" data-i18n="wl_sent"></p>
+    </form>
+  </div>
+  <div class="wl-trust">
+    <div><b data-i18n="wl_t1b">Graded evidence</b><span data-i18n="wl_t1">Music for stress and pain: 81 trials, 5,576 people (Cochrane 2021). Entrainment labelled experimental.</span></div>
+    <div><b data-i18n="wl_t2b">Safety rules</b><span data-i18n="wl_t2">WHO safe-listening volume, child and autism limits, hearing and tinnitus checks, never while driving.</span></div>
+    <div><b data-i18n="wl_t3b">Qloo at the core</b><span data-i18n="wl_t3">Artists, genres, podcasts, films, places and books from Qloo's taste graph. Without it, Reach refuses.</span></div>
+    <div><b data-i18n="wl_t4b">Private by design</b><span data-i18n="wl_t4">Face and voice are read in your browser. No account, no database. Nothing personal goes to Qloo.</span></div>
+  </div>
+</section>
+<script>/* show the start page at once, before the 3D and the app load (app.js takes over from here) */
+if (!/[?&](app|film|tour)=/.test(location.search)) { document.getElementById("welcome").hidden = false; document.body.classList.add("welcoming"); }</script>
+
+<header class="topbar">
+  <a class="brand homelink" href="./" aria-label="Reach, the start page"><img src="./icons/favicon.png" alt="" width="30" height="30"><span>Reach</span></a>
+  <div class="topright">
+    <button class="skip" id="skip" data-i18n="skip"></button>
+    <button class="skip guidebtn" id="guidebtn" data-i18n="guide"></button>
+    <a class="skip judgelink" href="./readme">README</a>
+    <nav class="lang" aria-label="Language">
+      <button data-lang="en" aria-pressed="true">EN</button><button data-lang="es">ES</button><button data-lang="fa">فا</button><button data-lang="zh">中文</button>
+      <select class="langsel" id="langsel" aria-label="More languages"></select>
+    </nav>
+  </div>
+</header>
+<nav class="rail" id="rail" aria-label="Chapters"></nav>
+<div class="status" id="status"><i></i><span></span></div>
+
+<main class="deck" id="deck">
+  <section class="slide" data-slide="human">
+    <div class="caption"><h1 data-i18n="c_human"></h1><p data-i18n="c_human_s"></p><div class="introactions"><button class="skip" id="intro-skip" data-i18n="skip"></button><button class="skip" id="intro-guide" data-i18n="guide"></button></div></div>
+    <div class="scroll-hint" data-i18n="scroll"></div>
+  </section>
+  <section class="slide" data-slide="neurons"><div class="caption"><h2 data-i18n="c_neurons"></h2><p data-i18n="c_neurons_s"></p></div></section>
+  <section class="slide" data-slide="genome"><div class="caption"><h2 data-i18n="c_genome"></h2><p data-i18n="c_genome_s"></p></div></section>
+  <section class="slide" data-slide="galaxy"><div class="caption"><h2 data-i18n="c_galaxy"></h2><p data-i18n="c_galaxy_s"></p></div></section>
+  <section class="slide" data-slide="touch"><div class="caption low"><h2 data-i18n="c_touch"></h2><p data-i18n="c_touch_s"></p></div></section>
+
+  <section class="slide app-slide" data-slide="app">
+    <nav class="apptabs" id="apptabs" role="tablist">
+      <button role="tab" data-tab="talk" aria-selected="true"><i>♪</i><span data-i18n="tab_talk"></span></button>
+      <button role="tab" data-tab="me"><i>☺</i><span data-i18n="tab_me"></span></button>
+      <button role="tab" data-tab="feel"><i>◉</i><span data-i18n="tab_feel"></span></button>
+      <button role="tab" data-tab="watch"><i>◎</i><span data-i18n="tab_watch"></span></button>
+      <button role="tab" data-tab="freq" class="tab-freq"><i>∿</i><span data-i18n="tab_freq"></span></button>
+      <button role="tab" data-tab="after"><i>✦</i><span data-i18n="tab_after"></span></button>
+    </nav>
+
+    <!-- 1. Talk: the conversation and the session -->
+    <div class="tabpanel studio" data-panel="talk">
+      <aside class="intake glass">
+        <div class="mehead"><b id="youname" contenteditable="true" spellcheck="false">You</b><span class="sub" id="mesummary"></span><button class="ghost small editme" id="editme" data-i18n="edit_me"></button></div>
+        <div class="chat" id="chat"><div class="msg sys" data-i18n="chat_hello"></div></div>
+        <p class="sub tiny" data-i18n="sent"></p>
+      </aside>
+      <div class="stage">
+        <div class="hud" id="hud">
+          <div class="hz"><b id="hz-big">—</b><span>Hz</span></div>
+          <div class="bandnote" id="bandnote"></div>
+          <div class="band" id="band-strip"></div>
+          <div class="hudrow"><button class="bigplay" id="play" aria-label="Play">▶</button><div class="hudside"><div class="pulsestate" id="pulsestate"></div><div class="freqopts" id="freqopts"><div class="seg small"><button data-fs="iso" aria-pressed="true" data-i18n="fs_speakers"></button><button data-fs="binaural" aria-pressed="false" data-i18n="fs_phones"></button></div><label class="switch small"><input type="checkbox" id="freqpad"><span data-i18n="fs_pad"></span></label></div><button class="ghost small platebtn" id="platebtn" aria-pressed="false" data-i18n="plate_view"></button></div></div>
+          <div class="hudmeta" id="hudmeta"></div>
+          <div class="adapt" id="adaptline"></div>
+        </div>
+        <div class="controls glass" id="controls">
+          <div class="field"><span data-i18n="carrier_src"></span><div class="seg" id="srcsel"><button data-src="artists" aria-pressed="true" data-i18n="src_artists"></button><button data-src="scape" data-i18n="src_scape"></button><button data-src="podcast" data-i18n="src_podcast"></button><button data-src="bed" data-i18n="src_bed"></button><button data-src="visual" data-i18n="src_visual"></button></div><select id="scapekind" hidden></select></div>
+          <details class="finetune"><summary data-i18n="fine_tune"></summary>
+          <label class="field"><span data-i18n="pulse"></span><input type="range" id="pulse" min="0.5" max="48" step="0.5" value="10"><output id="pulseout">—</output><button class="ghost small" id="pulsefree" hidden data-i18n="follow"></button></label>
+          <label class="field"><span data-i18n="intensity"></span><input type="range" id="depth" min="0" max="0.6" step="0.05" value="0.3"><output id="depthout">0.30</output><span class="sub tiny" style="margin:0" data-i18n="demo_speed"></span><input type="checkbox" id="demospeed"></label>
+          <div class="field genlayer off" id="genlayer"><span data-i18n="gen_layer"></span><label class="switch"><input type="checkbox" id="genon"><span data-i18n="gen_on"></span></label><input type="range" id="genlevel" min="0" max="1" step="0.05" value="0.25"><output id="genout">25%</output><span class="sub tiny" style="margin:0" data-i18n="gen_note"></span></div>
+          </details>
+        </div>
+        <div class="nowplaying glass" id="nowplaying" hidden></div>
+        <div class="podpick glass" id="podpick" hidden></div>
+        <div class="toast" id="toast" hidden></div>
+        <div class="timeline" id="timeline"></div>
+        <div class="stagecaption" id="stagecaption"></div>
+        <div class="composer">
+          <div class="quick" id="quick"></div>
+          <div class="chatbox">
+            <textarea id="request" rows="2" data-i18n-ph="placeholder"></textarea>
+            <button class="toggle iconbtn" id="speak" aria-pressed="false" title="Speak">🎤</button>
+            <button class="primary" id="compose" data-i18n="send"></button>
+          </div>
+        </div>
+      </div>
+      <aside class="why glass" id="why">
+        <div class="whyhead"><h3 data-i18n="council"></h3><button class="ghost small" id="whyclose">×</button></div>
+        <div class="story" id="story"></div>
+        <div class="feedback" id="feedback" hidden><span data-i18n="helped_q"></span><button class="ghost small" data-fb="up" data-i18n="helped"></button><button class="ghost small" data-fb="down" data-i18n="not_me"></button></div>
+        <div class="trace" id="trace"><div class="empty">—</div></div>
+      </aside>
+      <button class="whybtn glass" id="whybtn" data-i18n="why"></button>
+    </div>
+
+    <div class="handpip glass" id="handpip" hidden aria-live="polite"><div class="pipview"><video id="pipvideo" muted playsinline autoplay></video><canvas id="pipcanvas"></canvas></div><div class="piplabel" id="piplabel"></div><div class="pipmeter"><i id="pipmeter"></i></div></div>
+
+    <!-- 2. About me: who I am, what I love, who is with me -->
+    <div class="tabpanel pagepanel" data-panel="me" hidden>
+      <div class="page glass">
+        <h2 data-i18n="me_title"></h2><p class="lede" data-i18n="me_sub"></p>
+        <div class="formgrid">
+          <label><span data-i18n="ob_name"></span><input id="mename" type="text" maxlength="40"></label>
+          <label><span data-i18n="age"></span><input id="youage" type="number" min="3" max="100" value="30"></label>
+          <label><span data-i18n="city_ph"></span><input id="youcity" type="text"></label>
+          <label><span data-i18n="ob_hearing"></span><select id="youhearing"><option value="full" data-i18n="h_full"></option><option value="partial" data-i18n="h_partial"></option><option value="none" data-i18n="h_none"></option></select></label>
+        </div>
+        <h3 data-i18n="me_loves"></h3>
+        <div class="favs big" id="favs"></div>
+        <div class="favadd"><input id="favinput" type="text" autocomplete="off" data-i18n-ph="fav_ph"><div class="suggest" id="favsuggest" hidden></div></div>
+        <p class="sub" data-i18n="fav_help"></p>
+        <p class="sub forgetrow"><a href="./privacy" data-i18n="wl_privacy">Privacy</a> <button class="ghost small" id="forgetme" type="button" data-i18n="forget_me"></button></p>
+      </div>
+      <div class="page glass" id="groupbox">
+        <h2 data-i18n="with_people"></h2><p class="lede" data-i18n="group_sub"></p>
+        <div class="members" id="members"></div>
+        <div class="favadd"><input id="memberinput" type="text" autocomplete="off" data-i18n-ph="member_ph"></div>
+        <div class="run-row"><button class="primary" id="groupgo" data-i18n="group_go"></button></div>
+      </div>
+    </div>
+
+    <!-- 3. How I feel: camera, voice, hands, the mood dial, goals -->
+    <div class="tabpanel pagepanel" data-panel="feel" hidden>
+      <div class="page glass feelpage">
+        <h2 data-i18n="feel_title"></h2><p class="lede" data-i18n="feel_sub"></p>
+        <div class="sensors big">
+          <button class="toggle" id="cam" aria-pressed="false"><span class="dot"></span><span data-i18n="see_face"></span></button>
+          <button class="toggle" id="mic" aria-pressed="false"><span class="dot"></span><span data-i18n="hear_voice"></span></button>
+          <button class="toggle" id="hands" aria-pressed="false"><span class="dot"></span><span data-i18n="see_hands"></span></button>
+        </div>
+        <div class="moodrow big">
+          <div class="camwrap"><video id="camvideo" playsinline muted></video><canvas id="camoverlay"></canvas><div class="camempty" id="camempty"><b>◉</b><span data-i18n="cam_empty"></span></div><div class="camhint" id="camhint"></div></div>
+          <div class="dialwrap"><div class="dialtitle" data-i18n="dial_title"></div><canvas id="dial" width="320" height="320"></canvas><div class="dial-note" id="dialnote" data-i18n="dial_none"></div></div>
+        </div>
+        <div class="moodwords" id="moodwords"></div>
+        <label class="adapttoggle"><input type="checkbox" id="autoadapt"> <span data-i18n="adapt_toggle"></span></label>
+        <ul class="gesturehelp" data-i18n-list="gesture_help"></ul>
+      </div>
+      <div class="page glass">
+        <h2 data-i18n="goal_title"></h2><p class="lede" data-i18n="goal_sub"></p>
+        <div class="goals big" id="goals">
+          <button data-goal="sleep" data-i18n="g_sleep"></button><button data-goal="calm" data-i18n="g_calm"></button><button data-goal="focus" data-i18n="g_focus"></button>
+          <button data-goal="energy" data-i18n="g_energy"></button><button data-goal="mood" data-i18n="g_mood"></button><button data-goal="memory" data-i18n="g_memory"></button><button data-goal="autism_calm" data-i18n="g_child"></button>
+        </div>
+        <p class="journeynote" id="journeynote" hidden></p>
+      </div>
+    </div>
+
+    <!-- 4. Watch & breathe: for people who cannot hear, or anyone -->
+    <div class="tabpanel watchpanel" data-panel="watch" hidden>
+      <div class="watchbg" id="watchbg"><div id="calmbox"></div></div>
+      <div class="visualstage" id="visualstage">
+        <div class="orbwrap"><div class="orb" id="orb"></div><div class="orbring" id="orbring"></div><div class="orbtext"><b id="orbword"></b><span id="orbcount"></span></div></div>
+        <div class="vsside">
+          <h2 data-i18n="watch_title"></h2>
+          <div class="vsnote" id="vsnote" data-i18n="watch_sub"></div>
+          <div class="run-row"><button class="primary" id="vsstart" data-i18n="watch_start"></button><button class="ghost" id="vsstop" data-i18n="watch_stop"></button></div>
+          <h3 data-i18n="watch_list"></h3>
+          <div class="posters" id="posters"></div>
+        </div>
+      </div>
+      <div class="trailer" id="trailer" hidden><div id="trailerbox"></div><button class="ghost small" id="trailerclose">×</button></div>
+    </div>
+
+    <!-- Frequencies: the instrument, full size (web/instrument.js) -->
+    <div class="tabpanel freqpanel" data-panel="freq" hidden>
+      <div class="freqhead"><h2 data-i18n="fq_title"></h2><p data-i18n="fq_lede"></p></div>
+      <div id="freqinst"></div>
+    </div>
+
+    <!-- 5. After the music: a place, a table, a page near you, from the same taste (Qloo places and books) -->
+    <div class="tabpanel afterpanel" data-panel="after" hidden>
+      <canvas class="afcanvas" id="afcanvas" aria-hidden="true"></canvas>
+      <div class="aflabels" id="aflabels" aria-hidden="true"></div>
+      <div class="afside glass">
+        <h2 data-i18n="af_title"></h2>
+        <p class="aflede" id="aflede"></p>
+        <div class="afseg" id="afseg" role="group"><button data-af="place" aria-pressed="true"><span data-i18n="af_place"></span><small></small></button><button data-af="food" aria-pressed="false"><span data-i18n="af_food"></span><small></small></button><button data-af="read" aria-pressed="false"><span data-i18n="af_read"></span><small></small></button></div>
+        <p class="afwhy" id="afwhy"></p>
+        <ol class="aflist" id="aflist"></ol>
+        <p class="afsent" id="afsent"></p>
+      </div>
+    </div>
+
+    <div class="onboard" id="onboard" hidden>
+      <div class="onboardcard glass">
+        <h2 data-i18n="ob_title"></h2>
+        <p class="sub" data-i18n="ob_sub"></p>
+        <div class="obrow"><label><span data-i18n="ob_name"></span><input id="ob-name" type="text" maxlength="40"></label><label><span data-i18n="age"></span><input id="ob-age" type="number" min="3" max="100" value="30"></label><label><span data-i18n="city_ph"></span><input id="ob-city" type="text" maxlength="40"></label></div>
+        <div class="obrow"><label><span data-i18n="ob_hearing"></span><select id="ob-hearing"><option value="full" data-i18n="h_full"></option><option value="partial" data-i18n="h_partial"></option><option value="none" data-i18n="h_none"></option></select></label></div>
+        <div class="favs" id="ob-favs"></div>
+        <div class="favadd"><input id="ob-favinput" type="text" autocomplete="off" data-i18n-ph="fav_ph"><div class="suggest" id="ob-suggest" hidden></div></div>
+        <p class="sub tiny" data-i18n="fav_help"></p>
+        <div class="run-row"><button class="primary" id="ob-start" data-i18n="ob_start"></button><button class="ghost" id="ob-demo" data-i18n="ob_demo"></button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide world-slide" data-slide="world">
+    <!-- World tour: globe -> red border -> the country -> its streets and its music -->
+    <div class="worldpanel">
+      <canvas class="tourmap" id="tourmap" aria-hidden="true"></canvas>
+      <div class="tourscene" id="tourscene" aria-hidden="true">
+        <div class="photos" id="tourphotos"></div>
+        <div class="ytframe" id="ytframe"><div id="ytbox"></div></div>
+        <div class="scenecap"><b id="scenecity"></b><span id="sceneline"></span><small id="scenesong"></small></div>
+        <div class="songcard" id="songcard" hidden></div>
+        <button class="skip soundbtn" id="soundbtn" hidden data-i18n="tap_sound"></button>
+      </div>
+      <div class="tourbig" id="tourbig" aria-hidden="true"><b></b><span></span></div>
+      <div class="tour glass" id="tour">
+        <div class="tourhead"><b data-i18n="tour_title"></b><button class="primary small" id="tourstart" data-i18n="tour_start"></button></div>
+        <p class="sub tiny" data-i18n="tour_sub"></p>
+        <div class="cities" id="cities"></div>
+        <div class="tourcard" id="tourcard" hidden></div>
+        <form class="addvid" id="addvid" hidden><input id="addvidurl" type="url" data-i18n-ph="addvid_ph"><button class="ghost small" data-i18n="addvid"></button></form>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide clinic-slide" data-slide="clinic">
+    <div class="clinic">
+      <div class="head"><h2 data-i18n="cl_title"></h2><p class="lede" data-i18n="cl_lede"></p></div>
+      <div class="story3">
+        <div class="panel glass"><span class="tag" data-i18n="cl_p_tag"></span><h3 data-i18n="cl_p_h"></h3><p data-i18n="cl_p_t"></p></div>
+        <div class="panel glass"><span class="tag" data-i18n="cl_s_tag"></span><h3 data-i18n="cl_s_h"></h3><p data-i18n="cl_s_t"></p></div>
+        <div class="panel glass"><span class="tag" data-i18n="cl_u_tag"></span><h3 data-i18n="cl_u_h"></h3><p data-i18n="cl_u_t"></p></div>
+      </div>
+      <div class="panel glass patients"><h3 data-i18n="cl_pat_h"></h3><p class="sub" data-i18n="cl_pat_t"></p><div id="patients"></div></div>
+      <div class="panel glass"><h3 data-i18n="cl_cmp_h"></h3><p class="sub" data-i18n="cl_cmp_t"></p><div id="comparebox" class="sub"></div><div class="run-row"><button class="primary small" id="runcompare" data-i18n="run_compare"></button></div></div>
+      <div class="panel glass"><h3 data-i18n="cl_proof_h"></h3><p class="sub" data-i18n="cl_proof_t"></p><div class="run-row"><button class="primary small" id="verify" data-i18n="verify"></button><button class="ghost small" id="tamper" data-i18n="tamper"></button></div><div id="verdict" class="mt"></div><details class="mt"><summary class="sub" data-i18n="cl_details"></summary><div class="hash mt" id="ledgerhead"></div><div id="qloobox" class="sub"></div></details></div>
+      <div class="panel glass"><h3 data-i18n="cl_ev_h"></h3><p class="sub" data-i18n="cl_ev_t"></p><div id="evidencebox" class="evlist"></div></div>
+      <details class="panel glass rulesbox"><summary><h3 data-i18n="cl_rules_h"></h3></summary><div class="rule-list">
+        <div><code>R-SENS-AUD</code> auditory session needs hearing; partial → isochronic only; none → visual + haptic</div>
+        <div><code>R-AGE</code> under 5: no pulse; under 13: child volume and depth caps</div>
+        <div><code>R-SAFETY</code> declared contraindications (severe hyperacusis, tinnitus)</div>
+        <div><code>R-TIMING</code> focus late at night → review</div>
+        <div><code>R-CONSENT</code> no consent to taste → refuse</div>
+        <div><code>G-QLOO-CONTRIBUTION</code> carrier and palette must come from Qloo</div>
+        <div><code>G-SENSORY-ENVELOPE</code> autism: depth ≤ 0.25, output ≤ −20 dBFS, tempo ≤ 84</div>
+        <div><code>G-TASTE-OVER-EVIDENCE</code> taste carrying a weak grade is flagged</div>
+        <div><code>G-REQUEST-VS-STATE</code> what you asked vs what you show</div>
+        <div><code>G-CONSENT</code> face/voice numbers without a consent flag are discarded</div>
+        <div><code>G-STANCE-DISAGREEMENT</code> Bayes ≠ minimax → least-favourable prior</div>
+        <div><code>gate</code> p ≥ θ and p·benefit ≥ (1−p)·cost</div>
+      </div></details>
+    </div>
+  </section>
+</main>
+<div class="guide" id="guide" hidden>
+  <div class="guide-mask"></div>
+  <div class="guide-spot"></div>
+  <div class="guide-media" id="guide-media" hidden><video muted loop playsinline preload="none"></video></div>
+  <div class="guide-card glass">
+    <div class="guide-top"><span id="guide-n"></span><label><input type="checkbox" id="guide-voice" checked> <span data-i18n="guide_voice"></span></label><button class="ghost small" id="guide-close" aria-label="close">×</button></div>
+    <h3 id="guide-title"></h3>
+    <p id="guide-text"></p>
+    <div class="guide-player"><button class="guide-play" id="guide-play" aria-label="pause">❚❚</button><div class="guide-bar" id="guide-bar"><div class="guide-track"></div><div class="guide-fill" id="guide-fill"></div><div class="guide-marks" id="guide-marks"></div><div class="guide-knob" id="guide-knob"></div></div><span class="guide-time" id="guide-time">0:00</span></div>
+  </div>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

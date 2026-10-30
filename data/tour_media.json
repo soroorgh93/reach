@@ -1,0 +1,18 @@
+{
+ "_about": "Video vibes for the world tour, collected by the author. city is optional: without it the YouTube title (oEmbed) decides. start/seconds = the part to show. Add more from the tour card (+ video) or edit here.",
+ "videos": [
+  {"url": "https://www.youtube.com/watch?v=XNzewEFc9w4", "city": "Rome", "note": "The Best Italian Music & aerial 4K Italy landscapes", "start": 95, "seconds": 45, "vertical": false},
+  {"url": "https://www.youtube.com/watch?v=2S7BvkDN0hw", "city": "Rome", "note": "The Best Italian Songs of all Times", "start": 20, "seconds": 40, "vertical": false},
+  {"url": "https://youtube.com/shorts/2G8B6OGp8ms", "city": "Paris", "note": "Paris, France #cityoflove", "vertical": true},
+  {"url": "https://youtube.com/shorts/UnQdyUaohic", "city": "Tehran", "note": "Tehran", "vertical": true},
+  {"url": "https://youtube.com/shorts/lO7gZ8PspUg", "city": "Mumbai", "note": "Chaleya, Arijit Singh (Jawan)", "vertical": true},
+  {"url": "https://youtube.com/shorts/dmTtZkrOOR0", "city": "Cairo", "note": "Middle Eastern vibes, Arabic music", "vertical": true},
+  {"url": "https://youtube.com/shorts/Xq9V0_75uts", "vertical": true},
+  {"url": "https://youtube.com/shorts/iSAQxc4Pjjw", "vertical": true},
+  {"url": "https://youtube.com/shorts/j-IJhkBAdok", "vertical": true},
+  {"url": "https://youtube.com/shorts/rRqTMrTZunM", "vertical": true},
+  {"url": "https://youtube.com/shorts/kOVs6n9CYQU", "vertical": true},
+  {"url": "https://www.youtube.com/watch?v=kw4tT7SCmaY"},
+  {"url": "https://www.youtube.com/watch?v=_Fwf45pIAtM"}
+ ]
+}

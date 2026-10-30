@@ -1,0 +1,93 @@
+[
+ {
+  "id": "kb:binaural",
+  "title": "Binaural beats",
+  "text": "Two slightly different tones, one per ear, create a perceived beat at the difference frequency. Meta-analysis of 22 studies found a small pooled effect (g = 0.45) on behaviour, but EEG studies contradict entrainment in 8 of 14 experiments. Headphones are required. Not a treatment.",
+  "source": "Garcia-Argibay 2019; Ingendoh 2023",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/30073406/"
+ },
+ {
+  "id": "kb:isochronic",
+  "title": "Isochronic tones",
+  "text": "A single tone switched on and off at the target rate. Works without headphones. The evidence is thinner than for binaural beats; one n=60 study found no stress reduction. Reach uses a shallow pulse under music and labels it experimental.",
+  "source": "Reach evidence review",
+  "url": ""
+ },
+ {
+  "id": "kb:iso",
+  "title": "ISO principle",
+  "text": "Meet the person at their current mood and tempo, then move gradually toward the target. In a 107-person study the sad-to-happy order produced the highest positive affect, not significantly above happy-happy. Reach applies it by starting at the arousal-matched tempo and stepping down or up.",
+  "source": "Starcke 2021 IJERPH",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8656869"
+ },
+ {
+  "id": "kb:preference",
+  "title": "Why preferred music matters",
+  "text": "Self-selected music engages the reward system (striatal dopamine during peaks, Salimpoor 2011) and moderates analgesia across 14 trials. Generic playlists lose this. Qloo supplies the preference signal from what the person already loves across film, books and games.",
+  "source": "Salimpoor 2011; Garza-Villarreal 2017",
+  "url": "https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf"
+ },
+ {
+  "id": "kb:tempo",
+  "title": "Tempo and the body",
+  "text": "Heart rate, breathing and blood pressure rise with faster tempo and fall with slower tempo and pauses; tempo, not style, drives it. Resting adult heart rate is about 60-80 bpm, which is where calm and sleep sessions settle.",
+  "source": "Bernardi 2006 Heart",
+  "url": "https://heart.bmj.com/content/92/4/433"
+ },
+ {
+  "id": "kb:breathing",
+  "title": "Paced breathing",
+  "text": "Breathing near six times a minute raises heart-rate variability and lowers anxiety; meta-analysis of 24 studies, g = 0.81. Reach adds a breathing cue to calm and sleep sessions for the first minutes.",
+  "source": "Goessl 2017 Psychological Medicine",
+  "url": ""
+ },
+ {
+  "id": "kb:volume",
+  "title": "Safe listening",
+  "text": "WHO-ITU: keep below 80 dB for 40 hours a week for adults and 75 dB for children. Reach caps output at -14 dBFS, -20 dBFS for children and sensory-safe sessions, and never plays while a driving session is declared.",
+  "source": "WHO-ITU H.870",
+  "url": "https://www.who.int/publications/i/item/9789241515276"
+ },
+ {
+  "id": "kb:deaf",
+  "title": "Deaf and hard of hearing",
+  "text": "An auditory session cannot reach a deaf person, so Reach refuses it and offers a visual and haptic session: breathing light at the breathing rate, vibration patterns at the session tempo on phones, and films and shows from the person's taste through Qloo. Vibrotactile music through a cushion or vest is the clinical alternative.",
+  "source": "Reach design; Frontiers in Computer Science 2023",
+  "url": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1162758/pdf"
+ },
+ {
+  "id": "kb:qloo",
+  "title": "What Qloo contributes",
+  "text": "Qloo's taste graph relates 250 million entities across music, film, TV, books, games, podcasts, brands and places. Reach sends only entity ids, genre tag ids, a city and an age bucket, and gets back ranked artists with affinities and explanations of which favourite drove each one. Without Qloo there is no carrier and Reach refuses to compose a generic session.",
+  "source": "Qloo Insights API",
+  "url": "https://docs.qloo.com"
+ },
+ {
+  "id": "kb:group",
+  "title": "Groups",
+  "text": "When several people share a room, Reach reads each person through Qloo, scores every candidate artist per person, and decides with three rules: Bayes (best on average), minimax (least bad for the unhappiest person) and the least-favourable prior found by multiplicative weights, which says whose taste the session must satisfy to be robust.",
+  "source": "Reach decision layer",
+  "url": ""
+ },
+ {
+  "id": "kb:face",
+  "title": "Face and voice",
+  "text": "Facial expression and voice prosody are weak, culturally variable signals (Barrett 2019). Reach uses them only to estimate arousal and valence, shows the estimate so the person can correct it, and never labels a person with an emotion or diagnosis. Frames and audio never leave the browser.",
+  "source": "Barrett et al. 2019 PSPI",
+  "url": "https://www.psychologicalscience.org/publications/emotional-expressions-reconsidered-challenges-to-inferring-emotion-from-human-facial-movements.html"
+ },
+ {
+  "id": "kb:cancer",
+  "title": "Music in cancer care",
+  "text": "Cochrane 2021 (81 trials, 5,576 participants): music interventions reduce anxiety, pain and fatigue and improve quality of life in people with cancer; preferred music is used in most trials. Reach offers calm and mood sessions built from the person's own taste during treatment waits and infusions.",
+  "source": "Bradt et al. 2021 Cochrane CD006911",
+  "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006911.pub3/full"
+ },
+ {
+  "id": "kb:dementia",
+  "title": "Dementia and familiar music",
+  "text": "Personalised, familiar music reduces agitation and supports recall in dementia; 40 Hz sensory stimulation is in trials (HOPE, n≈530) and is not established. Reach's memory-support session uses the person's own era of music from Qloo with a steady 40 Hz pulse labelled experimental.",
+  "source": "Cochrane dementia music reviews; Cognito HOPE",
+  "url": ""
+ }
+]

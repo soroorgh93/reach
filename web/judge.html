@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reach for judges</title>
+<meta name="description" content="Reach in sixty seconds: what Qloo does in it, a live run with its receipts, a comparison with a plain chatbot, and where each judging criterion shows.">
+<meta name="theme-color" content="#06070d">
+<link rel="icon" type="image/png" href="./icons/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+<style>
+:root { --ink: #06070d; --ink-2: #0d1019; --ink-3: #141826; --ivory: #ede7da; --dim: rgba(237,231,218,.64); --faint: rgba(237,231,218,.12);
+  --gold: #c9a24a; --gold-2: #f3d68c; --teal: #3fd1c0; --violet: #b9a7ff; --rose: #ff8fa3; --ok: #7fdca4; --warn: #f2b45c;
+  --display: "Cormorant Garamond", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --gutter: clamp(16px, 5vw, 72px); color-scheme: dark; }
+* { box-sizing: border-box; }
+html { background: var(--ink); }
+body { margin: 0; background: var(--ink); color: var(--ivory); font-family: var(--body); font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+a { color: var(--teal); } a:hover { color: var(--ivory); }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.04; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+
+/* hero: the taste river in 3D behind the headline */
+.hero { position: relative; min-height: min(100vh, 980px); display: flex; flex-direction: column; overflow: hidden; isolation: isolate; }
+.stage { position: relative; flex: 1; min-height: 46vh; margin-top: 64px; }
+#river { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; display: block; }
+.stage::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(70% 80% at 50% 50%, transparent 55%, var(--ink) 100%); }
+.rlabels { position: absolute; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.rl { position: absolute; left: 0; top: 0; transform: translate(-50%, -50%); padding: 0 6px; white-space: nowrap; font-size: 12px; color: var(--dim); text-shadow: 0 1px 10px #000; transition: opacity .4s; }
+.rl b { display: block; font-family: var(--display); font-size: 19px; font-weight: 500; color: var(--ivory); text-align: center; }
+.rl small { display: block; font-size: 12px; text-align: center; } .rl.left b, .rl.left small { text-align: end; } .rl.right b { text-align: start; }
+.rl.qloo b { font-size: 30px; color: var(--gold-2); }
+.top { position: absolute; top: 0; left: 0; right: 0; display: flex; justify-content: space-between; align-items: center; padding: 18px var(--gutter); z-index: 2; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-size: 24px; color: var(--ivory); text-decoration: none; }
+.brand img { width: 30px; height: 30px; border-radius: 50%; box-shadow: 0 0 18px rgba(201,162,74,.35); }
+.toplinks { display: flex; gap: 8px; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--faint); background: rgba(10,12,20,.6); backdrop-filter: blur(12px); color: var(--ivory); text-decoration: none; font-size: 14px; }
+.pill:hover { border-color: rgba(237,231,218,.4); color: var(--ivory); }
+.pill.gold { background: var(--gold); color: var(--ink); border-color: var(--gold); font-weight: 600; }
+.herocopy { position: relative; z-index: 3; padding: 0 var(--gutter) clamp(36px, 7vh, 80px); max-width: 1120px; width: 100%; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 12px 48px; align-items: end; }
+.herocopy .live { grid-column: 1 / -1; }
+@media (max-width: 900px) { .herocopy { grid-template-columns: 1fr; } }
+.herocopy h1 { font-size: clamp(46px, 7vw, 104px); }
+.herocopy p { font-size: clamp(16px, 1.4vw, 19px); color: var(--ivory); max-width: 52ch; margin: 0 0 10px; }
+.live { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 26px; font-size: 13px; color: var(--dim); }
+.live span { display: inline-flex; align-items: center; gap: 7px; }
+.live i { width: 8px; height: 8px; border-radius: 50%; background: var(--dim); box-shadow: 0 0 0 3px rgba(237,231,218,.08); }
+.live .on i { background: var(--ok); box-shadow: 0 0 12px var(--ok); } .live .off i { background: var(--warn); }
+
+main { padding: 0 var(--gutter) 80px; }
+section { max-width: 1120px; margin: 0 auto; padding: clamp(56px, 9vh, 110px) 0 0; }
+section > h2 { font-size: clamp(36px, 4.6vw, 64px); max-width: 18ch; }
+section > p.lede { max-width: 62ch; color: var(--dim); font-size: 17px; margin: 14px 0 0; }
+
+/* try it: four doors into the app */
+.doors { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 30px; }
+.door { position: relative; display: flex; flex-direction: column; gap: 6px; min-height: 190px; padding: 20px; border-radius: 20px; text-decoration: none; color: var(--ivory); background: var(--ink-2); border: 1px solid var(--faint); overflow: hidden; transition: border-color .25s, transform .25s; }
+.door::before { content: ""; position: absolute; inset: auto -30% -60% auto; width: 80%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--c) 45%, transparent), transparent 70%); opacity: .55; transition: opacity .3s, transform .4s; }
+.door:hover { border-color: color-mix(in srgb, var(--c) 60%, transparent); transform: translateY(-2px); color: var(--ivory); } .door:hover::before { opacity: .9; transform: scale(1.1); }
+.door b { font-family: var(--display); font-size: 27px; font-weight: 500; line-height: 1.1; }
+.door span { color: var(--dim); font-size: 14px; line-height: 1.5; }
+.door em { margin-top: auto; font-style: normal; font-size: 13px; color: var(--c); }
+
+/* receipts */
+.receipt { display: grid; grid-template-columns: 300px 1fr; gap: 28px; margin-top: 30px; align-items: start; }
+.rcontrols { display: flex; flex-direction: column; gap: 12px; }
+.rcontrols label { font-size: 13px; color: var(--dim); }
+select, button { font: inherit; color: inherit; }
+select { width: 100%; padding: 11px 12px; border-radius: 12px; background: var(--ink-2); border: 1px solid var(--faint); color: var(--ivory); }
+.btn { border: 0; border-radius: 12px; padding: 12px 18px; background: var(--gold); color: var(--ink); font-weight: 600; cursor: pointer; }
+.btn.ghost { background: transparent; border: 1px solid var(--faint); color: var(--ivory); font-weight: 500; }
+.btn:disabled { opacity: .5; cursor: progress; }
+.rsum { font-size: 14px; color: var(--dim); line-height: 1.55; }
+.rsum b { color: var(--ivory); font-weight: 600; }
+.calls { list-style: none; margin: 0; padding: 0; border-radius: 18px; border: 1px solid var(--faint); background: var(--ink-2); overflow: hidden; }
+.calls li { display: grid; grid-template-columns: 1fr auto auto auto; gap: 14px; align-items: center; padding: 11px 16px; border-top: 1px solid var(--faint); font-size: 14px; animation: rin .5s cubic-bezier(.2,.7,.2,1) both; animation-delay: var(--d); }
+.calls li:first-child { border-top: 0; }
+.calls li.head { color: var(--dim); font-size: 12px; animation: none; background: rgba(237,231,218,.03); }
+.calls code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12.5px; color: var(--ivory); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.st { font-variant-numeric: tabular-nums; } .st.ok { color: var(--ok); } .st.bad { color: var(--warn); }
+.src { font-size: 12px; padding: 2px 9px; border-radius: 999px; background: rgba(237,231,218,.07); color: var(--dim); }
+.src.live { background: rgba(127,220,164,.14); color: var(--ok); }
+.ms { color: var(--dim); font-variant-numeric: tabular-nums; min-width: 52px; text-align: end; }
+@keyframes rin { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+.empty { padding: 26px 18px; color: var(--dim); font-size: 15px; }
+.chain { margin-top: 14px; padding: 16px; border-radius: 16px; border: 1px solid var(--faint); background: var(--ink-2); font-size: 14px; color: var(--dim); display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.chain code { font-family: ui-monospace, Menlo, monospace; font-size: 12px; color: var(--gold-2); word-break: break-all; }
+.verdict { font-weight: 600; } .verdict.ok { color: var(--ok); } .verdict.bad { color: var(--rose); }
+.picks { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+.picks span { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--faint); font-size: 13px; }
+.picks span.own { border-color: color-mix(in srgb, var(--gold) 60%, transparent); color: var(--gold-2); }
+
+/* bench */
+.bench { margin-top: 30px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.metric { padding: 20px 18px; border-radius: 20px; background: var(--ink-2); border: 1px solid var(--faint); display: flex; flex-direction: column; gap: 14px; }
+.metric h3 { font-size: 23px; }
+.metric p { margin: 0; font-size: 13px; color: var(--dim); line-height: 1.5; }
+.bars { display: flex; flex-direction: column; gap: 9px; margin-top: auto; }
+.bar { display: grid; grid-template-columns: 64px 1fr 44px; gap: 8px; align-items: center; font-size: 12px; color: var(--dim); }
+.bar .t { height: 8px; border-radius: 8px; background: rgba(237,231,218,.07); overflow: hidden; }
+.bar .t i { display: block; height: 100%; width: var(--w); border-radius: 8px; background: var(--c); transform-origin: left; animation: grow 1.1s cubic-bezier(.2,.7,.2,1) both; }
+.bar b { font-weight: 600; color: var(--ivory); text-align: end; font-variant-numeric: tabular-nums; }
+@keyframes grow { from { transform: scaleX(0); } }
+.benchnote { margin-top: 16px; font-size: 13px; color: var(--dim); max-width: 80ch; }
+.notrun { margin-top: 30px; padding: 24px; border-radius: 20px; border: 1px dashed rgba(237,231,218,.25); color: var(--dim); }
+.notrun code { color: var(--gold-2); }
+
+/* mcp */
+.mcpbox { margin-top: 26px; padding: 22px; border-radius: 20px; background: var(--ink-2); border: 1px solid var(--faint); display: grid; gap: 18px; }
+.mcpurl { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.mcpurl code { flex: 1; min-width: 0; padding: 12px 14px; border-radius: 12px; background: var(--ink); border: 1px solid var(--faint); color: var(--gold-2); font-family: ui-monospace, Menlo, monospace; font-size: 14px; overflow-wrap: anywhere; }
+.mcpsteps { margin: 0; padding-left: 18px; color: var(--dim); font-size: 14px; } .mcpsteps b { color: var(--ivory); font-weight: 500; }
+.mcptools { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 22px; }
+.mcptools div { display: flex; flex-direction: column; gap: 2px; } .mcptools code { color: var(--teal); font-family: ui-monospace, Menlo, monospace; font-size: 13px; } .mcptools span { color: var(--dim); font-size: 13px; }
+@media (max-width: 640px) { .mcptools { grid-template-columns: 1fr; } }
+
+/* privacy */
+.ledger2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 30px; }
+.col { padding: 22px; border-radius: 20px; background: var(--ink-2); border: 1px solid var(--faint); }
+.col h3 { font-size: 26px; margin-bottom: 12px; }
+.col ul { margin: 0; padding: 0 0 0 18px; color: var(--dim); } .col li { margin: 6px 0; } .col li b { color: var(--ivory); font-weight: 500; }
+.col.sent { border-color: rgba(63,209,192,.35); } .col.never { border-color: rgba(255,143,163,.3); }
+
+/* criteria */
+.crit { margin-top: 30px; border-top: 1px solid var(--faint); }
+.crow { display: grid; grid-template-columns: 240px 1fr 220px; gap: 24px; padding: 22px 0; border-bottom: 1px solid var(--faint); align-items: baseline; }
+.crow h3 { font-size: 28px; }
+.crow p { margin: 0; color: var(--dim); max-width: 64ch; } .crow p b { color: var(--ivory); font-weight: 500; }
+.crow a { justify-self: end; font-size: 14px; }
+footer { max-width: 1120px; margin: 90px auto 0; padding: 26px 0 0; border-top: 1px solid var(--faint); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; color: var(--dim); font-size: 14px; }
+
+@media (max-width: 1000px) { .doors { grid-template-columns: 1fr 1fr; } .bench { grid-template-columns: 1fr 1fr; } .receipt { grid-template-columns: 1fr; } .rcontrols { position: static; } .crow { grid-template-columns: 1fr; gap: 8px; } .crow a { justify-self: start; } }
+@media (max-width: 640px) { .doors, .bench, .ledger2 { grid-template-columns: 1fr; } .door { min-height: 0; } .calls li { grid-template-columns: 1fr auto auto; } .calls .ms { display: none; } .toplinks .pill:not(.gold) { display: none; } .rl small { display: none; } .rl b { font-size: 13px; } .rl.qloo b { font-size: 19px; } }
+@media (prefers-reduced-motion: reduce) { .calls li, .bar .t i { animation: none; } .door, .door::before { transition: none; } }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="stage"><canvas id="river" aria-hidden="true"></canvas><div class="rlabels" id="rlabels" aria-hidden="true"></div></div>
+  <div class="top">
+    <a class="brand" href="./"><img src="./icons/favicon.png" alt="">Reach</a>
+    <nav class="toplinks"><a class="pill" href="./readme">README</a><a class="pill" href="#bench">Against a chatbot</a><a class="pill" href="#mcp">In your assistant</a><a class="pill gold" href="./?app=1">Open the app</a></nav>
+  </div>
+  <div class="herocopy">
+    <h1>Reach, in sixty seconds</h1>
+    <p>A music-medicine agent that builds an evidence-graded session out of the music a person already loves. Qloo's taste graph chooses every artist, podcast, film, place and book; without it, Reach refuses to compose.</p>
+  </div>
+</header>
+
+<main>
+  <section id="try">
+    <h2>Try it yourself</h2>
+    <p class="lede">Each door opens the real app in a specific state. Nothing is a recording; with the server's Qloo key every call is live.</p>
+    <div class="doors">
+      <a class="door" style="--c: var(--violet)" href="./?app=1&go=sleep"><b>A sleep session</b><span>Your favourites first, then Qloo's picks in the same culture, on a slowing tempo path with a gentle delta pulse.</span><em>Talk tab</em></a>
+      <a class="door" style="--c: var(--teal)" href="./?app=1&tab=after"><b>After the music</b><span>A place, a table and a book near your city, from the same taste, in a 3D night map. Never a bar.</span><em>After the music tab</em></a>
+      <a class="door" style="--c: #6ad0ff" href="./?app=1&tab=watch"><b>If you can't hear</b><span>Breathing light, phone vibration on the beat, and films and shows Qloo picks from your taste, with captions.</span><em>Watch &amp; breathe tab</em></a>
+      <a class="door" style="--c: var(--gold)" href="./?app=1&go=clinic"><b>The care team's view</b><span>The council's trace, the evidence with grades and sources, the safety rules, and a hash-chained ledger you can tamper with.</span><em>Clinic chapter</em></a>
+    </div>
+  </section>
+
+  <section id="receipts">
+    <h2>Receipts from a live run</h2>
+    <p class="lede">Run one session now and see every Qloo call it made, whether it was answered live, and the hash chain that seals the trace. Then verify the chain on the server.</p>
+    <div class="receipt">
+      <div class="rcontrols">
+        <label for="persona">Person</label>
+        <select id="persona"></select>
+        <label for="goal">What they need</label>
+        <select id="goal"><option value="sleep">Help me fall asleep</option><option value="calm">I'm anxious, calm me down</option><option value="focus">I need to focus</option><option value="mood">Lift my mood</option><option value="memory">Bring back memories</option></select>
+        <button class="btn" id="run">Run a session</button>
+        <button class="btn ghost" id="verify" disabled>Verify the ledger</button>
+        <div class="rsum" id="rsum"></div>
+      </div>
+      <div>
+        <ul class="calls" id="calls"><li class="empty">The Qloo calls of the session appear here, in the order the agents made them.</li></ul>
+        <div class="picks" id="picks"></div>
+        <div class="chain" id="chain" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mcp">
+    <h2>Reach inside your assistant</h2>
+    <p class="lede">Reach is also an MCP server, so Claude, ChatGPT or any agent can ask it for a session in the middle of a conversation: "I can't sleep, I love Hayedeh." The assistant gets the plan, the evidence and a link that plays it.</p>
+    <div class="mcpbox">
+      <div class="mcpurl"><code id="mcpurl">/mcp</code><button class="btn ghost" id="mcpcopy">Copy</button></div>
+      <ul class="mcpsteps"><li><b>Claude</b>: Settings, Connectors, Add custom connector, paste the address.</li><li><b>ChatGPT</b>: Settings, Connectors, Create (developer mode), paste the address.</li></ul>
+      <div class="mcptools">
+        <div><code>compose_session</code><span>favourites and a need: the full council, Qloo picks with why, the evidence grade, a link to play</span></div>
+        <div><code>after_the_music</code><span>a place, a table and a book near them, never a bar</span></div>
+        <div><code>explain_evidence</code><span>the graded research behind a need, with sources</span></div>
+        <div><code>reach_vs_chatbot</code><span>the measured comparison below</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="bench">
+    <h2>Against a plain chatbot</h2>
+    <p class="lede">The same ten people (Persian, Mandarin, Afrobeats, K-pop, Turkish, Bollywood, Mexican, techno, a mix, and lively favourites who need sleep) asked three systems for music. Picks of the person's own favourites are not counted.</p>
+    <div id="benchbox"></div>
+  </section>
+
+  <section id="privacy">
+    <h2>What leaves the browser</h2>
+    <p class="lede">The Qloo key stays on the server. Mood from face and voice is measured in the browser, only as numbers, and only with consent. <a href="./privacy">The full privacy page</a> says where every piece goes.</p>
+    <div class="ledger2">
+      <div class="col sent"><h3>Sent to Qloo</h3><ul><li><b>Entity ids</b> of the favourites the person typed</li><li><b>Genre and place-category tags</b> chosen by the session's protocol</li><li><b>An age bucket</b> (child or adult), for content ratings</li><li><b>A city</b>, for the cultural lens and for places near them</li></ul></div>
+      <div class="col never"><h3>Never sent</h3><ul><li><b>Their words</b>: the conversation stays with Reach and the conversation model the server runs (a local one by default)</li><li><b>Face and voice</b>: no camera image or voice recording reaches Qloo or is stored by Reach (talking to the chat uses the browser's own speech recognizer)</li><li><b>Mood, health or the goal itself</b>: the goal only chooses which tags are asked for</li><li><b>Names</b>: the person's name is never part of a Qloo request</li></ul></div>
+    </div>
+  </section>
+
+  <section id="criteria">
+    <h2>Where each criterion shows</h2>
+    <div class="crit">
+      <div class="crow"><h3>Technological implementation</h3><p><b>Eight Qloo surfaces</b> in one agent: entity search, artist insights with protocol tag filters, the location signal for the cultural lens, tag insights for texture, demographics, podcasts, films and shows, places with category filters, and books. Explainability drives every "close to" label. Parameters are allow-listed before a request is built, calls are rate-spaced and cached, and the trace is hash-chained. It is also an MCP server, so any assistant can call it.</p><a href="#receipts">See the live calls</a></div>
+      <div class="crow"><h3>Design</h3><p><b>A finished product, not a form</b>: a 3D start page where every capability is a world you can fly to, a frequency instrument you can play, a 3D film introduction, a 3D night map of the person's city, push-to-talk with ducking, hand gestures, fourteen languages including right-to-left Persian and Arabic, an installable app on a phone, and a mode for people who can't hear.</p><a href="./?app=1">Open the app</a></div>
+      <div class="crow"><h3>Potential impact</h3><p><b>Music lowers anxiety and pain</b> (81 trials, 5,576 people with cancer, Cochrane 2021), but generic calm playlists get switched off. Reach makes the evidence-based session out of music the person loves, in their own culture, with safety rules for children, autism and hearing loss.</p><a href="./?app=1&go=clinic">The care team's view</a></div>
+      <div class="crow"><h3>Quality of the idea</h3><p><b>Taste as the carrier of a clinical protocol</b>: the protocol decides the tempo path, pulse band and safety envelope; Qloo decides what music carries it. A council of agents argues, three decision rules vote, and a gate refuses when the evidence or Qloo is missing.</p><a href="#bench">The comparison</a></div>
+    </div>
+  </section>
+
+  <footer><span>Reach · open source under the MIT license · built for the Qloo Agentic Hackathon 2026</span><span id="repo"></span></footer>
+</main>
+
+<script type="module">
+import * as THREE from "three";
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// ---------------------------------------------------------------- the taste river (hero, 3D)
+// favourites (left) flow into Qloo (centre), which fans out into the six kinds of thing it returns,
+// which all flow into one session (right). Particles travel the curves; the Qloo node turns slowly.
+(function river() {
+  const canvas = $("#river"), labels = $("#rlabels");
+  let r; try { r = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true }); } catch { return; }
+  r.setPixelRatio(Math.min(2, devicePixelRatio || 1)); r.setClearColor(0, 0);
+  const scene = new THREE.Scene(), cam = new THREE.PerspectiveCamera(36, 1, 0.1, 200);
+  const glow = (() => { const c = document.createElement("canvas"); c.width = c.height = 128; const g = c.getContext("2d"); const gr = g.createRadialGradient(64, 64, 0, 64, 64, 64); gr.addColorStop(0, "rgba(255,255,255,1)"); gr.addColorStop(.3, "rgba(255,255,255,.5)"); gr.addColorStop(1, "rgba(255,255,255,0)"); g.fillStyle = gr; g.fillRect(0, 0, 128, 128); return new THREE.CanvasTexture(c); })();
+  const node = (x, y, z, color, size, name, sub, cls) => {
+    const g = new THREE.Group(); g.position.set(x, y, z);
+    const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: glow, color, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending })); s.scale.setScalar(size * 3.2); g.add(s);
+    const core = new THREE.Mesh(new THREE.SphereGeometry(size * 0.32, 32, 16), new THREE.MeshBasicMaterial({ color: new THREE.Color(color).lerp(new THREE.Color(0xffffff), 0.55) })); g.add(core);
+    scene.add(g); const el = document.createElement("div"); el.className = "rl " + (cls || ""); el.innerHTML = `<b>${esc(name)}</b>${sub ? `<small>${esc(sub)}</small>` : ""}`; labels.appendChild(el);
+    return { g, s, el, off: size * 0.9 + 0.35, side: (cls || "").includes("right") ? 1 : (cls || "").includes("left") ? -1 : 0, r: size * 0.55 };
+  };
+  const nodes = [];
+  const favs = [["Hayedeh", -11, 2.6], ["Jay Chou", -11.6, 0], ["Shakira", -11, -2.6]].map(([n, x, y]) => node(x, y, 0, 0xc9a24a, 0.8, n, "a favourite", "left"));
+  const qloo = node(-3.2, 0, 0, 0xf3d68c, 1.6, "Qloo", "the taste graph", "qloo");
+  const kinds = [["Artists", 0x3fd1c0], ["Genre tags", 0x7fdca4], ["Podcasts", 0xff9a6b], ["Films & shows", 0x6ad0ff], ["Places", 0x3fd1c0], ["Books", 0xb9a7ff]];
+  const fan = kinds.map(([n, c], i) => node(4.2, 4.4 - i * 1.76, (i % 2 ? -1 : 1) * 0.6, c, 0.55, n, "", "right"));
+  const session = node(11, 0, 0, 0xffe7a8, 1.2, "A session", "made of music they love");
+  nodes.push(...favs, qloo, ...fan, session);
+  // Qloo: a slowly turning lattice
+  const lattice = new THREE.LineSegments(new THREE.WireframeGeometry(new THREE.IcosahedronGeometry(1.15, 1)), new THREE.LineBasicMaterial({ color: 0xf3d68c, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending }));
+  qloo.g.add(lattice);
+  // the session: a ring that breathes at six breaths a minute
+  const ring = new THREE.Mesh(new THREE.TorusGeometry(1.5, 0.03, 12, 128), new THREE.MeshBasicMaterial({ color: 0xffe7a8, transparent: true, opacity: 0.8, blending: THREE.AdditiveBlending })); session.g.add(ring);
+  const ring2 = ring.clone(); ring2.material = ring.material.clone(); ring2.scale.setScalar(1.35); ring2.material.opacity = 0.3; session.g.add(ring2);
+  // curves
+  const curves = [];
+  const link = (a, b, color, bend) => { const p0 = a.g.position, p3 = b.g.position; const mid = p0.clone().lerp(p3, 0.5); mid.z += bend; mid.y += (p3.y - p0.y) * -0.15;
+    const c = new THREE.CatmullRomCurve3([p0.clone(), p0.clone().lerp(mid, 0.5).add(new THREE.Vector3(0, 0, bend * 0.5)), mid, mid.clone().lerp(p3, 0.5), p3.clone()]);
+    const line = new THREE.Mesh(new THREE.TubeGeometry(c, 80, 0.012, 5, false), new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.22, blending: THREE.AdditiveBlending, depthWrite: false })); scene.add(line);
+    curves.push({ c, color: new THREE.Color(color) }); };
+  favs.forEach((f, i) => link(f, qloo, 0xc9a24a, (i - 1) * 1.2));
+  fan.forEach((f, i) => { link(qloo, f, kinds[i][1], (i - 2.5) * 0.5); link(f, session, kinds[i][1], (2.5 - i) * 0.4); });
+  // particles riding the curves
+  const N = reduce ? 0 : 900, pos = new Float32Array(N * 3), col = new Float32Array(N * 3), meta = [];
+  for (let i = 0; i < N; i++) { const k = i % curves.length; meta.push({ k, t: Math.random(), v: 0.05 + Math.random() * 0.08 }); const c = curves[k].color; col.set([c.r, c.g, c.b], i * 3); }
+  const pg = new THREE.BufferGeometry(); pg.setAttribute("position", new THREE.BufferAttribute(pos, 3)); pg.setAttribute("color", new THREE.BufferAttribute(col, 3));
+  scene.add(new THREE.Points(pg, new THREE.PointsMaterial({ size: 0.13, map: glow, vertexColors: true, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending })));
+  // a faint field of stars
+  const sp = new Float32Array(1400 * 3); for (let i = 0; i < 1400; i++) sp.set([(Math.random() - .5) * 90, (Math.random() - .5) * 50, -10 - Math.random() * 40], i * 3);
+  const sg = new THREE.BufferGeometry(); sg.setAttribute("position", new THREE.BufferAttribute(sp, 3)); scene.add(new THREE.Points(sg, new THREE.PointsMaterial({ size: 0.12, map: glow, color: 0x9aa6c8, transparent: true, opacity: 0.5, depthWrite: false })));
+  let mx = 0, my = 0; addEventListener("pointermove", (e) => { mx = e.clientX / innerWidth - 0.5; my = e.clientY / innerHeight - 0.5; }, { passive: true });
+  const fit = () => { const w = canvas.clientWidth, h = canvas.clientHeight; r.setSize(w, h, false); cam.aspect = w / h; cam.updateProjectionMatrix(); };
+  new ResizeObserver(fit).observe(canvas); fit();
+  const v = new THREE.Vector3(); const t0 = performance.now(); let visible = true;
+  new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(canvas);
+  function frame() {
+    requestAnimationFrame(frame); if (!visible) return;
+    const t = (performance.now() - t0) / 1000;
+    // fit the whole river (about 26 units wide, 11 tall) into the stage, whatever its shape
+    const fovR = cam.fov * Math.PI / 360, needH = Math.max(11.5, 27 / cam.aspect), d = needH / 2 / Math.tan(fovR) + 2;
+    cam.position.set(0.2 + mx * 2.5, -0.6 - my * 1.6, d); cam.lookAt(0.2, 0, 0);
+    lattice.rotation.set(t * 0.13, t * 0.21, 0);
+    const br = reduce ? 1 : 1 + 0.08 * Math.sin(t * Math.PI * 2 / 10); ring.scale.setScalar(br); ring2.scale.setScalar(1.35 * br); ring2.rotation.x = t * 0.2;
+    for (let i = 0; i < N; i++) { const m = meta[i]; m.t = (m.t + m.v / 60) % 1; const p = curves[m.k].c.getPointAt(m.t); pos[i * 3] = p.x; pos[i * 3 + 1] = p.y; pos[i * 3 + 2] = p.z; }
+    if (N) pg.attributes.position.needsUpdate = true;
+    const W = canvas.clientWidth, H = canvas.clientHeight;
+    nodes.forEach(n => { v.copy(n.g.position); if (n.side) v.x += n.side * (n.r + 0.25); else v.y -= n.off; v.project(cam);
+      const x = ((v.x * .5 + .5) * W).toFixed(1), y = ((-v.y * .5 + .5) * H).toFixed(1);
+      n.el.style.transform = n.side > 0 ? `translate(${x}px, ${y}px) translate(0, -50%)` : n.side < 0 ? `translate(${x}px, ${y}px) translate(-100%, -50%)` : `translate(${x}px, ${y}px) translate(-50%, 0)`; });
+    r.render(scene, cam);
+  }
+  frame();
+})();
+
+// ---------------------------------------------------------------- the server's settings (which person the run uses, the source link)
+let health = null;
+(async () => {
+  try { health = await (await fetch("/api/health")).json(); } catch {}
+  if (!health) return;
+  const live = health.mode === "live";
+  if (health.repo) $("#repo").innerHTML = `<a href="${esc(health.repo)}" target="_blank" rel="noopener">Source code</a>`;
+  const ps = await (await fetch("/api/personas")).json().catch(() => ({ personas: [] }));
+  const def = live ? "mateo" : "lena";
+  $("#persona").innerHTML = (ps.personas || []).map(p => `<option value="${esc(p.id)}" ${p.id === def ? "selected" : ""}>${esc(p.name)}, ${esc(p.age)} · ${esc((p.favorites || []).slice(0, 2).map(f => f.name).join(", "))}</option>`).join("");
+})();
+
+// ---------------------------------------------------------------- mcp address
+$("#mcpurl").textContent = location.origin + "/mcp";
+$("#mcpcopy").addEventListener("click", async () => { try { await navigator.clipboard.writeText(location.origin + "/mcp"); $("#mcpcopy").textContent = "Copied"; setTimeout(() => $("#mcpcopy").textContent = "Copy", 1600); } catch {} });
+
+// ---------------------------------------------------------------- receipts
+let last = null;
+$("#run").addEventListener("click", async () => {
+  const b = $("#run"); b.disabled = true; b.textContent = "Running the council…"; $("#verify").disabled = true; $("#chain").hidden = true; $("#picks").innerHTML = "";
+  $("#calls").innerHTML = `<li class="empty">The agents are working…</li>`;
+  const goal = $("#goal").value; const text = $("#goal").selectedOptions[0].textContent;
+  let d = null, ms = performance.now();
+  try { d = await (await fetch("/api/session", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ persona_id: $("#persona").value, request: { text, goal, lang: "en" } }) })).json(); } catch {}
+  ms = Math.round(performance.now() - ms); b.disabled = false; b.textContent = "Run again"; last = d;
+  if (!d) { $("#calls").innerHTML = `<li class="empty">The server did not answer.</li>`; return; }
+  const calls = d.qloo_calls || [];
+  const head = `<li class="head"><span>Qloo call (agent.purpose)</span><span>status</span><span>answered by</span><span class="ms">time</span></li>`;
+  $("#calls").innerHTML = head + (calls.length ? calls.map((c, i) => `<li style="--d:${i * 45}ms"><code title="${esc(c.path)}">${esc(c.label)}</code><span class="st ${c.status === 200 ? "ok" : "bad"}">${c.status || "–"}</span><span class="src ${c.source === "live" ? "live" : ""}">${esc(c.source)}</span><span class="ms">${c.ms} ms</span></li>`).join("") : `<li class="empty">No Qloo calls.</li>`);
+  const n200 = calls.filter(c => c.status === 200).length, nlive = calls.filter(c => c.source === "live").length;
+  if (d.error) {
+    $("#rsum").innerHTML = `<b>Reach refused to compose</b> (${esc(d.error)}): ${esc(d.reason || "Qloo returned nothing for this person")}. That is the rule: no taste data, no session. ${calls.length} calls, ${n200} answered.`;
+    return;
+  }
+  const s = d.session || {};
+  $("#rsum").innerHTML = `<b>${esc(s.protocol_name)}</b>, ${esc(s.duration_min)} min, ${esc(s.entrainment)}. ${calls.length} Qloo calls, ${n200} answered (${nlive} live), council ${d.elapsed_ms} ms, round trip ${ms} ms.`;
+  const own = (s.own || []).slice(0, 4).map(o => `<span class="own">${esc(o.name)}</span>`), qp = (s.carrier || []).slice(0, 8).map(c => `<span title="${esc((c.because || []).map(b => "close to " + b.name).join(", "))}">${esc(c.name)}</span>`);
+  $("#picks").innerHTML = own.join("") + qp.join("");
+  $("#chain").hidden = false; $("#chain").innerHTML = `<span>Ledger: ${(d.ledger || []).length} steps, head</span><code>${esc(d.ledger_head)}</code><span class="verdict" id="verdict"></span>`;
+  $("#verify").disabled = false;
+});
+$("#verify").addEventListener("click", async () => {
+  if (!last || !last.ledger) return;
+  const v = await (await fetch("/api/verify", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ ledger: last.ledger }) })).json().catch(() => null);
+  const el = $("#verdict"); if (!el) return;
+  el.className = "verdict " + (v && v.ok ? "ok" : "bad"); el.textContent = v && v.ok ? `verified on the server: ${v.length} entries, nothing dropped or reordered` : `broken at step ${v ? v.at : "?"}`;
+});
+
+// ---------------------------------------------------------------- bench
+(async () => {
+  const box = $("#benchbox"); let b = null; try { b = await (await fetch("/api/bench")).json(); } catch {}
+  if (!b || !b.ran) { box.innerHTML = `<div class="notrun">The comparison has not been run on this server yet. It needs live Qloo, so it runs on a machine with the key: <code>python scripts/bench.py</code>. It writes <code>data/bench_results.json</code> (aggregate numbers only), which this page then shows.</div>`; return; }
+  const S = b.systems || {}, names = { reach: "Reach", llm: b.llm ? "Chatbot" : "Chatbot", generic: "Playlist" }, colors = { reach: "var(--gold)", llm: "var(--violet)", generic: "rgba(237,231,218,.45)" };
+  const M = [["culture", "In their culture", "Picks from the culture (language or country) of the person's own artists."],
+             ["exists", "Real and playable", "The song is found in the Deezer/iTunes catalogue. A made-up song fails."],
+             ["calm_safe", "Calm when it must be", "Sleep and calm only: picks that are not high-energy (EDM, techno, trap, metal)."],
+             ["personal", "Different for each person", "People who asked for the same thing got different picks."],
+             ["taste", "Qloo taste fit", "Mean Qloo affinity to the person. Reach's candidates come from Qloo, so this favours it by design."]];
+  box.innerHTML = `<div class="bench">${M.map(([k, h, p]) => `<div class="metric"><h3>${h}</h3><p>${p}</p><div class="bars">${["reach", "llm", "generic"].filter(s => S[s]).map(s => { const x = S[s][k]; const w = x == null ? 0 : Math.max(0, Math.min(1, x)); return `<div class="bar" style="--c:${colors[s]}"><span>${names[s]}</span><span class="t"><i style="--w:${(w * 100).toFixed(0)}%"></i></span><b>${x == null ? "–" : k === "taste" ? x.toFixed(2) : Math.round(x * 100) + "%"}</b></div>`; }).join("")}</div></div>`).join("")}</div>
+    <p class="benchnote">Run ${esc(b.run_at)} on ${esc(b.people)} people. Chatbot: ${esc(b.llm || "not available on that run")}, asked directly for eight songs. Playlist: the same calm, sleep or focus list everyone gets. When someone with lively favourites (dance, EDM) needs sleep, Reach plays calm instrumentals instead of their songs, and is scored on what plays. A song counts as real only if it is in the Deezer or iTunes catalogue in some spelling. Method and every definition: <code>scripts/bench.py</code>.</p>`;
+})();
+</script>
+</body>
+</html>
