@@ -7,9 +7,9 @@ Reach: your own music, made into medicine
 An agent that turns the music you already love into an evidence-graded session for sleep, calm, focus or memory, in your own culture, grounded in Qloo's taste graph. Without Qloo it refuses to play.
 
 ## Try it out (links)
-- Live app: https://YOUR-RENDER-ADDRESS.onrender.com
-- For judges (60-second brief with live receipts): https://YOUR-RENDER-ADDRESS.onrender.com/judge
-- README as a page (pictures, the face film, how it works): https://YOUR-RENDER-ADDRESS.onrender.com/readme
+- Live app: https://reach-6o5x.onrender.com
+- For judges (60-second brief with live receipts): https://reach-6o5x.onrender.com/judge
+- README as a page (pictures, the face film, how it works): https://reach-6o5x.onrender.com/readme
 - Code: https://github.com/soroorgh93/reach
 
 ## Built with
@@ -176,7 +176,7 @@ Cultural intelligence isn't a nice extra for health; it's adherence. The same pr
 ---
 
 ## Before you submit
-1. Replace the YOUR-RENDER-ADDRESS placeholders with your real Render address (the GitHub link is already filled in).
+1. The live and GitHub links are filled in. Make the repo public before you submit.
 2. On GitHub, open the repo's **About** (the gear icon) and make sure the **MIT** licence shows. The rules require the licence to be visible there.
 3. Images are ready in `docs/media/`: `cover_3x2.jpg` for the project thumbnail (Devpost crops to 3:2), `cover_16x9_4k.jpg` as the first gallery image, and `universe_4k.jpg` as a clean background. All three are rendered from the app's own 3D start page, so what judges see is what they get. Add 2–4 more screenshots: a session playing, After the music (3D map), Persian, and `/judge`.
 4. `docs/media/reach_film_bach.mp4` (Bach, Prelude in C) and `reach_film_ode.mp4` (Beethoven, Ode to Joy) are the same 12-second fly-through of the start page with two soundtracks, both public-domain music recorded for Reach. Devpost's video field takes a YouTube or Vimeo link: upload it there (unlisted is fine) if you want a video, or skip it.

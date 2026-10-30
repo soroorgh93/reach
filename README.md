@@ -12,6 +12,8 @@
   <a href="#run-it-in-a-minute"><b>Run it</b></a>&emsp;&emsp;<a href="#how-qloo-is-used"><b>How Qloo is used</b></a>&emsp;&emsp;<a href="#one-hand-one-face"><b>See it read a face</b></a>&emsp;&emsp;<a href="JUDGE.md"><b>For judges</b></a>&emsp;&emsp;<a href="web/privacy.html"><b>Privacy</b></a>
 </p>
 
+<p align="center"><a href="https://reach-6o5x.onrender.com"><img src="web/assets/readme/live.png" alt="Try Reach live" width="300"></a><br><sub>Press <b>Guided tour</b> at the top right for a four-minute spoken walkthrough. The free server may take up to a minute to wake.</sub></p>
+
 <!-- contents -->
 
 ## Three things, one session

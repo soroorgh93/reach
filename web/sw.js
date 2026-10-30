@@ -1,6 +1,6 @@
 // Reach service worker: the app shell works offline and opens instantly; everything live
 // (/api, Qloo, previews, YouTube) always goes to the network and is never cached here.
-const VERSION = "reach-v25";
+const VERSION = "reach-v26";
 const SHELL = ["./", "./index.html", "./styles.css", "./app.js", "./film.js", "./synth.js", "./mood.js", "./gestures.js", "./guide.js", "./i18n.js", "./i18n_extra.js", "./i18n_after.js", "./i18n_uni.js", "./universe.js", "./instrument.js", "./after.js", "./judge.html", "./privacy.html", "./readme.html",
   "./vendor/three.module.js", "./vendor/MeshSurfaceSampler.js", "./vendor/tracker.js", "./vendor/d3-array.min.js", "./vendor/d3-geo.min.js",
   "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png", "./icons/favicon.png",

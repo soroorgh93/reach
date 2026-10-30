@@ -1239,8 +1239,10 @@ function wlMusicStop(fast) {
 function syncMusicBtn() { const b = $("#wl-sound"); if (b) { b.setAttribute("aria-pressed", String(wlMusic.on)); b.classList.toggle("live", wlMusic.playing); } }
 if (welcome) {
   $("#wl-sound").addEventListener("click", (e) => { e.stopPropagation(); wlMusic.on = !(wlMusic.on && (wlMusic.playing || wlMusic.loading)); if (!wlMusic.on) wlMusicStop(true); save("reach.wlmusic", wlMusic.on); syncMusicBtn(); if (wlMusic.on) wlMusicStart(); });
-  const first = (e) => { if (e.target.closest && e.target.closest("#wl-sound, #wl-tour, #wl-open-freq, .fq, .ul[data-w='1']")) return; wlMusicStart(); };
-  welcome.addEventListener("pointerdown", first, true); welcome.addEventListener("keydown", first, true);
+  // the first touch: resume the sound inside the gesture itself (a context made before it stays silent until then), then start
+  const first = (e) => { if (e.target.closest && e.target.closest("#wl-sound, #wl-tour, #wl-open-freq, .fq, .ul[data-w='1']")) return;
+    if (wlMusic.on && !quiet.on && wlMusic.ctx && wlMusic.ctx.state !== "running") wlMusic.ctx.resume().catch(() => {}); wlMusicStart(); };
+  ["pointerdown", "pointerup", "touchend", "keydown"].forEach(t => welcome.addEventListener(t, first, true));   // phones count the lift of a touch, not the press
   // a frequency is its own sound: the music makes way for it
   welcome.addEventListener("click", (e) => { if (e.target.closest(".fq-play, .fq-bands [data-band], #wl-open-freq")) wlMusicStop(true); }, true);
 }

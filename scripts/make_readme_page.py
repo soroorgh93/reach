@@ -73,6 +73,7 @@ img {{ max-width: 100%; height: auto; }}
 .lead p:nth-child(3) {{ display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 5px; margin: 28px 0 0; font-size: 0; }}
 .lead p:nth-child(3) a {{ font-size: 14px; text-decoration: none; color: var(--ivory); padding: 8px 16px; border-radius: 999px; border: 1px solid rgba(201,162,74,.45); background: var(--glass); }}
 .lead p:nth-child(3) a b {{ font-weight: 500; }} .lead p:nth-child(3) a:hover {{ border-color: var(--gold2); }}
+.lead p:nth-child(4) {{ text-align: center; margin: 34px 0 0; }} .lead p:nth-child(4) sub {{ display: block; margin-top: 4px; font-size: 13px; color: var(--faint); }} .lead p:nth-child(4) img {{ width: 300px; }}
 .layout {{ display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 64px; margin-top: 72px; align-items: start; }}
 .toc {{ position: sticky; top: 24px; font-size: 14px; border-inline-start: 1px solid var(--line); padding-inline-start: 16px; }}
 .toc b {{ display: block; font-weight: 500; color: var(--faint); margin-bottom: 8px; }}
