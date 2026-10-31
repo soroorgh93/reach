@@ -178,6 +178,5 @@ Cultural intelligence isn't a nice extra for health; it's adherence. The same pr
 ## Before you submit
 1. The live and GitHub links are filled in. Make the repo public before you submit.
 2. On GitHub, open the repo's **About** (the gear icon) and make sure the **MIT** licence shows. The rules require the licence to be visible there.
-3. Images are ready in `docs/media/`: `cover_3x2.jpg` for the project thumbnail (Devpost crops to 3:2), `cover_16x9_4k.jpg` as the first gallery image, and `universe_4k.jpg` as a clean background. All three are rendered from the app's own 3D start page, so what judges see is what they get. Add 2–4 more screenshots: a session playing, After the music (3D map), Persian, and `/judge`.
-4. `docs/media/reach_film_bach.mp4` (Bach, Prelude in C) and `reach_film_ode.mp4` (Beethoven, Ode to Joy) are the same 12-second fly-through of the start page with two soundtracks, both public-domain music recorded for Reach. Devpost's video field takes a YouTube or Vimeo link: upload it there (unlisted is fine) if you want a video, or skip it.
-5. A longer demo video isn't required. Leave it out rather than rush one.
+3. Images: the `devpost-gallery` folder in Downloads. `00-thumbnail-3x2.jpg` is the project thumbnail; the gallery goes in the order of the numbers, 01 to 11, each one a different part of Reach. Add your own screenshots from the live site of a session playing and of After the music: they show real Qloo answers.
+4. A video is optional. Devpost's video field takes a YouTube or Vimeo link only; if you leave it empty, nothing is lost.

@@ -1039,7 +1039,7 @@ html[dir="ltr"] .wl-also { text-align: left; } html[dir="rtl"] .wl-also { text-a
 
 /* the living portrait (universe.js PHOTO): the copy always sits over the dark left of the photograph */
 .welcome.photo { background: #050507; }
-.welcome.photo .wl-hero { margin-left: var(--gutter); margin-right: 0; }
+.welcome.photo .wl-hero { margin-left: var(--gutter); margin-right: auto; }   /* right auto: in Persian and Arabic a fixed-width block would otherwise ignore the left margin and sit over her face */
 .welcome.photo .wl-hero h1 { text-shadow: 0 2px 30px rgba(0,0,0,.85); }
 @media (max-width: 760px) { .welcome.photo .wl-hero { margin: 0; } }
 .welcome.photo .ul span { display: none; }
